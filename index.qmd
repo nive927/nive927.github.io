@@ -1,7 +1,50 @@
 ---
-title: "nive927.github.io"
+title: "Nivedhitha Dhanasekaran"
+image: ./assets/headshot.jpg
+toc: false
+about: 
+  template: trestles
+  image-shape: rectangle
+  image-width: 20em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nivedhitha-dhanasekaran/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/nivedhitha_d
+    - icon: github
+      text: GitHub
+      href: https://github.com/nive927
+    - icon: envelope-fill
+      text: Email
+      href: mailto:ndhanase@andrew.cmu.edu
 ---
 
-This is a Quarto website.
+<h1 align="left">Hey there! <img alt="Hand Wave Gif" src="./assets/hand-wave.gif" width='40'/></h1>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<div style="text-align: justify"> 
+
+  I am Nivedhitha Dhanasekaran, a graduate student at Carnegie Mellon University in the Master of Computational Data Science program. I completed my undergraduate deggree in B.E. Computer Science and Engineering 2018-2022 from Sri Sivasubramaniya Nadar College of Engineering, Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have research experience in Computer Vision, Computational Biomedicine, and Robotics. Presently, I also worked as a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects. In my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I'm a textbook INTJ-A personality type.
+
+</div>
+
+:::{#hero-heading}
+
+I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University.
+
+## Education
+
+Carnegie Mellon University | Pittsburgh, PA
+<br>
+<strong>Master of Computational Data Science</strong> | Aug 2023 - May 2025
+
+Sri Sivasubramaniya Nadar College of Engineering |  Chennai, India
+<br>
+<strong>B.E. Computer Science & Engineering</strong> | Aug 2018 - Jul 2022
+
+## Experience
+
+Citicorp Services India Private Limited | <strong>Technical Analyst</strong> | Jul 2022 - Jun 2023
+
+:::

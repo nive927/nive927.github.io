@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "nive927.github.io",
+    "title": "Nivedhitha Dhanasekaran",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hey there!"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "Education",
+    "text": "Education\nCarnegie Mellon University | Pittsburgh, PA  Master of Computational Data Science | Aug 2023 - May 2025\nSri Sivasubramaniya Nadar College of Engineering | Chennai, India  B.E. Computer Science & Engineering | Aug 2018 - Jul 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "Experience",
+    "text": "Experience\nCiticorp Services India Private Limited | Technical Analyst | Jul 2022 - Jun 2023"
   }
 ]
