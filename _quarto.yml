@@ -12,7 +12,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: vapor
+      light: quartz
     css: styles.css
     toc: true
     page-layout: full

@@ -25,13 +25,14 @@ about:
 
 <div style="text-align: justify"> 
 
-  I am Nivedhitha Dhanasekaran, a graduate student at Carnegie Mellon University in the Master of Computational Data Science program. I completed my undergraduate deggree in B.E. Computer Science and Engineering 2018-2022 from Sri Sivasubramaniya Nadar College of Engineering, Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have research experience in Computer Vision, Computational Biomedicine, and Robotics. Presently, I also worked as a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects. In my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I'm a textbook INTJ-A personality type.
+  I am <strong>Nivedhitha Dhanasekaran</strong>. 
+  
+  I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University.
+  
 
 </div>
 
 :::{#hero-heading}
-
-I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University.
 
 ## Education
 

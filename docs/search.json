@@ -7,13 +7,6 @@
     "text": "Hey there!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Nivedhitha Dhanasekaran",
@@ -26,5 +19,12 @@
     "title": "Nivedhitha Dhanasekaran",
     "section": "Experience",
     "text": "Experience\nCiticorp Services India Private Limited | Technical Analyst | Jul 2022 - Jun 2023"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Card header\n\n\n&lt;h5 class=\"card-title\"&gt;Special title treatment&lt;/h5&gt;\n&lt;h6 class=\"card-subtitle text-muted\"&gt;Support card subtitle&lt;/h6&gt;\n\n  Image cap \n\n&lt;p class=\"card-text\"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;\n\n\n\nCras justo odio\n\n\nDapibus ac facilisis in\n\n\nVestibulum at eros\n\n\n\n&lt;a href=\"#\" class=\"card-link\"&gt;Card link&lt;/a&gt;\n&lt;a href=\"#\" class=\"card-link\"&gt;Another link&lt;/a&gt;\n\n\n2 days ago"
   }
 ]
