@@ -2,7 +2,7 @@
 title: "UCRE Course Project"
 description: |
   Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI
-date: 2024-03-
+date: 2024-05-03
 # categories: [Shiny]
 image: project-card-image.png
 draft: false
@@ -20,6 +20,19 @@ draft: false
 # Journey through the Project
 
 In the Spring of 2024, I worked on a semester-long project for the 05-610 User-centered Research and Evaluation course as part of my Human-centered Data Science (Human Computer Interaction) concentration for the Master of Computational Data Science program at Carnegie Mellon University.
+
+<!-- <br> -->
+
+<!-- <img src="project-card-image.png" alt="Broken image." width="100%"> -->
+
+<!-- <br> -->
+
+![Broken Image.](./project-card-image.png)
+
+
+<!-- <img src="./project-card-image.png" alt="Broken image." width="100%"> -->
+
+<!-- <img src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%"> -->
 
 
 ## Engage to Change: Rewarding User Reports for Bias Mitigation in Generative AI
@@ -151,4 +164,55 @@ After completing the interviews, I converted the session notes into interpretati
 - How can community-driven platforms enhance everyday users' detection and reporting of algorithmic biases?
 
 
+#### Insights
 
+- Users do not prioritize identifying biases in GenAI outputs, as their primary focus is leveraging AI to support everyday tasks.
+- The current reporting mechanism is unnatural and doesn’t fit into the natural workflow of users as they typically resort to re-prompting as an immediate solution to unexpected or unsatisfactory GenAI responses, sometimes even before the generation process is complete by interrupting the flow instead of looking for features to report this behavior.
+- User apprehensions about anonymity and privacy loom significant when reporting biases, underscoring a critical barrier to transparency and accountability in addressing GenAI biases.
+- User sensitivity to biases in real life has little influence on reporting behavior since algorithmic biases don’t stand out similarly by eliciting a negative emotional response unless it is pronounced. Users need to be prompted or reminded to look for them in the responses - the more natural interpretation of results to look for how much the response matches their expectations.
+- The reminder strategy and effort required to provide feedback through UI/UX elements on different GenAI tools determine the likelihood of getting user feedback.
+
+
+### Crazy 8s, Storyboarding, and Speed Dating Interviews
+
+After prioritizing the user needs from the contextual inquiry interviews through synthesis methods like affinity clustering and walking the wall again by adding new evidence, I rapidly prototyped solutions using the crazy 8s method. The goal of this activity is to brainstorm a set of ideas that meet user needs inspired by your analysis and reflection on your Walk the Wall activity.
+
+After analyzing the user breakdowns/needs, approaches, ideas, and unanswered questions raised in Crazy 8's activity to identify the greatest areas of uncertainty and risk, we generated a list of user needs as a team from this analysis. Then, each team member selected one user need and created a set of three storyboards, each riskier than the previous.
+
+Using these storyboards representing possible solution directions, I conducted speed-dating interviews with participants to rapidly explore design futures and prioritize the needs that appear strongly in user research and speed-dating sessions to reveal new design opportunities:
+
+- **Token Collection Strategy**: Earn tokens for bias reports valued by usefulness (1-5 tokens); redeem 200 tokens for 15 free GPT 4.0 prompts or 500 for a week-long GPT 4.0 upgrade.
+- **Callout Reminder Strategy**: Utilize a pop-up tool for users to critically evaluate AI responses, enabling tagging of biases in images or highlighting in text.
+- **Monetary Reward for Bias Reporting**: Offer financial incentives for routine bias reporting or during major incidents, with a simple button or hashtag for direct reporting to social media.
+- **Recaptcha-Style Engagement Checks**: Implement intermittent, non-intrusive prompts to verify user engagement and foster ongoing attention to detail
+
+
+### Prototyping: Low and High Fidelity
+
+Finally, I prioritized the token strategy idea, which received the most favorable feedback from the audience, and developed a low-fidelity prototype. I then conducted an initial interview with a participant to assess the prototype's usefulness and its alignment with user needs. The participant was pleased with the new approach. Although there is still potential for enhancement, the prototype successfully achieved its goal of encouraging users to report biases in exchange for platform credits. Subsequently, I translated this prototype into a high-fidelity version using Figma.
+
+
+## Poster Session
+
+We presented our project findings during the course's final poster session and received substantial feedback for future enhancements. Overall, the feedback was positive, and we were excited by the attendees' engagement level.
+
+
+## Future Improvements
+
+
+During this project, we didn’t have time to conduct a comprehensive smoke test to verify user engagement increases after implementing the token strategy. I would love to spend more time in understanding how much time and effort users are willing to pay in exchange for platform credits. I also want to quantitatively determine the thresholds at which this scheme is feasible for companies to implement without incurring losses and simultaneously improving user engagement with bias reporting.
+
+
+## Reflection
+
+
+When I started this course, my three primary learning objectives were:
+
+1. Understanding how user research is formally conducted and implementing it through the group project complement my second concentration in Human-centered Data Science.
+2. Becoming comfortable working with and speaking the language of designers and UX researchers to be a better software engineer and data scientist.
+3. Improve my design thinking skills, visualize data, and rapidly prototype low and high-fidelity designs.
+
+Throughout the group project, I learned the iterative nature of problem-solving, which involves continuous information gathering, problem redefinition, and solution exploration. Our diverse methods provided me with a comprehensive set of UX skills, enriching my approach to future projects. Notably, during the final poster session, I utilized Figma to create low and high-fidelity prototypes for our token strategy, an experience that expanded my technical toolkit. The course readings proved essential, deepening my understanding of each research method's nuances. The practical application of synthesis methods like Affinity Clustering, Walk-the-Wall, and Speed Dating significantly enhanced my ability to reassess problems and discover varied solutions within the design realm. Additionally, analyzing complex and unstructured text data sharpened my data wrangling and visualization capabilities.
+
+This project revealed that synthesis is a nuanced and intricate process. While research methods may appear straightforward in theory, their practical application is challenging, often requiring a shift in perspective to unearth valuable insights. This experience was gratifying, allowing me to view product development through the lens of a product manager and a UI/UX designer beyond my engineering and data science background.
+I am grateful to have met all my initial learning goals and feel more confident in my professional abilities. A heartfelt thank you to the teaching team for a truly enriching experience!
