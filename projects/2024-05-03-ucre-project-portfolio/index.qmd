@@ -1,7 +1,7 @@
 ---
 title: "UCRE Course Project"
 description: |
-  Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI
+  Harnessing Everyday Users' Power to Detect Harmful Behaviors in Generative AI (ChatGPT)
 date: 2024-05-03
 # categories: [Shiny]
 image: project-card-image.png
