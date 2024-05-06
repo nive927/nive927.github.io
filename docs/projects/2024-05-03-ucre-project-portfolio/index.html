@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- <img src="project-card-image.png" alt="Broken image." width="100%"> -->
 <!-- <br> -->
 <!-- ![Broken Image.](./project-card-image.png) -->
-<p><br> <img src="./project-card-image.png" alt="Broken image." width="100%"> <br></p>
+<p><br> <img src="./images/project-card-image.png" alt="Broken image." width="100%"> <br></p>
 <!-- ::: {.gray-italic .center-text} -->
 <!-- UCRE Project Caption -->
 <!-- ::: -->
@@ -184,12 +184,53 @@ ul.task-list li input[type="checkbox"] {
 <p>Before initiating the project, I conducted thorough preliminary research to build a solid foundation of knowledge and keep existing solutions distinct. My exploration into “Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI” involved experiential and informational searches.</p>
 <p>I gained firsthand experience by observing how my friends interacted with generative AI platforms and by experimenting with new technologies myself, such as Microsoft Co-pilot and various GPT models on ChatGPT 4.0, along with Midjourney. This allowed me to understand the user experience directly and explore emerging questions in everyday algorithm auditing.</p>
 <p>Additionally, I consulted various sources, including news articles, academic journals, social media, online blogs, and national reports, to comprehensively understand the subject. From this research, I distilled critical insights into a brief report and organized this information visually on a Figma Jamboard.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="./images/bg-context-01.png" class="img-fluid"> <!-- ![](./images/bg-exp.png){fig-align="center"}  --></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="./images/bg-context-02.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- ![](./images/bg-info.png){fig-align="center"} -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- <div style="display: flex; justify-content: space-around; align-items: center;">> -->
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!--   <img src="./images/bg-exp.png"  width="50%"> -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!--   <img src="./images/bg-info.png"  width="50%"> -->
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- </div> -->
+</div>
+</div>
+</div>
+<p><object data="./documents/01-bg.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/01-bg.pdf" download="">Download PDF file.</a></object></p>
 </section>
 <section id="quantitative-data-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="quantitative-data-analysis">Quantitative Data Analysis</h3>
 <p>Following the initial research phase, I delved into domain-specific data provided by the teaching staff. This data consisted of aggregated results from 2,197 survey responses collected by the WeAudit team at CMU. This survey assessed how individuals’ identities, experiences, and knowledge affect their ability to detect harmful algorithmic biases in image search contexts.</p>
 <p>To analyze this data, I first converted it into a CSV file to facilitate exploratory and quantitative analysis using Python. I undertook data-wrangling steps to isolate the necessary columns for deeper analysis. Given the text-based nature of the data, standard analytics and visualizations took time to apply. I had to preprocess the data and engineer features to prepare it for meaningful analysis.</p>
 <p>I then created heatmaps to explore correlations between age groups, users’ familiarity with digital media, and their likelihood of encountering biases. Additionally, I employed word clouds and topic modeling to derive more detailed insights from the data.</p>
+<p><object data="./documents/02-data.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/02-data.pdf" download="">Download PDF file.</a></object></p>
+<!-- ![](./images/data-analysis.png) -->
+<!-- ![](./images/data-text.png) -->
+<!-- <br> -->
+<!-- <img src="./images/data-analysis.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> -->
+<!-- </br> -->
+<!-- <br> -->
+<!-- <img src="./images/data-text.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> -->
+<!-- </br> -->
 <section id="key-insights" class="level4">
 <h4 class="anchored" data-anchor-id="key-insights">Key Insights</h4>
 <ul>
@@ -209,8 +250,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Users can review the returned images, highlight specific ones, and add comments.</li>
 <li>The feature allows users to initiate discussion threads, which can be posted on the WeAudit forums.</li>
 </ul>
-<p>Usability Testing through Think Aloud Interviews</p>
+<!-- quarto add jmgirard/embedpdf -->
+<!-- https://www.github.com/jmgirard/embedpdf -->
+<p><object data="./documents/03-heuristic.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/03-heuristic.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="usability-testing-through-think-aloud-interviews" class="level3">
+<h3 class="anchored" data-anchor-id="usability-testing-through-think-aloud-interviews">Usability Testing through Think Aloud Interviews</h3>
 <p>I conducted three usability tests on the WeAudit TAIGA tool to achieve the following objectives: - Identify specific challenges within the UI/UX when participants interact with TAIGA and other Generative AI platforms.</p>
+<p><object data="./documents/04-usability-notes.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-usability-notes.pdf" download="">Download PDF file.</a></object></p>
 <ul>
 <li>Gauge users’ logical and emotional responses while interacting with websites like TAIGA.</li>
 <li>Explore user perceptions and experiences concerning bias.</li>
@@ -219,11 +266,18 @@ ul.task-list li input[type="checkbox"] {
 <li>Assess demographic groups’ preferences regarding specific topics.</li>
 </ul>
 <p>To facilitate these interviews, I developed a script to guide the discussions and ensured that consent forms were briefed to and collected from all participants before beginning the study. Additionally, I created an optional survey for participants to provide demographic information. This was designed to explore potential correlations between these demographic variables and participants’ propensity to report biases influenced by previous experiences.</p>
+<p><object data="./documents/04-ut-script.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-ut-script.pdf" download="">Download PDF file.</a></object></p>
 <p>These interviews provided insight into the primary challenges participants encounter with the current bias reporting mechanisms, their feelings towards algorithmic biases, and the suitability of a collaborative approach for addressing these issues.</p>
+<p><object data="./documents/04-ut-demographics.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-ut-demographics.pdf" download="">Download PDF file.</a></object></p>
 </section>
 <section id="synthesis-by-walking-the-wall" class="level3">
 <h3 class="anchored" data-anchor-id="synthesis-by-walking-the-wall">Synthesis by Walking-the-Wall</h3>
 <p>Walking the Wall is a way of re-immersing your team in the data and the analysis you have performed on it. I collected all my data from the studies conducted so far and walked the wall to reframe and redefine the problem by focusing on the following questions:</p>
+<!-- ```{=html} -->
+<!-- <iframe width="780" height="500" src="<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBGVlKWsaz6MlvXN4bZBwRq%2FTeam-D1-Team-Contract-Spring24%3Ftype%3Dwhiteboard%26node-id%3D150%253A918%26t%3DAew6evaQQJKXNumv-1" allowfullscreen></iframe>" title="FigJam"></iframe> -->
+<!-- ``` -->
+<!-- ![](./images/wall-nd.png) -->
+<p><br> <img src="./images/wall-nd.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> <br></p>
 <ul>
 <li>What’s going on here?</li>
 <li>What does the user need?</li>
@@ -235,6 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="reframing-and-redefining-the-problem">Reframing and Redefining the Problem</h3>
 <p>After identifying users’ pain points and needs regarding current methods for engaging everyday users in bias mitigation, I refined our broad objective into more targeted research questions in the form of How Might We (HMW) questions.</p>
 <p>To redefine the primary research problem, I challenged the existing assumptions to pinpoint opportunities by applying “Reverse Assumptions,” selected the most critical one, and recast the problem statement. This led to evolving our overarching aim from <strong>“Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI”</strong> to <strong>“How Might We Transform AI Interactions Into Opportunities for Bias Elimination by Incentivizing Users and Reducing Cognitive Overload to Simplify the Reporting Process?”</strong></p>
+<p><object data="./documents/05-reframe.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/05-reframe.pdf" download="">Download PDF file.</a></object></p>
 </section>
 <section id="context-research-inquiry-through-interviews" class="level3">
 <h3 class="anchored" data-anchor-id="context-research-inquiry-through-interviews">Context Research Inquiry through Interviews</h3>
@@ -243,6 +298,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Goal #1</strong>: To improve user awareness, enhance the quality of reflection on system responses, and identify algorithmic biases within generative AI systems like Microsoft Copilot and ChatGPT.</li>
 <li><strong>Goal #2</strong>: Develop strategies to motivate users to report biases they naturally encounter in AI-generated content, exploring intrinsic motivation and possibly gamifying the reporting process.</li>
 </ul>
+<p><object data="./documents/06-res-guide.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/06-res-guide.pdf" download="">Download PDF file.</a></object></p>
 <section id="research-questions" class="level4">
 <h4 class="anchored" data-anchor-id="research-questions">Research Questions</h4>
 <ul>
@@ -252,11 +308,14 @@ ul.task-list li input[type="checkbox"] {
 <li>How can feedback mechanisms be seamlessly integrated into generative AI platforms to facilitate straightforward reporting of detected biases by users?</li>
 <li>How can community-driven platforms improve everyday users’ detection and reporting of algorithmic biases?</li>
 </ul>
+<p><object data="./documents/06-contextual-inquiry.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/06-contextual-inquiry.pdf" download="">Download PDF file.</a></object></p>
 </section>
 </section>
 <section id="interpretation-notes-affinity-clustering-modeling" class="level3">
 <h3 class="anchored" data-anchor-id="interpretation-notes-affinity-clustering-modeling">Interpretation Notes, Affinity Clustering &amp; Modeling</h3>
 <p>After completing the interviews, I converted the session notes into interpretation notes. Using these notes, the team engaged in Affinity Clustering to organize the yellow interpretation notes into significant themes, ideas, and overall user concerns. We categorized these using blue, pink, and green labels to group them into a hierarchical structure that narratively outlines the overall user experience. To deepen our understanding of the data collected from the interviews, we constructed two models: an empathy map and a user journey flow map. These models helped us view the information from various perspectives, enhancing our comprehension of user experiences and interactions.</p>
+<p><object data="./documents/07-report.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/07-report.pdf" download="">Download PDF file.</a></object></p>
+<!--  -->
 <section id="how-might-we-reframing" class="level4">
 <h4 class="anchored" data-anchor-id="how-might-we-reframing">How Might We Reframing</h4>
 <ul>
@@ -289,11 +348,13 @@ ul.task-list li input[type="checkbox"] {
 <li>User sensitivity to biases in real life has little influence on reporting behavior since algorithmic biases don’t stand out similarly by eliciting a negative emotional response unless it is pronounced. Users need to be prompted or reminded to look for them in the responses - the more natural interpretation of results to look for how much the response matches their expectations.</li>
 <li>The reminder strategy and effort required to provide feedback through UI/UX elements on different GenAI tools determine the likelihood of getting user feedback.</li>
 </ul>
+<!--  -->
 </section>
 </section>
 <section id="crazy-8s-storyboarding-and-speed-dating-interviews" class="level3">
 <h3 class="anchored" data-anchor-id="crazy-8s-storyboarding-and-speed-dating-interviews">Crazy 8s, Storyboarding, and Speed Dating Interviews</h3>
 <p>After prioritizing the user needs from the contextual inquiry interviews through synthesis methods like affinity clustering and walking the wall again by adding new evidence, I rapidly prototyped solutions using the crazy 8s method. The goal of this activity is to brainstorm a set of ideas that meet user needs inspired by your analysis and reflection on your Walk the Wall activity.</p>
+<p><object data="./documents/08-SD.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/08-SD.pdf" download="">Download PDF file.</a></object></p>
 <p>After analyzing the user breakdowns/needs, approaches, ideas, and unanswered questions raised in Crazy 8’s activity to identify the greatest areas of uncertainty and risk, we generated a list of user needs as a team from this analysis. Then, each team member selected one user need and created a set of three storyboards, each riskier than the previous.</p>
 <p>Using these storyboards representing possible solution directions, I conducted speed-dating interviews with participants to rapidly explore design futures and prioritize the needs that appear strongly in user research and speed-dating sessions to reveal new design opportunities:</p>
 <ul>
@@ -306,11 +367,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="prototyping-low-and-high-fidelity" class="level3">
 <h3 class="anchored" data-anchor-id="prototyping-low-and-high-fidelity">Prototyping: Low and High Fidelity</h3>
 <p>Finally, I prioritized the token strategy idea, which received the most favorable feedback from the audience, and developed a low-fidelity prototype. I then conducted an initial interview with a participant to assess the prototype’s usefulness and its alignment with user needs. The participant was pleased with the new approach. Although there is still potential for enhancement, the prototype successfully achieved its goal of encouraging users to report biases in exchange for platform credits. Subsequently, I translated this prototype into a high-fidelity version using Figma.</p>
+<p><br> <img src="./images/lofi.png" alt="Broken image." width="100%"> <br></p>
 </section>
 </section>
 <section id="poster-session" class="level2">
 <h2 class="anchored" data-anchor-id="poster-session">Poster Session</h2>
 <p>We presented our project findings during the course’s final poster session and received substantial feedback for future enhancements. Overall, the feedback was positive, and we were excited by the attendees’ engagement level.</p>
+<p><object data="./documents/09-only-poster.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/09-only-poster.pdf" download="">Download PDF file.</a></object></p>
 </section>
 <section id="future-improvements" class="level2">
 <h2 class="anchored" data-anchor-id="future-improvements">Future Improvements</h2>
