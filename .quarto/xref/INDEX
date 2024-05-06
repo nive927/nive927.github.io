@@ -7,5 +7,14 @@
   },
   "projects.qmd": {
     "projects.html": "e43b2145"
+  },
+  "projects/2022-11-23-strava-dashboard/index.qmd": {
+    "index.html": "dd2a1d70"
+  },
+  "projects/ucre-project-portflio/index.qmd": {
+    "index.html": "2dca2422"
+  },
+  "projects/2024-05-03-ucre-project-portflio/index.qmd": {
+    "index.html": "ccfc62f3"
   }
 }
