@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "List of all the projects I’ve worked on."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Nivedhitha Dhanasekaran, a Master of Computational Data Science (MCDS) graduate student at the Language Technologies Institute of Carnegie Mellon University.\nI was an undergraduate from 2018-2022 pursuing B.E. Computer Science and Engineering from Sri Sivasubramaniya Nadar College of Engineering, Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nFor the next year, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nivedhitha Dhanasekaran",
@@ -19,12 +33,5 @@
     "title": "Nivedhitha Dhanasekaran",
     "section": "Experience",
     "text": "Experience\nCiticorp Services India Private Limited | Technical Analyst | Jul 2022 - Jun 2023"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am Nivedhitha Dhanasekaran, a Master of Computational Data Science (MCDS) graduate student at the Language Technologies Institute of Carnegie Mellon University.\nI was an undergraduate from 2018-2022 pursuing B.E. Computer Science and Engineering from Sri Sivasubramaniya Nadar College of Engineering, Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nFor the next year, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
   }
 ]
