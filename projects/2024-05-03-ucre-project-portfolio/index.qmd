@@ -27,10 +27,15 @@ In the Spring of 2024, I worked on a semester-long project for the 05-610 User-c
 
 <!-- <br> -->
 
-![Broken Image.](./project-card-image.png)
+<!-- ![Broken Image.](./project-card-image.png) -->
 
+<br>
+<img src="./project-card-image.png" alt="Broken image." width="100%">
+</br>
 
-<!-- <img src="./project-card-image.png" alt="Broken image." width="100%"> -->
+<!-- ::: {.gray-italic .center-text} -->
+<!-- UCRE Project Caption -->
+<!-- ::: -->
 
 <!-- <img src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%"> -->
 
