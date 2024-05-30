@@ -4,20 +4,35 @@ project:
 
 website:
   title: "Nivedhitha Dhanasekaran"
+  description: "Nive's Portfolio Website."
+  site-url: "https://nive927.github.io/"
+  
+  repo-url: "https://github.com/nive927/nive927.github.io"
+  
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
+    # right:
       - href: about.qmd
         text: About
       - href: projects.qmd
         text: Projects
+      - href: resume.qmd
+        text: Resume
+      - href: cv.qmd
+        text: CV
+    search: true
+    bread-crumbs: true
 
 format:
   html:
     theme:
-      dark: vapor
-      light: quartz
+      - pulse # https://quarto.org/docs/output-formats/html-themes.html
+      - custom.scss
+      # dark: vapor
+      # light: quartz
+      
     css: styles.css
     toc: true
     page-layout: full

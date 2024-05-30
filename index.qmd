@@ -4,8 +4,8 @@ image: ./assets/headshot.jpg
 toc: false
 about: 
   template: trestles
-  image-shape: rectangle
-  image-width: 20em
+  image-shape: round
+  image-width: 22 em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -46,6 +46,8 @@ Sri Sivasubramaniya Nadar College of Engineering |  Chennai, India
 
 ## Experience
 
-Citicorp Services India Private Limited | <strong>Technical Analyst</strong> | Jul 2022 - Jun 2023
+Citicorp Services India Private Limited | <strong>Software Engineer</strong> | Jul 2022 - Jun 2023
+
+Fidelity Investments | <strong>Full Stack Engineer Intern</strong> | Jun 2021- Jun 2021
 
 :::

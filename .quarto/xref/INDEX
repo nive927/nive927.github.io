@@ -19,5 +19,11 @@
   },
   "projects/2024-05-03-ucre-project-portfolio/index.qmd": {
     "index.html": "c749f2ca"
+  },
+  "resume.qmd": {
+    "resume.html": "bfb078e4"
+  },
+  "cv.qmd": {
+    "cv.html": "65785c17"
   }
 }

@@ -2,10 +2,16 @@
 title: "About"
 ---
 
-I am Nivedhitha Dhanasekaran, a Master of Computational Data Science (MCDS) graduate student at the Language Technologies Institute of Carnegie Mellon University.
+<div>
+  <img alt="Banner GIF" src="./assets/banner.gif" style="text-align: justify" width=100%/>
+</div>
 
-I was an undergraduate from 2018-2022 pursuing B.E. Computer Science and Engineering from Sri Sivasubramaniya Nadar College of Engineering, Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.
+<div style="text-align: justify">
+I'm Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.
 
-For the next year, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.
+I completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.
+
+Subsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.
 
 In my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I'm a textbook INTJ-A personality type.
+</div>

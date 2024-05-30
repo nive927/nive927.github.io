@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Nivedhitha Dhanasekaran</title>
+<link>https://nive927.github.io/projects.html</link>
+<atom:link href="https://nive927.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description>Nive&#39;s Portfolio Website.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Fri, 03 May 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI (ChatGPT)</title>
+  <link>https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- [ shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [ source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
+<!-- <br> -->
+<!-- <div> -->
+<!-- </div> -->
+<section id="journey-through-the-project" class="level1">
+<h1>Journey through the Project</h1>
+<p>In the Spring of 2024, I worked on a semester-long project for the 05-610 User-centered Research and Evaluation course as part of my Human-centered Data Science (Human Computer Interaction) concentration for the Master of Computational Data Science program at Carnegie Mellon University.</p>
+<!-- <br> -->
+<!-- <img src="project-card-image.png" alt="Broken image." width="100%"> -->
+<!-- <br> -->
+<!-- ![Broken Image.](./project-card-image.png) -->
+<p><br> <img src="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/project-card-image.png" alt="Broken image." width="100%"> <br></p>
+<!-- ::: {.gray-italic .center-text} -->
+<!-- UCRE Project Caption -->
+<!-- ::: -->
+<!-- <img src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%"> -->
+<section id="engage-to-change-rewarding-user-reports-for-bias-mitigation-in-generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="engage-to-change-rewarding-user-reports-for-bias-mitigation-in-generative-ai">Engage to Change: Rewarding User Reports for Bias Mitigation in Generative AI</h2>
+<p>The “Engage to Change: Rewarding User Reports for Bias Mitigation in Generative AI” project focuses on mitigating generative AI (GenAI) bias by rewarding users for reporting biases.</p>
+<ul>
+<li><strong>Objective:</strong> The project aims to transform every AI interaction into an opportunity for eliminating bias, addressing the challenge that users often do not report biases due to cumbersome reporting mechanisms, privacy concerns, and a lack of motivation.</li>
+<li><strong>Methodology:</strong> I employed various methods such as contextual inquiry, affinity clustering, prototyping, user flow modeling, and data analysis. These helped understand user behavior and design effective solutions.</li>
+<li><strong>Solution:</strong> The core innovation is a digital incentive program where users earn tokens for reporting biases. These tokens can be exchanged for service upgrades or other rewards, integrating a sense of progress and achievement into the reporting process.</li>
+<li><strong>Design Features:</strong> The project introduces non-disruptive, context-aware reminders, robust privacy protections, and an intuitive, effortless UI/UX. These features are not only intended to encourage user participation but also to reassure them about the simplicity, security, and privacy of the reporting process.</li>
+<li><strong>User Feedback:</strong> Initial feedback indicates that users are motivated by rewards such as monetary incentives or platform credits. Strategic reminders and the potential to earn rewards are significant motivators for consistent engagement in bias reporting.</li>
+<li><strong>Impact:</strong> The project underscores the transformative potential of every user’s contribution, with the ultimate goal of creating smarter, fairer, and bias-free AI solutions. This emphasis on fairness and bias mitigation inspires confidence in the proposed approach.</li>
+</ul>
+</section>
+<section id="roles-in-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="roles-in-the-project">Roles in the Project</h2>
+<p>In this project, I had the opportunity to immerse myself in multiple roles, including that of a User Researcher, UI/UX designer, Data Scientist, and Project Manager. I embraced a multifaceted role that spanned several disciplines, allowing me to delve deeply into human-centered research. As a User Researcher, I planned and implemented a mixed-methods approach to gather insights from user study participants. This involved conducting observational fieldwork, utilizing interview techniques to uncover users’ needs and motivations, and collecting quantitative data from both systems and their users. As a Data Scientist, my role also extended to analyzing this diverse data quantitatively to find patterns in behaviors, motivations, and unmet needs. Synthesizing these insights, I envisioned new systems to meet these identified needs. As a UI/UX Designer, I developed conceptual designs and prototypes, further enhancing my contributions by evaluating these through various research methods to ensure they met user requirements effectively. As a Project Manager, I oversaw the project’s progress, ensuring that research findings were communicated effectively to all stakeholders, from study participants to research team members, fostering a collaborative and informed project environment.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<section id="background-research" class="level3">
+<h3 class="anchored" data-anchor-id="background-research">Background Research</h3>
+<p>Before initiating the project, I conducted thorough preliminary research to build a solid foundation of knowledge and keep existing solutions distinct. My exploration into “Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI” involved experiential and informational searches.</p>
+<p>I gained firsthand experience by observing how my friends interacted with generative AI platforms and by experimenting with new technologies myself, such as Microsoft Co-pilot and various GPT models on ChatGPT 4.0, along with Midjourney. This allowed me to understand the user experience directly and explore emerging questions in everyday algorithm auditing.</p>
+<p>Additionally, I consulted various sources, including news articles, academic journals, social media, online blogs, and national reports, to comprehensively understand the subject. From this research, I distilled critical insights into a brief report and organized this information visually on a Figma Jamboard.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/bg-context-01.png" class="img-fluid"> <!-- ![](./images/bg-exp.png){fig-align="center"}  --></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/bg-context-02.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- ![](./images/bg-info.png){fig-align="center"} -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- <div style="display: flex; justify-content: space-around; align-items: center;">> -->
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!--   <img src="./images/bg-exp.png"  width="50%"> -->
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!--   <img src="./images/bg-info.png"  width="50%"> -->
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<!-- </div> -->
+</div>
+</div>
+</div>
+<p><object data="./documents/01-bg.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/01-bg.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="quantitative-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="quantitative-data-analysis">Quantitative Data Analysis</h3>
+<p>Following the initial research phase, I delved into domain-specific data provided by the teaching staff. This data consisted of aggregated results from 2,197 survey responses collected by the WeAudit team at CMU. This survey assessed how individuals’ identities, experiences, and knowledge affect their ability to detect harmful algorithmic biases in image search contexts.</p>
+<p>To analyze this data, I first converted it into a CSV file to facilitate exploratory and quantitative analysis using Python. I undertook data-wrangling steps to isolate the necessary columns for deeper analysis. Given the text-based nature of the data, standard analytics and visualizations took time to apply. I had to preprocess the data and engineer features to prepare it for meaningful analysis.</p>
+<p>I then created heatmaps to explore correlations between age groups, users’ familiarity with digital media, and their likelihood of encountering biases. Additionally, I employed word clouds and topic modeling to derive more detailed insights from the data.</p>
+<p><object data="./documents/02-data.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/02-data.pdf" download="">Download PDF file.</a></object></p>
+<!-- ![](./images/data-analysis.png) -->
+<!-- ![](./images/data-text.png) -->
+<!-- <br> -->
+<!-- <img src="./images/data-analysis.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> -->
+<!-- </br> -->
+<!-- <br> -->
+<!-- <img src="./images/data-text.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> -->
+<!-- </br> -->
+<section id="key-insights" class="level4">
+<h4 class="anchored" data-anchor-id="key-insights">Key Insights</h4>
+<ul>
+<li>Users aged 25-34 and those 65 and above show noticeable patterns in encountering biases—monthly and a few times a year, respectively. These findings suggest that user-auditing frequency might need adjustment to prevent user overload when interacting with news articles and testing systems.</li>
+<li>Most age groups, including those 55 and older, are familiar with using algorithmic systems. This observation requires further investigation, as it may be influenced by desirability bias or sampling errors inherent in self-reported data.</li>
+<li>There appears to be a weak correlation between the frequency of using algorithmic systems and encountering algorithmic biases, suggesting that familiarity does not necessarily predict bias encounter frequency. This relationship warrants further validation.</li>
+<li>No clear correlation was found between users’ location and their sensitivity to bias. Sensitivity levels were consistent across different regions, although the West and Midwest were underrepresented in the survey data, indicating a need for broader geographic representation in future studies.</li>
+</ul>
+</section>
+</section>
+<section id="heuristic-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="heuristic-evaluation">Heuristic Evaluation</h3>
+<p>To assess how current solutions integrate bias reporting mechanisms that empower everyday users to help mitigate biases, I conducted a heuristic evaluation of the <a href="https://taiga.weaudit.org/">WeAudit TAIGA Tool</a>, using <a href="http://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen’s Ten Usability Heuristics</a>.</p>
+<p>This evaluation examined the system’s design and usability to determine how effectively it enables users to identify harmful algorithmic behaviors in image-generation AI systems. The key functionalities I assessed included:</p>
+<ul>
+<li>The ability for users to input a search prompt and receive relevant images.</li>
+<li>Users can review the returned images, highlight specific ones, and add comments.</li>
+<li>The feature allows users to initiate discussion threads, which can be posted on the WeAudit forums.</li>
+</ul>
+<!-- quarto add jmgirard/embedpdf -->
+<!-- https://www.github.com/jmgirard/embedpdf -->
+<p><object data="./documents/03-heuristic.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/03-heuristic.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="usability-testing-through-think-aloud-interviews" class="level3">
+<h3 class="anchored" data-anchor-id="usability-testing-through-think-aloud-interviews">Usability Testing through Think Aloud Interviews</h3>
+<p>I conducted three usability tests on the WeAudit TAIGA tool to achieve the following objectives: - Identify specific challenges within the UI/UX when participants interact with TAIGA and other Generative AI platforms.</p>
+<p><object data="./documents/04-usability-notes.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-usability-notes.pdf" download="">Download PDF file.</a></object></p>
+<ul>
+<li>Gauge users’ logical and emotional responses while interacting with websites like TAIGA.</li>
+<li>Explore user perceptions and experiences concerning bias.</li>
+<li>Observe user behavior concerning reporting biases via TAIGA and other GenAI platforms.</li>
+<li>Collect basic demographic information about the participants.</li>
+<li>Assess demographic groups’ preferences regarding specific topics.</li>
+</ul>
+<p>To facilitate these interviews, I developed a script to guide the discussions and ensured that consent forms were briefed to and collected from all participants before beginning the study. Additionally, I created an optional survey for participants to provide demographic information. This was designed to explore potential correlations between these demographic variables and participants’ propensity to report biases influenced by previous experiences.</p>
+<p><object data="./documents/04-ut-script.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-ut-script.pdf" download="">Download PDF file.</a></object></p>
+<p>These interviews provided insight into the primary challenges participants encounter with the current bias reporting mechanisms, their feelings towards algorithmic biases, and the suitability of a collaborative approach for addressing these issues.</p>
+<p><object data="./documents/04-ut-demographics.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/04-ut-demographics.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="synthesis-by-walking-the-wall" class="level3">
+<h3 class="anchored" data-anchor-id="synthesis-by-walking-the-wall">Synthesis by Walking-the-Wall</h3>
+<p>Walking the Wall is a way of re-immersing your team in the data and the analysis you have performed on it. I collected all my data from the studies conducted so far and walked the wall to reframe and redefine the problem by focusing on the following questions:</p>
+<!-- ```{=html} -->
+<!-- <iframe width="780" height="500" src="<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBGVlKWsaz6MlvXN4bZBwRq%2FTeam-D1-Team-Contract-Spring24%3Ftype%3Dwhiteboard%26node-id%3D150%253A918%26t%3DAew6evaQQJKXNumv-1" allowfullscreen></iframe>" title="FigJam"></iframe> -->
+<!-- ``` -->
+<!-- ![](./images/wall-nd.png) -->
+<p><br> <img src="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/wall-nd.png" alt="Broken image." style="width: 50%; display: block; margin: auto;"> <br></p>
+<ul>
+<li>What’s going on here?</li>
+<li>What does the user need?</li>
+<li>What can we do about it?</li>
+<li>Questions to conduct further research and conduct data!</li>
+</ul>
+</section>
+<section id="reframing-and-redefining-the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="reframing-and-redefining-the-problem">Reframing and Redefining the Problem</h3>
+<p>After identifying users’ pain points and needs regarding current methods for engaging everyday users in bias mitigation, I refined our broad objective into more targeted research questions in the form of How Might We (HMW) questions.</p>
+<p>To redefine the primary research problem, I challenged the existing assumptions to pinpoint opportunities by applying “Reverse Assumptions,” selected the most critical one, and recast the problem statement. This led to evolving our overarching aim from <strong>“Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI”</strong> to <strong>“How Might We Transform AI Interactions Into Opportunities for Bias Elimination by Incentivizing Users and Reducing Cognitive Overload to Simplify the Reporting Process?”</strong></p>
+<p><object data="./documents/05-reframe.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/05-reframe.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="context-research-inquiry-through-interviews" class="level3">
+<h3 class="anchored" data-anchor-id="context-research-inquiry-through-interviews">Context Research Inquiry through Interviews</h3>
+<p>I conducted additional contextual inquiry interviews to develop new qualitative insights aligned with our more focused research goals. These interviews centered around ChatGPT, utilizing it as the primary generative AI platform for our study, aiming to address specific research questions that correlate with our outlined goals:</p>
+<ul>
+<li><strong>Goal #1</strong>: To improve user awareness, enhance the quality of reflection on system responses, and identify algorithmic biases within generative AI systems like Microsoft Copilot and ChatGPT.</li>
+<li><strong>Goal #2</strong>: Develop strategies to motivate users to report biases they naturally encounter in AI-generated content, exploring intrinsic motivation and possibly gamifying the reporting process.</li>
+</ul>
+<p><object data="./documents/06-res-guide.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/06-res-guide.pdf" download="">Download PDF file.</a></object></p>
+<section id="research-questions" class="level4">
+<h4 class="anchored" data-anchor-id="research-questions">Research Questions</h4>
+<ul>
+<li>What types of guidance and feedback are most effective in aiding users in detecting and reporting biases?</li>
+<li>How can we effectively educate users on the nature and existence of algorithmic biases within generative AI systems?</li>
+<li>What design features in the user interface can encourage users to examine the responses they receive from generative AI systems critically?</li>
+<li>How can feedback mechanisms be seamlessly integrated into generative AI platforms to facilitate straightforward reporting of detected biases by users?</li>
+<li>How can community-driven platforms improve everyday users’ detection and reporting of algorithmic biases?</li>
+</ul>
+<p><object data="./documents/06-contextual-inquiry.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/06-contextual-inquiry.pdf" download="">Download PDF file.</a></object></p>
+</section>
+</section>
+<section id="interpretation-notes-affinity-clustering-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-notes-affinity-clustering-modeling">Interpretation Notes, Affinity Clustering &amp; Modeling</h3>
+<p>After completing the interviews, I converted the session notes into interpretation notes. Using these notes, the team engaged in Affinity Clustering to organize the yellow interpretation notes into significant themes, ideas, and overall user concerns. We categorized these using blue, pink, and green labels to group them into a hierarchical structure that narratively outlines the overall user experience. To deepen our understanding of the data collected from the interviews, we constructed two models: an empathy map and a user journey flow map. These models helped us view the information from various perspectives, enhancing our comprehension of user experiences and interactions.</p>
+<p><object data="./documents/07-report.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/07-report.pdf" download="">Download PDF file.</a></object></p>
+<!--  -->
+<section id="how-might-we-reframing" class="level4">
+<h4 class="anchored" data-anchor-id="how-might-we-reframing">How Might We Reframing</h4>
+<ul>
+<li>How can we make it more natural for users to report AI-generated bias?
+<ul>
+<li>To address the challenge of user unawareness and engagement with AI-generated biases, our initiative seeks to simplify the process for users to identify and report these biases. Recognizing that users often overlook or don’t critically evaluate AI biases, which affect the fairness and accuracy of AI results, we aim to enhance user awareness and interaction. We aimed to design intuitive user interfaces that encourage reflection, incorporate easy-to-use feedback mechanisms, and utilize common user behaviors to motivate more consistent auditing and reporting of biases.</li>
+</ul></li>
+<li>How can we use current user interactions to unexpected responses to motivate user auditing and reporting?
+<ul>
+<li>Furthermore, the interest in using current user reactions to unexpected responses as a catalyst for auditing and reporting behavior highlights an innovative approach to enhancing user participation in the quality control of AI outputs. Recognizing that users typically opt for re-prompting when faced with unsatisfactory AI responses, the goal is to integrate design approaches that make feedback provision a seamless and intuitive part of the user experience.</li>
+</ul></li>
+</ul>
+</section>
+<section id="related-questions-driving-our-contextual-inquiry" class="level4">
+<h4 class="anchored" data-anchor-id="related-questions-driving-our-contextual-inquiry">Related Questions Driving Our Contextual Inquiry:</h4>
+<ul>
+<li>What forms of guidance and feedback are most effective for supporting users in detecting and reporting biases?</li>
+<li>How can we effectively educate users about the nature and presence of algorithmic biases within generative AI systems?</li>
+<li>What design elements in the user interface can prompt users to critically reflect on the responses they receive from generative AI systems?</li>
+<li>How can feedback mechanisms be integrated into generative AI platforms to facilitate easy reporting of detected biases by users?</li>
+<li>How can community-driven platforms enhance everyday users’ detection and reporting of algorithmic biases?</li>
+</ul>
+</section>
+<section id="insights" class="level4">
+<h4 class="anchored" data-anchor-id="insights">Insights</h4>
+<ul>
+<li>Users do not prioritize identifying biases in GenAI outputs, as their primary focus is leveraging AI to support everyday tasks.</li>
+<li>The current reporting mechanism is unnatural and doesn’t fit into the natural workflow of users as they typically resort to re-prompting as an immediate solution to unexpected or unsatisfactory GenAI responses, sometimes even before the generation process is complete by interrupting the flow instead of looking for features to report this behavior.</li>
+<li>User apprehensions about anonymity and privacy loom significant when reporting biases, underscoring a critical barrier to transparency and accountability in addressing GenAI biases.</li>
+<li>User sensitivity to biases in real life has little influence on reporting behavior since algorithmic biases don’t stand out similarly by eliciting a negative emotional response unless it is pronounced. Users need to be prompted or reminded to look for them in the responses - the more natural interpretation of results to look for how much the response matches their expectations.</li>
+<li>The reminder strategy and effort required to provide feedback through UI/UX elements on different GenAI tools determine the likelihood of getting user feedback.</li>
+</ul>
+<!--  -->
+</section>
+</section>
+<section id="crazy-8s-storyboarding-and-speed-dating-interviews" class="level3">
+<h3 class="anchored" data-anchor-id="crazy-8s-storyboarding-and-speed-dating-interviews">Crazy 8s, Storyboarding, and Speed Dating Interviews</h3>
+<p>After prioritizing the user needs from the contextual inquiry interviews through synthesis methods like affinity clustering and walking the wall again by adding new evidence, I rapidly prototyped solutions using the crazy 8s method. The goal of this activity is to brainstorm a set of ideas that meet user needs inspired by your analysis and reflection on your Walk the Wall activity.</p>
+<p><object data="./documents/08-SD.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/08-SD.pdf" download="">Download PDF file.</a></object></p>
+<p>After analyzing the user breakdowns/needs, approaches, ideas, and unanswered questions raised in Crazy 8’s activity to identify the greatest areas of uncertainty and risk, we generated a list of user needs as a team from this analysis. Then, each team member selected one user need and created a set of three storyboards, each riskier than the previous.</p>
+<p>Using these storyboards representing possible solution directions, I conducted speed-dating interviews with participants to rapidly explore design futures and prioritize the needs that appear strongly in user research and speed-dating sessions to reveal new design opportunities:</p>
+<ul>
+<li><strong>Token Collection Strategy</strong>: Earn tokens for bias reports valued by usefulness (1-5 tokens); redeem 200 tokens for 15 free GPT 4.0 prompts or 500 for a week-long GPT 4.0 upgrade.</li>
+<li><strong>Callout Reminder Strategy</strong>: Utilize a pop-up tool for users to critically evaluate AI responses, enabling tagging of biases in images or highlighting in text.</li>
+<li><strong>Monetary Reward for Bias Reporting</strong>: Offer financial incentives for routine bias reporting or during major incidents, with a simple button or hashtag for direct reporting to social media.</li>
+<li><strong>Recaptcha-Style Engagement Checks</strong>: Implement intermittent, non-intrusive prompts to verify user engagement and foster ongoing attention to detail</li>
+</ul>
+</section>
+<section id="prototyping-low-and-high-fidelity" class="level3">
+<h3 class="anchored" data-anchor-id="prototyping-low-and-high-fidelity">Prototyping: Low and High Fidelity</h3>
+<p>Finally, I prioritized the token strategy idea, which received the most favorable feedback from the audience, and developed a low-fidelity prototype. I then conducted an initial interview with a participant to assess the prototype’s usefulness and its alignment with user needs. The participant was pleased with the new approach. Although there is still potential for enhancement, the prototype successfully achieved its goal of encouraging users to report biases in exchange for platform credits. Subsequently, I translated this prototype into a high-fidelity version using Figma.</p>
+<p><br> <img src="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/lofi.png" alt="Broken image." width="100%"> <br></p>
+</section>
+</section>
+<section id="poster-session" class="level2">
+<h2 class="anchored" data-anchor-id="poster-session">Poster Session</h2>
+<p>We presented our project findings during the course’s final poster session and received substantial feedback for future enhancements. Overall, the feedback was positive, and we were excited by the attendees’ engagement level.</p>
+<p><object data="./documents/09-only-poster.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/09-only-poster.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="future-improvements" class="level2">
+<h2 class="anchored" data-anchor-id="future-improvements">Future Improvements</h2>
+<p>During this project, we didn’t have time to conduct a comprehensive smoke test to verify user engagement increases after implementing the token strategy. I would love to spend more time in understanding how much time and effort users are willing to pay in exchange for platform credits. I also want to quantitatively determine the thresholds at which this scheme is feasible for companies to implement without incurring losses and simultaneously improving user engagement with bias reporting.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>When I started this course, my three primary learning objectives were:</p>
+<ol type="1">
+<li>Understanding how user research is formally conducted and implementing it through the group project complement my second concentration in Human-centered Data Science.</li>
+<li>Becoming comfortable working with and speaking the language of designers and UX researchers to be a better software engineer and data scientist.</li>
+<li>Improve my design thinking skills, visualize data, and rapidly prototype low and high-fidelity designs.</li>
+</ol>
+<p>Throughout the group project, I learned the iterative nature of problem-solving, which involves continuous information gathering, problem redefinition, and solution exploration. Our diverse methods provided me with a comprehensive set of UX skills, enriching my approach to future projects. Notably, during the final poster session, I utilized Figma to create low and high-fidelity prototypes for our token strategy, an experience that expanded my technical toolkit. The course readings proved essential, deepening my understanding of each research method’s nuances. The practical application of synthesis methods like Affinity Clustering, Walk-the-Wall, and Speed Dating significantly enhanced my ability to reassess problems and discover varied solutions within the design realm. Additionally, analyzing complex and unstructured text data sharpened my data wrangling and visualization capabilities.</p>
+<p>This project revealed that synthesis is a nuanced and intricate process. While research methods may appear straightforward in theory, their practical application is challenging, often requiring a shift in perspective to unearth valuable insights. This experience was gratifying, allowing me to view product development through the lens of a product manager and a UI/UX designer beyond my engineering and data science background. I am grateful to have met all my initial learning goals and feel more confident in my professional abilities. A heartfelt thank you to the teaching team for a truly enriching experience!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Human-Computer Interaction</category>
+  <category>Responsible AI</category>
+  <category>UI/UX</category>
+  <category>Research</category>
+  <guid>https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/index.html</guid>
+  <pubDate>Fri, 03 May 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/project-card-image.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
+</channel>
+</rss>
