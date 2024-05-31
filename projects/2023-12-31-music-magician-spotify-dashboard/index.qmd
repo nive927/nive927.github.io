@@ -1,0 +1,27 @@
+---
+title: "Music Magician"
+description: |
+  Spotify Music Artist Influence Analytics Dashboard
+date: 2023-12-30
+author: "Nivedhitha Dhanasekaran"
+categories: [Interactive Intelligence, Data Visualization, Web Development, UI/UX, HCI]
+image: ./images/project-card-image.png
+draft: false
+---
+
+# Music Magicians: Spotify Music Artist Influence Analytics Dashboard
+
+<!-- ![](images/Flight_Delay_Prediction_Pipelining_Flowchart.png) -->
+
+I developed an interactive analytics dashboard using Streamlit, Vega-Altair, Plotly, NetworkX, and Python. The dashboard focuses on exploring the evolution of music and quantifying artists' influence. It features informative visualizations and interactive elements to analyze music trends, artist characteristics, and the influence of past music on new compositions. This project successfully addressed the challenge by creating a user-friendly interface that facilitates in-depth exploration of the dataset, enabling storytelling and uncovering patterns and correlations in music.
+
+<!-- RESOLVED ERROR: iframe embed to streamlit share.streamlit.io redirected you too many times. -->
+<!-- Modify streamlit url with embedded=true to fix error -->
+<!-- https://discuss.streamlit.io/t/embeding-streamlit-cloud-url-with-iframe/27511 -->
+
+```{=html}
+<iframe height=850 style="width:100%;" src="https://music-magician-dashboard.streamlit.app/?embedded=true" title="Music Magician"></iframe>
+```
+
+
+<!-- {{< pdf ./documents/Two_Stage_Flight_Delay_Prediction_Report_Nivedhitha_D.pdf width=100% height=650 >}} -->

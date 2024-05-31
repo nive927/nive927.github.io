@@ -33,7 +33,7 @@ format:
       # dark: vapor
       # light: quartz
       
-    css: styles.css
+    css: styles.scss
     toc: true
     page-layout: full
     sidebar: false
