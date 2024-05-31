@@ -101,6 +101,67 @@ $list-group-disabled-color:         lighten($list-group-bg, 30%) !default;
 
 // Variables
 
+// ND - Links - Home page
+// LinkedIn Link - It is not a button
+div.quarto-about-trestles .about-entity .about-link:nth-child(1) {
+  background-color: $blue;
+  color: $white;
+  &:hover {
+      color: $blue;
+      background-color: $gray-300;
+      border-color: $gray-700;
+    }
+}
+
+// Twitter
+div.quarto-about-trestles .about-entity .about-link:nth-child(2) {
+  background-color: $cyan;
+  color: $white;
+  &:hover {
+      color: $cyan;
+      background-color: $gray-300;
+      border-color: $gray-700;
+    }
+}
+
+// GitHub
+div.quarto-about-trestles .about-entity .about-link:nth-child(3) {
+  background-color: #24292f;
+  color: $white;
+  &:hover {
+      color: #24292f;
+      background-color: $gray-300;
+      border-color: $gray-700;
+    }
+}
+
+// Email
+div.quarto-about-trestles .about-entity .about-link:nth-child(4) {
+  background-color: $red;
+  color: $white;
+  &:hover {
+      color: $red;
+      background-color: $gray-300;
+      border-color: $gray-700;
+    }
+}
+
+// Scholar
+div.quarto-about-trestles .about-entity .about-link:nth-child(5) {
+  background-color: $yellow;
+  color: $white;
+  &:hover {
+      color: $yellow;
+      background-color: $gray-300;
+      border-color: $gray-700;
+    }
+}
+
+// ND - Cards - projects
+.quarto-grid-item .listing-categories .listing-category {
+  color: $black;
+}
+
 // Buttons
 
 .btn {

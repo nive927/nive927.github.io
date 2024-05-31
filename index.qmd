@@ -6,6 +6,8 @@ about:
   template: trestles
   image-shape: round
   image-width: 22 em
+  # https://github.com/mcanouil/quarto-iconify - installed library
+  # https://icon-sets.iconify.design/fa6-brands/ - search icons here
   links:
     - icon: linkedin
       text: LinkedIn
@@ -19,6 +21,8 @@ about:
     - icon: envelope-fill
       text: Email
       href: mailto:ndhanase@andrew.cmu.edu
+    - text: "{{< iconify fa6-brands google-scholar >}} Scholar"
+      href: "https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en"
 ---
 
 <h1 align="left">Hey there! <img alt="Hand Wave Gif" src="./assets/hand-wave.gif" width='40'/></h1>
