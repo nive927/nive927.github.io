@@ -56,20 +56,6 @@
     "text": "When I started this course, my three primary learning objectives were:\n\nUnderstanding how user research is formally conducted and implementing it through the group project complement my second concentration in Human-centered Data Science.\nBecoming comfortable working with and speaking the language of designers and UX researchers to be a better software engineer and data scientist.\nImprove my design thinking skills, visualize data, and rapidly prototype low and high-fidelity designs.\n\nThroughout the group project, I learned the iterative nature of problem-solving, which involves continuous information gathering, problem redefinition, and solution exploration. Our diverse methods provided me with a comprehensive set of UX skills, enriching my approach to future projects. Notably, during the final poster session, I utilized Figma to create low and high-fidelity prototypes for our token strategy, an experience that expanded my technical toolkit. The course readings proved essential, deepening my understanding of each research method’s nuances. The practical application of synthesis methods like Affinity Clustering, Walk-the-Wall, and Speed Dating significantly enhanced my ability to reassess problems and discover varied solutions within the design realm. Additionally, analyzing complex and unstructured text data sharpened my data wrangling and visualization capabilities.\nThis project revealed that synthesis is a nuanced and intricate process. While research methods may appear straightforward in theory, their practical application is challenging, often requiring a shift in perspective to unearth valuable insights. This experience was gratifying, allowing me to view product development through the lens of a product manager and a UI/UX designer beyond my engineering and data science background. I am grateful to have met all my initial learning goals and feel more confident in my professional abilities. A heartfelt thank you to the teaching team for a truly enriching experience!"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.\nI completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nSubsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nivedhitha Dhanasekaran",
@@ -91,10 +77,31 @@
     "text": "Experience\nCiticorp Services India Private Limited | Software Engineer | Jul 2022 - Jun 2023\nFidelity Investments | Full Stack Engineer Intern | Jun 2021- Jun 2021"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.\nI completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nSubsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "projects/2021-06-30-flight-delay-prediction/index.html",
+    "href": "projects/2021-06-30-flight-delay-prediction/index.html",
+    "title": "Two Stage Flight Delay Prediction",
+    "section": "",
+    "text": "Flight Delay Prediction\n\nI designed a two-stage predictive machine learning engine to forecast the on-time performance of flights at 15 different USA airports using 2016-2017 data. This project involved data cleaning, pre-processing, and merging flight and weather data. To address flight delays, the engine first classifies whether a flight will be delayed and then predicts the arrival delay in minutes for delayed flights. Due to class imbalance favoring on-time flights, SMOTE sampling was used before classification. The Random Forest classifier achieved the best performance with an F1 score of 0.78 and a Recall of 0.74 for delayed flights. For regression, the Random Forest regressor yielded an MAE of 7.178 minutes, an RMSE of 11.283 minutes, and an R-squared score of 0.977.\nDownload PDF file."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Project Portfolio",
     "section": "",
-    "text": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI (ChatGPT)\n\n\n\nHuman-Computer Interaction\n\n\nResponsible AI\n\n\nUI/UX\n\n\nResearch\n\n\n\nUser-centered Research and Evaluation for Responsible Generative Artificial Intelligence Applications\n\n\n\n\n\n\nMay 3, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in Generative AI (ChatGPT)\n\n\nUser-centered Research and Evaluation for Responsible Generative Artificial Intelligence Applications\n\n\n\n\n\n\nMay 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Stage Flight Delay Prediction\n\n\nPredicting the On-time Performance of Flights in the USA\n\n\n\n\n\n\nJun 30, 2021\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

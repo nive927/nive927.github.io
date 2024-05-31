@@ -1,0 +1,18 @@
+---
+title: "Two Stage Flight Delay Prediction"
+description: |
+  Predicting the On-time Performance of Flights in the USA
+date: 2021-06-30
+categories: [Machine Learning, Data Visualization, Statistical Analysis]
+image: ./images/project-card-image.png
+draft: false
+---
+
+# Flight Delay Prediction
+
+![](images/Flight_Delay_Prediction_Pipelining_Flowchart.png)
+
+I designed a two-stage predictive machine learning engine to forecast the on-time performance of flights at 15 different USA airports using 2016-2017 data. This project involved data cleaning, pre-processing, and merging flight and weather data. To address flight delays, the engine first classifies whether a flight will be delayed and then predicts the arrival delay in minutes for delayed flights. Due to class imbalance favoring on-time flights, SMOTE sampling was used before classification. The Random Forest classifier achieved the best performance with an F1 score of 0.78 and a Recall of 0.74 for delayed flights. For regression, the Random Forest regressor yielded an MAE of 7.178 minutes, an RMSE of 11.283 minutes, and an R-squared score of 0.977.
+
+
+{{< pdf ./documents/Two_Stage_Flight_Delay_Prediction_Report_Nivedhitha_D.pdf width=100% height=650 >}}
