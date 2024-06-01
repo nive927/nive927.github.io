@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nive927.github.io/resume.html</loc>
-    <lastmod>2024-06-01T05:53:41.513Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/index.html</loc>
-    <lastmod>2024-06-01T05:53:34.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/projects/2023-02-17-gca/index.html</loc>
-    <lastmod>2024-06-01T05:53:33.009Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</loc>
-    <lastmod>2024-06-01T05:53:31.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/index.html</loc>
-    <lastmod>2024-06-01T05:53:30.220Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/about.html</loc>
-    <lastmod>2024-06-01T05:53:28.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/cv.html</loc>
-    <lastmod>2024-06-01T05:53:29.465Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/projects/2021-05-01-orca/index.html</loc>
-    <lastmod>2024-06-01T05:53:31.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nive927.github.io/projects/2022-07-01-braillevoice/index.html</loc>
-    <lastmod>2024-06-01T05:53:32.402Z</lastmod>
+    <loc>https://nive927.github.io/projects.html</loc>
+    <lastmod>2024-06-01T05:56:02.534Z</lastmod>
   </url>
   <url>
     <loc>https://nive927.github.io/projects/2023-12-31-music-magician-spotify-dashboard/index.html</loc>
-    <lastmod>2024-06-01T05:53:33.526Z</lastmod>
+    <lastmod>2024-06-01T05:55:59.268Z</lastmod>
   </url>
   <url>
-    <loc>https://nive927.github.io/projects.html</loc>
-    <lastmod>2024-06-01T05:53:36.697Z</lastmod>
+    <loc>https://nive927.github.io/projects/2022-07-01-braillevoice/index.html</loc>
+    <lastmod>2024-06-01T05:55:58.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/projects/2021-05-01-orca/index.html</loc>
+    <lastmod>2024-06-01T05:55:56.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/cv.html</loc>
+    <lastmod>2024-06-01T05:56:09.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/about.html</loc>
+    <lastmod>2024-06-01T05:55:54.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/index.html</loc>
+    <lastmod>2024-06-01T05:55:55.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</loc>
+    <lastmod>2024-06-01T05:55:57.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/projects/2023-02-17-gca/index.html</loc>
+    <lastmod>2024-06-01T05:55:58.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/index.html</loc>
+    <lastmod>2024-06-01T05:56:00.759Z</lastmod>
   </url>
 </urlset>

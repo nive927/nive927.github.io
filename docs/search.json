@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Project Portfolio",
+    "section": "",
+    "text": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI\n\n\n\nHCI\n\n\nResponsible AI\n\n\nUI/UX\n\n\nResearch\n\n\n\nUser-centered Research and Evaluation for Responsible GenAI\n\n\n\nNivedhitha Dhanasekaran\n\n\nMay 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMusic Magician\n\n\n\nInteractive Intelligence\n\n\nData Visualization\n\n\nWeb Development\n\n\nUI/UX\n\n\nHCI\n\n\n\nSpotify Music Artist Influence Analytics Dashboard\n\n\n\nNivedhitha Dhanasekaran\n\n\nDec 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBraille Voice\n\n\n\nComputer Vision\n\n\nNLP\n\n\nWeb Development\n\n\nMobile Development\n\n\nDeep Learning\n\n\nHCI\n\n\nResearch\n\n\n\nA Language Agnostic Assistive Technology for Braille-to-Text Translation\n\n\n\nNivedhitha Dhanasekaran\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGiant Cell Arteritis Detection\n\n\n\nComputer Vision\n\n\nDeep Learning\n\n\nData Science\n\n\nImage Processing\n\n\nStatistical Analysis\n\n\nResearch\n\n\n\nMachine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens\n\n\n\nNivedhitha Dhanasekaran\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Stage Flight Delay Prediction\n\n\n\nMachine Learning\n\n\nData Visualization\n\n\nStatistical Analysis\n\n\n\nPredicting the On-time Performance of Flights in the USA\n\n\n\nNivedhitha Dhanasekaran\n\n\nJun 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nORCA: Underwater Robot\n\n\n\nResearch\n\n\nRobotics\n\n\nHCI\n\n\n\nAn Inspection Class Remotely Operated Underwater Vehicle\n\n\n\nNivedhitha Dhanasekaran\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/2023-12-31-music-magician-spotify-dashboard/index.html",
+    "href": "projects/2023-12-31-music-magician-spotify-dashboard/index.html",
+    "title": "Music Magician",
+    "section": "",
+    "text": "Music Magicians: Spotify Music Artist Influence Analytics Dashboard\n\nI developed an interactive analytics dashboard using Streamlit, Vega-Altair, Plotly, NetworkX, and Python. The dashboard focuses on exploring the evolution of music and quantifying artists’ influence. It features informative visualizations and interactive elements to analyze music trends, artist characteristics, and the influence of past music on new compositions. This project successfully addressed the challenge by creating a user-friendly interface that facilitates in-depth exploration of the dataset, enabling storytelling and uncovering patterns and correlations in music."
+  },
+  {
+    "objectID": "projects/2022-07-01-braillevoice/index.html",
+    "href": "projects/2022-07-01-braillevoice/index.html",
+    "title": "Braille Voice",
+    "section": "",
+    "text": "Project Poster\n\n\n\n\n\nDownload PDF file.\n\n\nProject Description\nA novel multi-stage pipeline (Mobile & Web app) for Braille-to-Text translation of whole single-sided printed braille documents with support for text-to-speech audio playback & text summarization in two languages: English & Tamil."
+  },
+  {
+    "objectID": "projects/2021-05-01-orca/index.html",
+    "href": "projects/2021-05-01-orca/index.html",
+    "title": "ORCA: Underwater Robot",
+    "section": "",
+    "text": "Engineering ORCA\n\n\n\nProject Description\nAn underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.\nOur robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).\nORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.\nI completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nSubsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "",
+    "text": "Hey there!"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "Education",
+    "text": "Education\nCarnegie Mellon University | Pittsburgh, PA  Master of Computational Data Science | Aug 2023 - May 2025\nSri Sivasubramaniya Nadar College of Engineering | Chennai, India  B.E. Computer Science & Engineering | Aug 2018 - Jul 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "Experience",
+    "text": "Experience\nCiticorp Services India Private Limited | Software Engineer | Jul 2022 - Jun 2023\nFidelity Investments | Full Stack Engineer Intern | Jun 2021- Jun 2021"
+  },
+  {
+    "objectID": "projects/2021-06-30-flight-delay-prediction/index.html",
+    "href": "projects/2021-06-30-flight-delay-prediction/index.html",
+    "title": "Two Stage Flight Delay Prediction",
+    "section": "",
+    "text": "Flight Delay Prediction\n\nI designed a two-stage predictive machine learning engine to forecast the on-time performance of flights at 15 different USA airports using 2016-2017 data. This project involved data cleaning, pre-processing, and merging flight and weather data. To address flight delays, the engine first classifies whether a flight will be delayed and then predicts the arrival delay in minutes for delayed flights. Due to class imbalance favoring on-time flights, SMOTE sampling was used before classification. The Random Forest classifier achieved the best performance with an F1 score of 0.78 and a Recall of 0.74 for delayed flights. For regression, the Random Forest regressor yielded an MAE of 7.178 minutes, an RMSE of 11.283 minutes, and an R-squared score of 0.977.\nDownload PDF file."
+  },
+  {
+    "objectID": "projects/2023-02-17-gca/index.html",
+    "href": "projects/2023-02-17-gca/index.html",
+    "title": "Giant Cell Arteritis Detection",
+    "section": "",
+    "text": "Project Poster\n\n\n\n\n\nDownload PDF file.\n\n\nProject Description\nIn this project, I created an automated system to detect and diagnose Giant Cell Arteritis (GCA) from digital pathology slides using a deep residual convolutional network (ResNet) model for ROI-level classification, which produced a 91.65% whole-slide inference score. I collaborated with the core research team of clinical professionals to determine the inclusion and exclusion criteria for the design studies and randomized datasets, rigorously moved dates to protect patient privacy, and employed a common naming strategy across multiple health databases. Finally, I used GradCAM representations to visualize the model’s findings for medical specialists to validate. This system is the first published automated detector for Giant Cell Arteritis, and we plan to patent this technology soon."
+  },
+  {
     "objectID": "projects/2024-05-03-ucre-project-portfolio/index.html",
     "href": "projects/2024-05-03-ucre-project-portfolio/index.html",
     "title": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI",
@@ -47,82 +124,5 @@
     "title": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI",
     "section": "",
     "text": "When I started this course, my three primary learning objectives were:\n\nUnderstanding how user research is formally conducted and implementing it through the group project complement my second concentration in Human-centered Data Science.\nBecoming comfortable working with and speaking the language of designers and UX researchers to be a better software engineer and data scientist.\nImprove my design thinking skills, visualize data, and rapidly prototype low and high-fidelity designs.\n\nThroughout the group project, I learned the iterative nature of problem-solving, which involves continuous information gathering, problem redefinition, and solution exploration. Our diverse methods provided me with a comprehensive set of UX skills, enriching my approach to future projects. Notably, during the final poster session, I utilized Figma to create low and high-fidelity prototypes for our token strategy, an experience that expanded my technical toolkit. The course readings proved essential, deepening my understanding of each research method’s nuances. The practical application of synthesis methods like Affinity Clustering, Walk-the-Wall, and Speed Dating significantly enhanced my ability to reassess problems and discover varied solutions within the design realm. Additionally, analyzing complex and unstructured text data sharpened my data wrangling and visualization capabilities.\nThis project revealed that synthesis is a nuanced and intricate process. While research methods may appear straightforward in theory, their practical application is challenging, often requiring a shift in perspective to unearth valuable insights. This experience was gratifying, allowing me to view product development through the lens of a product manager and a UI/UX designer beyond my engineering and data science background. I am grateful to have met all my initial learning goals and feel more confident in my professional abilities. A heartfelt thank you to the teaching team for a truly enriching experience!"
-  },
-  {
-    "objectID": "projects/2023-02-17-gca/index.html",
-    "href": "projects/2023-02-17-gca/index.html",
-    "title": "Giant Cell Arteritis Detection",
-    "section": "",
-    "text": "Project Poster\n\n\n\n\n\nDownload PDF file.\n\n\nProject Description\nIn this project, I created an automated system to detect and diagnose Giant Cell Arteritis (GCA) from digital pathology slides using a deep residual convolutional network (ResNet) model for ROI-level classification, which produced a 91.65% whole-slide inference score. I collaborated with the core research team of clinical professionals to determine the inclusion and exclusion criteria for the design studies and randomized datasets, rigorously moved dates to protect patient privacy, and employed a common naming strategy across multiple health databases. Finally, I used GradCAM representations to visualize the model’s findings for medical specialists to validate. This system is the first published automated detector for Giant Cell Arteritis, and we plan to patent this technology soon."
-  },
-  {
-    "objectID": "projects/2021-06-30-flight-delay-prediction/index.html",
-    "href": "projects/2021-06-30-flight-delay-prediction/index.html",
-    "title": "Two Stage Flight Delay Prediction",
-    "section": "",
-    "text": "Flight Delay Prediction\n\nI designed a two-stage predictive machine learning engine to forecast the on-time performance of flights at 15 different USA airports using 2016-2017 data. This project involved data cleaning, pre-processing, and merging flight and weather data. To address flight delays, the engine first classifies whether a flight will be delayed and then predicts the arrival delay in minutes for delayed flights. Due to class imbalance favoring on-time flights, SMOTE sampling was used before classification. The Random Forest classifier achieved the best performance with an F1 score of 0.78 and a Recall of 0.74 for delayed flights. For regression, the Random Forest regressor yielded an MAE of 7.178 minutes, an RMSE of 11.283 minutes, and an R-squared score of 0.977.\nDownload PDF file."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nivedhitha Dhanasekaran",
-    "section": "",
-    "text": "Hey there!"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Nivedhitha Dhanasekaran",
-    "section": "Education",
-    "text": "Education\nCarnegie Mellon University | Pittsburgh, PA  Master of Computational Data Science | Aug 2023 - May 2025\nSri Sivasubramaniya Nadar College of Engineering | Chennai, India  B.E. Computer Science & Engineering | Aug 2018 - Jul 2022"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Nivedhitha Dhanasekaran",
-    "section": "Experience",
-    "text": "Experience\nCiticorp Services India Private Limited | Software Engineer | Jul 2022 - Jun 2023\nFidelity Investments | Full Stack Engineer Intern | Jun 2021- Jun 2021"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.\nI completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nSubsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
-    "objectID": "projects/2021-05-01-orca/index.html",
-    "href": "projects/2021-05-01-orca/index.html",
-    "title": "ORCA: Underwater Robot",
-    "section": "",
-    "text": "Engineering ORCA\n\n\n\nProject Description\nAn underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.\nOur robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).\nORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom."
-  },
-  {
-    "objectID": "projects/2022-07-01-braillevoice/index.html",
-    "href": "projects/2022-07-01-braillevoice/index.html",
-    "title": "Braille Voice",
-    "section": "",
-    "text": "Project Poster\n\n\n\n\n\nDownload PDF file.\n\n\nProject Description\nA novel multi-stage pipeline (Mobile & Web app) for Braille-to-Text translation of whole single-sided printed braille documents with support for text-to-speech audio playback & text summarization in two languages: English & Tamil."
-  },
-  {
-    "objectID": "projects/2023-12-31-music-magician-spotify-dashboard/index.html",
-    "href": "projects/2023-12-31-music-magician-spotify-dashboard/index.html",
-    "title": "Music Magician",
-    "section": "",
-    "text": "Music Magicians: Spotify Music Artist Influence Analytics Dashboard\n\nI developed an interactive analytics dashboard using Streamlit, Vega-Altair, Plotly, NetworkX, and Python. The dashboard focuses on exploring the evolution of music and quantifying artists’ influence. It features informative visualizations and interactive elements to analyze music trends, artist characteristics, and the influence of past music on new compositions. This project successfully addressed the challenge by creating a user-friendly interface that facilitates in-depth exploration of the dataset, enabling storytelling and uncovering patterns and correlations in music."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Project Portfolio",
-    "section": "",
-    "text": "Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI\n\n\n\nHCI\n\n\nResponsible AI\n\n\nUI/UX\n\n\nResearch\n\n\n\nUser-centered Research and Evaluation for Responsible GenAI\n\n\n\nNivedhitha Dhanasekaran\n\n\nMay 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMusic Magician\n\n\n\nInteractive Intelligence\n\n\nData Visualization\n\n\nWeb Development\n\n\nUI/UX\n\n\nHCI\n\n\n\nSpotify Music Artist Influence Analytics Dashboard\n\n\n\nNivedhitha Dhanasekaran\n\n\nDec 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBraille Voice\n\n\n\nComputer Vision\n\n\nNLP\n\n\nWeb Development\n\n\nMobile Development\n\n\nDeep Learning\n\n\nHCI\n\n\nResearch\n\n\n\nA Language Agnostic Assistive Technology for Braille-to-Text Translation\n\n\n\nNivedhitha Dhanasekaran\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGiant Cell Arteritis Detection\n\n\n\nComputer Vision\n\n\nDeep Learning\n\n\nData Science\n\n\nImage Processing\n\n\nStatistical Analysis\n\n\nResearch\n\n\n\nMachine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens\n\n\n\nNivedhitha Dhanasekaran\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwo Stage Flight Delay Prediction\n\n\n\nMachine Learning\n\n\nData Visualization\n\n\nStatistical Analysis\n\n\n\nPredicting the On-time Performance of Flights in the USA\n\n\n\nNivedhitha Dhanasekaran\n\n\nJun 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nORCA: Underwater Robot\n\n\n\nResearch\n\n\nRobotics\n\n\nHCI\n\n\n\nAn Inspection Class Remotely Operated Underwater Vehicle\n\n\n\nNivedhitha Dhanasekaran\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
