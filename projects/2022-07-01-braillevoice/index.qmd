@@ -1,0 +1,25 @@
+---
+title: "Braille Voice"
+description: |
+  A Language Agnostic Assistive Technology for Braille-to-Text Translation
+date: 2022-07-15
+author: "Nivedhitha Dhanasekaran"
+categories: [Computer Vision, NLP, Web Development, Mobile Development, Deep Learning, HCI, Research]
+image: ./images/project-card-image.png
+draft: false
+---
+
+# Project Poster
+
+<!-- <br> -->
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
+<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
+<!-- </div> -->
+<!-- </br>\ -->
+
+{{< pdf ./documents/D10_Poster.pdf width=100% height=600 >}}
+
+
+# Project Description
+
+A novel multi-stage pipeline (Mobile & Web app) for Braille-to-Text translation of whole single-sided printed braille documents with support for text-to-speech audio playback & text summarization in two languages: English & Tamil.

@@ -276,7 +276,7 @@
   <category>Research</category>
   <guid>https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/index.html</guid>
   <pubDate>Fri, 03 May 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/project-card-image.png" medium="image" type="image/png" height="86" width="144"/>
+  <media:content url="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/project-card-image.png" medium="image" type="image/png" height="121" width="144"/>
 </item>
 <item>
   <title>Music Magician</title>
@@ -311,6 +311,79 @@
   <media:content url="https://nive927.github.io/projects/2023-12-31-music-magician-spotify-dashboard/images/project-card-image.png" medium="image" type="image/png" height="71" width="144"/>
 </item>
 <item>
+  <title>Braille Voice</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2022-07-01-braillevoice/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="project-poster" class="level1">
+<h1>Project Poster</h1>
+<!-- <br> -->
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
+<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
+<!-- </div> -->
+<!-- </br>\ -->
+<p><object data="./documents/D10_Poster.pdf" type="application/pdf" width="100%" height="600"><a href="./documents/D10_Poster.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>A novel multi-stage pipeline (Mobile &amp; Web app) for Braille-to-Text translation of whole single-sided printed braille documents with support for text-to-speech audio playback &amp; text summarization in two languages: English &amp; Tamil.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Computer Vision</category>
+  <category>NLP</category>
+  <category>Web Development</category>
+  <category>Mobile Development</category>
+  <category>Deep Learning</category>
+  <category>HCI</category>
+  <category>Research</category>
+  <guid>https://nive927.github.io/projects/2022-07-01-braillevoice/index.html</guid>
+  <pubDate>Fri, 15 Jul 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2022-07-01-braillevoice/images/project-card-image.png" medium="image" type="image/png" height="87" width="144"/>
+</item>
+<item>
+  <title>Giant Cell Arteritis Detection</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2023-02-17-gca/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="project-poster" class="level1">
+<h1>Project Poster</h1>
+<!-- <br> -->
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
+<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
+<!-- </div> -->
+<!-- </br>\ -->
+<p><object data="./documents/GCA-ARVO-Poster.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/GCA-ARVO-Poster.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>In this project, I created an automated system to detect and diagnose Giant Cell Arteritis (GCA) from digital pathology slides using a deep residual convolutional network (ResNet) model for ROI-level classification, which produced a 91.65% whole-slide inference score. I collaborated with the core research team of clinical professionals to determine the inclusion and exclusion criteria for the design studies and randomized datasets, rigorously moved dates to protect patient privacy, and employed a common naming strategy across multiple health databases. Finally, I used GradCAM representations to visualize the model’s findings for medical specialists to validate. This system is the first published automated detector for Giant Cell Arteritis, and we plan to patent this technology soon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Computer Vision</category>
+  <category>Deep Learning</category>
+  <category>Data Science</category>
+  <category>Image Processing</category>
+  <category>Statistical Analysis</category>
+  <category>Research</category>
+  <guid>https://nive927.github.io/projects/2023-02-17-gca/index.html</guid>
+  <pubDate>Fri, 15 Jul 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2023-02-17-gca/images/project-card-image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Two Stage Flight Delay Prediction</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</link>
@@ -335,6 +408,42 @@
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>ORCA: Underwater Robot</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2021-05-01-orca/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- [ shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [ source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
+<!-- <br> -->
+<!-- <div> -->
+<!-- </div> -->
+<section id="engineering-orca" class="level1">
+<h1>Engineering ORCA</h1>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OBnoacUi01A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>An underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.</p>
+<p>Our robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).</p>
+<p>ORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom.</p>
+<!-- TODO: Need to add these details -->
+<!-- https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0 -->
+
+
+</section>
+
+ ]]></description>
+  <category>Research</category>
+  <category>Robotics</category>
+  <category>HCI</category>
+  <guid>https://nive927.github.io/projects/2021-05-01-orca/index.html</guid>
+  <pubDate>Sat, 01 May 2021 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2021-05-01-orca/images/project-card-image.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,37 @@
+---
+title: "ORCA: Underwater Robot"
+description: |
+  An Inspection Class Remotely Operated Underwater Vehicle
+date: 2021-05-01
+author: "Nivedhitha Dhanasekaran"
+categories: [Research, Robotics, HCI]
+image: ./images/project-card-image.png
+draft: false
+---
+
+
+<!-- [{{< fa brands r-project >}} shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
+
+<!-- <br> -->
+
+<!-- <div> -->
+
+<!-- </div> -->
+
+# Engineering ORCA
+
+{{< video https://www.youtube.com/watch?v=OBnoacUi01A >}}
+
+# Project Description
+
+An underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.
+
+Our robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).
+
+ORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom.
+
+<!-- TODO: Need to add these details -->
+<!-- https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0 -->
+
+
+
