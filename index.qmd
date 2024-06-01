@@ -2,6 +2,8 @@
 title: "Nivedhitha Dhanasekaran"
 image: ./assets/headshot.jpg
 toc: false
+# format: html
+link-external-newwindow: true
 about: 
   template: trestles
   image-shape: round
