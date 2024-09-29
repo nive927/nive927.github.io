@@ -1,0 +1,66 @@
+---
+title: "Publications"
+page-layout: full
+---
+
+<style>
+  .citation {
+    display: none;
+  }
+  .show-citation {
+    display: block;
+  }
+</style>
+
+<script>
+  function toggleCitation(id) {
+    var citationDiv = document.getElementById("citation-" + id);
+    citationDiv.classList.toggle("show-citation");
+  }
+</script>
+
+\
+Check out my [{{< iconify fa6-brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en) for more details about my research & publications. \
+\
+
+**GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records** \
+_AI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024_ \
+Juho Jung, Minyoung Choe, Kushagra Agarwal, **Nivedhitha Dhanasekaran** \
+<a href="https://openreview.net/forum?id=hL6hTftu4n" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+<a href="https://github.com/nive927/GraphEHR" type="button" class="btn btn-outline-primary btn-sm">website</a>
+
+<!-- Add a bibtex button that opens a code block -->
+<!-- Modify and reuse the code below -->
+
+<!-- 
+<button onclick="toggleCitation('graphEHR')" class="btn btn-outline-primary btn-sm">bib</button>
+<div id="citation-script" class="citation">
+  ```bib
+  @inproceedings{veerendranath2023scriptones,
+    title={ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts},
+    author={Veerendranath, Vishruth and Masti, Vibha and Gupta, Utkarsh and Chaudhuri, Hrishit and Srinivasa, Gowri},
+    booktitle={Proceedings of the Third International Conference on AI-ML Systems},
+    pages={1--6},
+    year={2023}
+  }
+  ```
+</div>
+
+-->
+
+
+**Machine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens** \
+_The Association for Research in Vision and Ophthalmology Conference 2023 & Investigative Ophthalmology & Visual Science Journal_ \
+David Hinkle, Bradley Thuro, Karthik Desingu, **Nivedhitha Dhanasekaran**, Naveena Yanamala \
+<a href="https://iovs.arvojournals.org/article.aspx?articleid=2787145" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+<a href="https://drive.google.com/file/d/1lov_SfFLqqXTvfUXcuaP1nfpaCbhX1Rw/view" type="button" class="btn btn-outline-primary btn-sm">poster</a>
+
+<!-- Add a bibtex button that opens a code block -->
+
+**Localization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey** \
+_IEEE OCEANS 2022 Conference_ \
+**Nivedhitha Dhanasekaran**, Karthik Desingu, Sakthivel Murugan S  \
+<a href="https://ieeexplore.ieee.org/document/9775325" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+<a href="https://www.youtube.com/watch?v=OBnoacUi01A" type="button" class="btn btn-outline-primary btn-sm">video</a>
+
+<!-- Add a bibtex button that opens a code block -->

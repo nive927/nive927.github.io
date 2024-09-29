@@ -18,6 +18,8 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: publications.qmd
+        text: Publications
       - href: resume.qmd
         text: Resume
       - href: cv.qmd
