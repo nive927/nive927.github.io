@@ -19,15 +19,9 @@ page-layout: full
   }
 </script>
 
-\
-Check out my [{{< iconify fa6-brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en) for more details about my research & publications. \
-\
-
-**GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records** \
-_AI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024_ \
-Juho Jung, Minyoung Choe, Kushagra Agarwal, **Nivedhitha Dhanasekaran** \
-<a href="https://openreview.net/forum?id=hL6hTftu4n" type="button" class="btn btn-outline-primary btn-sm">paper</a>
-<a href="https://github.com/nive927/GraphEHR" type="button" class="btn btn-outline-primary btn-sm">website</a>
+<!-- \ -->
+<!-- Check out my [{{< iconify fa6-brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en) for more details about my research & publications. \ -->
+<!-- \ -->
 
 <!-- Add a bibtex button that opens a code block -->
 <!-- Modify and reuse the code below -->
@@ -48,6 +42,13 @@ Juho Jung, Minyoung Choe, Kushagra Agarwal, **Nivedhitha Dhanasekaran** \
 
 -->
 
+**GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records** \
+_AI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024_ \
+Juho Jung, Minyoung Choe, Kushagra Agarwal, **Nivedhitha Dhanasekaran** \
+<a href="https://openreview.net/forum?id=hL6hTftu4n" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+<a href="https://github.com/nive927/GraphEHR" type="button" class="btn btn-outline-primary btn-sm">website</a>
+
+<!-- Add a bibtex button that opens a code block -->
 
 **Machine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens** \
 _The Association for Research in Vision and Ophthalmology Conference 2023 & Investigative Ophthalmology & Visual Science Journal_ \
@@ -64,3 +65,16 @@ _IEEE OCEANS 2022 Conference_ \
 <a href="https://www.youtube.com/watch?v=OBnoacUi01A" type="button" class="btn btn-outline-primary btn-sm">video</a>
 
 <!-- Add a bibtex button that opens a code block -->
+
+**From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance** \
+_Under Review @ ACL_ \
+Jivitesh Jain, **Nivedhitha Dhanasekaran**, Mona Diab \
+
+<!-- Add a bibtex button that opens a code block -->
+
+**Automated Detection of Giant Cell Arteritis from Temporal Artery Biopsy Specimens using Deep Learning Approaches** \
+_Under Review @ NEJM_ \
+Karthik Desingu, Bradley Thuro, **Nivedhitha Dhanasekaran**, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala
+
+<!-- Add a bibtex button that opens a code block -->
+
