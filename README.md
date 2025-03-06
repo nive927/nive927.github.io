@@ -7,8 +7,8 @@
 - [ ] Update CV
 - [ ] Update projects
 - [ ] Add research
-- [ ] Add leadership
-- [ ] Add awards
+- [X] Add leadership
+- [X] Add awards
 - [ ] Add Education with Skills & subjects
 - [ ] Add philosophy, inside my brain
 - [ ] Update profile pic

@@ -43,5 +43,11 @@
   },
   "publications.qmd": {
     "publications.html": "2674b6e8"
+  },
+  "awards.qmd": {
+    "awards.html": "42f20d68"
+  },
+  "leadership.qmd": {
+    "leadership.html": "0fa8dd8e"
   }
 }

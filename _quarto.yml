@@ -20,6 +20,10 @@ website:
         text: Projects
       - href: publications.qmd
         text: Publications
+      - href: awards.qmd
+        text: Awards
+      - href: leadership.qmd
+        text: Leadership
       - href: resume.qmd
         text: Resume
       # Need to update

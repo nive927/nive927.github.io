@@ -1,0 +1,34 @@
+---
+title: "Honors & Awards"
+format: html
+---
+
+## 2022
+- **🏅 Smart India Hackathon Winner (Aug 2022)**  
+  - Prize: ₹1,00,000 *(Ministry of Earth Sciences, Gov. of India)*  
+  <!-- - 🔗 [Certificate](https://drive.google.com/file/d/1wpKRK_0ATT3DfTceOvn_jRiC6_Sbx-P2/view?usp=sharing) -->
+
+- **🚀 Internally Funded Student Project - IFSP (May 2022)**  
+  - Grant: ₹30,000 *(SSN College of Engineering)*  
+  - Founder & Lead of the Intelligent Navigation Software Systems Sub-team  
+  - Developed the underwater robots ORCA & KYOGRE under Dr. S. Sakthivel Murugan with the [UWARL Lab](https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0).
+
+## 2021
+- **🛰️ Winner of `AIRSA' Hackathon (Nov 2021)**  
+  - Proposed a novel deep learning model for **Satellite Image Segmentation**  
+  - [GitHub Repo](https://github.com/nive927/Dubai-Satellite-Imagery-Multiclass-Segmentation)
+
+- **🎓 Selected for Online Asian Machine Learning School & ACML (Oct 2021)**  
+  <!-- - 🔗 [Exclusive invite-only participation](http://www.acml-conf.org/2021/school/) -->
+
+- **🎬 IEEE R10 Undergraduate Student Project Video Contest Winner (Aug 2021)**  
+  - Asia-Pacific Region Champion *(7 countries, 50+ councils)*  
+  - Prize: 300 USD  
+  - [Watch Video](https://www.youtube.com/watch?v=OBnoacUi01A)
+
+- **👩‍💻 vGHC2021 Scholarship Awardee (Jul 2021)**  
+  - Selected among 1,200 scholars worldwide
+
+- **💡 Runner-Up at Techstars Startup Weekend Chennai (Feb 2021)**  
+  - Ranked 4th among 90 idea pitches  
+  <!-- - [Presentation](https://docs.google.com/presentation/d/1A9W0wxxDi7i-1MJD-nshF1dTjavT3ahP95N9Mn5pu_Y/edit?usp=sharing) -->

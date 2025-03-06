@@ -1,0 +1,37 @@
+---
+title: "Volunteering, Leadership & Teaching"
+format: html
+---
+
+## 2022
+- **🎓 Teaching Assistant (May 2022 - Sep 2022)**  
+  - Taught a C Programming certificate course for undergraduates at SSNCE under the guidance of [Dr. T. T. Mirnalinee](https://www.ssn.edu.in/staff-members/dr-t-t-mirnalinee/) and [Dr. B. Prabavathy](https://www.ssn.edu.in/staff-members/dr-b-prabavathy/).  
+  - Developed a curated lesson plan with offline & online classes, weekly assignments, code demos, and a capstone project for issuing merit certificates.  
+  - [GitHub Repo](https://github.com/nive927/Short-term-Hands-on-Supplementary-Course-on-C-Programming)
+
+- **📰 Chief Editor, Smriti Newsletter (Apr - Jun 2022)**  
+  - Proofread, edited, and wrote articles to meet publication standards.  
+  - Oversaw photography, design, and artwork selection for the publication.  
+  - Assisted staff in meeting deadlines and raised the profile of the publication.  
+  - [Publication](https://www.ssn.edu.in/wp-content/uploads/2022/09/Smriti-May-2022.pdf)
+
+## 2021
+- **🎤 Secretary, Assoc. of Computer Engineers Student Chapter (Aug 2021 - Jun 2022)**  
+  - Secured ₹2.3 lakhs in [sponsorship](https://invente.vercel.app/sponsors).
+  - Led execution of 8 CSE department [events](https://invente.vercel.app/department/CSE/0) and planned a new flagship [hackathon](https://invente.vercel.app/hackathons) at Invente 6.0 with 2000+ participants.  
+  - Managed sponsorship, marketing, editorial, brochure & poster design.  
+  - [Certificate](https://drive.google.com/file/d/1nL8-tyQO9M5bNA6o7kc4w1LFGQhbq1jx/view?usp=sharing)
+
+- **📢 Secretary, ACM Student Chapter (Jul 2020 - Apr 2022)**  
+  - Coordinated chapter operations, handled correspondence, and led the Content & Editorial Team along with the PR, Marketing & Social Media Team for 9+ events.  
+  - [Events](https://ssn.acm.org/events.html)
+
+- **🏅 Global Ambassador, WomenTech Network (May 2021 - Aug 2021)**  
+  - Inspired 100,000 women in technology and helped drive change with purpose and impact.  
+  - Received an exclusive invite to the annual conference to learn about diversity & inclusion, leadership, and networking.  
+  <!-- - [Certificate](https://drive.google.com/file/d/1Epo5bbk0bLrSPyYqxLxIhqmaajpfF6nD/view?usp=sharing) -->
+
+## 2020
+- **🤝 Student Volunteer, National Service Scheme (Dec 2018 - Jul 2020)**  
+  - Completed 85+ hours of community service, including campus cleanups, content writing, workshops, organic gardening & fireless cooking.  
+  - Managed paperwork for three webinars.
