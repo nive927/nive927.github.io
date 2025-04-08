@@ -10,7 +10,42 @@
 <atom:link href="https://nive927.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Nive&#39;s Portfolio Website.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Fri, 03 May 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Mar 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Arduino Gesture-based Game Controller Joystick Design</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="project-report" class="level1">
+<h1>Project Report</h1>
+<!-- <br> -->
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
+<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
+<!-- </div> -->
+<!-- </br>\ -->
+<p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>This project explores mid-air UI manipulation using two IMU-equipped Arduino boards for gesture-based control. Various prototypes were evaluated, including two-handed, single-hand, and wand-based designs. The final prototype was re- fined through model enhancements, stability thresholds, confidence filtering, and UI optimizations. User testing measured task completion time, error rates, and prediction stability, demonstrating improved efficiency and usability. The final system achieved robust gesture recognition, highlighting its potential for intuitive human-computer interaction.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Signal Processing</category>
+  <category>Deep Learning</category>
+  <category>Interaction Design</category>
+  <category>Statistical Analysis</category>
+  <category>User-Research</category>
+  <guid>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</guid>
+  <pubDate>Tue, 18 Mar 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/images/project-card-image.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
 <item>
   <title>Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>

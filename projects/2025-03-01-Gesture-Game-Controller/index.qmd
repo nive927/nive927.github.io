@@ -1,0 +1,26 @@
+---
+title: "Arduino Gesture-based Game Controller Joystick Design"
+description: |
+  A two-hand arduino-based gaming joystick trained using neural networks for gesture-based control.
+date: 2025-03-18
+author: "Nivedhitha Dhanasekaran"
+categories: [Signal Processing, Deep Learning, Interaction Design, Statistical Analysis, User-Research]
+image: ./images/project-card-image.png
+draft: false
+---
+
+# Project Report
+
+<!-- <br> -->
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
+<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
+<!-- </div> -->
+<!-- </br>\ -->
+
+{{< pdf ./documents/ndhanase_P2_Gesture_Recognition.pdf width=100% height=850 >}}
+
+
+# Project Description
+
+This project explores mid-air UI manipulation using two IMU-equipped Arduino boards for gesture-based control. Various prototypes were evaluated, including two-handed, single-hand, and wand-based designs. The final prototype was re-
+fined through model enhancements, stability thresholds, confidence filtering, and UI optimizations. User testing measured task completion time, error rates, and prediction stability, demonstrating improved efficiency and usability. The final system achieved robust gesture recognition, highlighting its potential for intuitive human-computer interaction.
