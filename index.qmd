@@ -33,17 +33,17 @@ about:
 
 ### Hi, I'm Nive! <img alt="Hand Wave Gif" src="./assets/hand-wave.gif" width='38'/>
 
-I'm a Software Engineer with a [Master’s in Computational Data Science](https://mcds.cs.cmu.edu/learn-us) from <span style="color:red">Carnegie Mellon University</span>. I specialize in building scalable ML systems at the intersection of **real-time data infrastructure**, **intelligent agents**, and **high-performance backend platforms**.
+I'm a Software Engineer with a [Master’s in Computational Data Science](https://mcds.cs.cmu.edu/learn-us) from <span style="color:red">Carnegie Mellon University</span>. I specialize in building scalable ML systems at the intersection of **Real-time Data Infrastructure**, **Intelligent Agents**, and **High-performance Computing Backend Platforms**.
 
 My experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I've contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like `Kafka`, `Kubernetes`, `PyTorch`, `TensorFlow Lite`, `PostgreSQL`, `AWS`, and `GCP`.
 
-At <span style="color:#1a3c89">Citi</span> and <span style="color:#006400">Fidelity</span>, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I'm currently seeking roles in **software engineering**, **ML platforms**, or **data infrastructure**, where I can build reliable and efficient systems at scale. <a href="https://nive927.github.io/resume.html" style="background-color:#6a0dad; color:white; padding:4px 10px; border-radius:6px; text-decoration:none; font-size:0.85em;">Latest Resume</a>!
+At <span style="color:#1a3c89">Citi</span> and <span style="color:#006400">Fidelity</span>, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I'm currently seeking roles in **Software Engineering**, **ML Platforms**, or **Data Infrastructure**, where I can build reliable and efficient systems at scale. <a href="https://nive927.github.io/resume.html" style="background-color:#6a0dad; color:white; padding:4px 10px; border-radius:6px; text-decoration:none; font-size:0.85em;">Latest Resume</a>
 
 :::
 
 ### 🚀 Actively Seeking Roles
 - **Target Roles:** `Software Engineering`, `Machine Learning Engineering`, `Data Engineering`, `Data Science`, `Applied Science`
-- **Core Focus Areas:** `Real-Time ETL & Observability`, `Distributed ML Systems`, `High-Performance Computing`, `Backend Infrastructure`, `LLM Agents & Tooling`, `On-Device AI`, `Cloud-Native Pipelines (AWS, GCP, Kubernetes)`
+- **Core Focus Areas:** `Real-Time ETL & Observability`, `Distributed ML Systems`, `High-Performance Computing`, `Backend Infrastructure`, `LLM Agents & Tooling`, `On-Device AI (Wearables)`, `Cloud-Native Pipelines (AWS, GCP, Kubernetes)`
 
 ### ✨ Highlights
 

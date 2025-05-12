@@ -116,7 +116,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.\nI completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.\nSubsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.\nIn my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I’m a textbook INTJ-A personality type."
+    "text": "Languages & Backend: Python, C++, Java, SQL, JavaScript, Scala, Bash, Unix\nML & Data: PyTorch, TensorFlow Lite, scikit-learn, Spark, Kafka, Databricks, MLFlow, LlamaIndex, DVC, Alibi\nCloud & Infra: AWS, GCP, Azure, Docker, Kubernetes, Terraform, Helm, Jenkins, CI/CD, PM2, Git, Airflow\nObservability & Monitoring: Prometheus, Grafana, Sentry, ElasticSearch, PostHog\nDatabases: PostgreSQL, MySQL, MongoDB, Firestore, OracleDB\nFAANG-Focused Keywords: LLM agents · Real-time ETL · Personalization systems · Low-latency APIs · Cloud-native microservices · Streaming + batch infra · Experimentation platforms · Distributed systems · Cost-optimized pipelines · Feature flags"
   },
   {
     "objectID": "awards.html",
@@ -144,7 +144,7 @@
     "href": "index.html",
     "title": "Nivedhitha Dhanasekaran",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     ndhanase@alumni.cmu.edu\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \n\nHi, I’m Nive! \nI’m a Software Engineer with a Master’s in Computational Data Science from Carnegie Mellon University. I specialize in building scalable ML systems at the intersection of real-time data infrastructure, intelligent agents, and high-performance backend platforms.\nMy experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I’ve contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like Kafka, Kubernetes, PyTorch, TensorFlow Lite, PostgreSQL, AWS, and GCP.\nAt Citi and Fidelity, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I’m currently seeking roles in software engineering, ML platforms, or data infrastructure, where I can build reliable and efficient systems at scale. Latest Resume!\n\n\n\n\n\n🚀 Actively Seeking Roles\n\nTarget Roles: Software Engineering, Machine Learning Engineering, Data Engineering, Data Science, Applied Science\nCore Focus Areas: Real-Time ETL & Observability, Distributed ML Systems, High-Performance Computing, Backend Infrastructure, LLM Agents & Tooling, On-Device AI, Cloud-Native Pipelines (AWS, GCP, Kubernetes)\n\n\n\n✨ Highlights\n\nMay 2025: Graduated from the School of Computer Science, Carnegie Mellon University, completing my Master’s in Computational Data Science with dual concentrations in Analytics and Human-AI Interaction.\n\nApril 2025: Winner of the AI Agents Weekend 2025 hackathon sponsored by Google & DeepMind for the Most Effective Project.\n\nMarch 2025: Filed Indian Patent for BrailleVoice (UG Capstone Project), an accessible voice-assisted Braille reader for the visually impaired."
+    "text": "LinkedIn\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     ndhanase@alumni.cmu.edu\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \n\nHi, I’m Nive! \nI’m a Software Engineer with a Master’s in Computational Data Science from Carnegie Mellon University. I specialize in building scalable ML systems at the intersection of Real-time Data Infrastructure, Intelligent Agents, and High-performance Computing Backend Platforms.\nMy experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I’ve contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like Kafka, Kubernetes, PyTorch, TensorFlow Lite, PostgreSQL, AWS, and GCP.\nAt Citi and Fidelity, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I’m currently seeking roles in Software Engineering, ML Platforms, or Data Infrastructure, where I can build reliable and efficient systems at scale. Latest Resume\n\n\n\n\n\n🚀 Actively Seeking Roles\n\nTarget Roles: Software Engineering, Machine Learning Engineering, Data Engineering, Data Science, Applied Science\nCore Focus Areas: Real-Time ETL & Observability, Distributed ML Systems, High-Performance Computing, Backend Infrastructure, LLM Agents & Tooling, On-Device AI (Wearables), Cloud-Native Pipelines (AWS, GCP, Kubernetes)\n\n\n\n✨ Highlights\n\nMay 2025: Graduated from the School of Computer Science, Carnegie Mellon University, completing my Master’s in Computational Data Science with dual concentrations in Analytics and Human-AI Interaction.\n\nApril 2025: Winner of the AI Agents Weekend 2025 hackathon sponsored by Google & DeepMind for the Most Effective Project.\n\nMarch 2025: Filed Indian Patent for BrailleVoice (UG Capstone Project), an accessible voice-assisted Braille reader for the visually impaired."
   },
   {
     "objectID": "projects/2021-05-01-orca/index.html",
@@ -180,5 +180,89 @@
     "title": "Publications",
     "section": "",
     "text": "GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records\nAI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024\nJuho Jung, Minyoung Choe, Kushagra Agarwal, Nivedhitha Dhanasekaran\npaper website\n\nMachine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens\nThe Association for Research in Vision and Ophthalmology Conference 2023 & Investigative Ophthalmology & Visual Science Journal\nDavid Hinkle, Bradley Thuro, Karthik Desingu, Nivedhitha Dhanasekaran, Naveena Yanamala\npaper poster\n\nLocalization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey\nIEEE OCEANS 2022 Conference\nNivedhitha Dhanasekaran, Karthik Desingu, Sakthivel Murugan S\npaper video\n\nFrom Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance\nUnder Review @ ACL\nJivitesh Jain, Nivedhitha Dhanasekaran, Mona Diab\n\n\nAutomated Detection of Giant Cell Arteritis from Temporal Artery Biopsy Specimens using Deep Learning Approaches\nUnder Review @ NEJM\nKarthik Desingu, Bradley Thuro, Nivedhitha Dhanasekaran, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nCarnegie Mellon University — MCDS, School of Computer Science\nAug 2023 – May 2025 | GPA: 3.89\n\nConcentrations: Analytics (ML Systems), Human-AI Interaction\n\nCapstone: Sensemaking Co-Pilot (Advisors: Dr. Aniket Kittur, Dr. Sherry Wu)\n\nTA: Interactive Data Science (Fall 2024, Spring 2025)\n\nSSN College of Engineering, Anna University — B.E. Computer Science\nAug 2018 – Jul 2022 | GPA: 3.95\n\nCapstone: BrailleVoice — Patent filed (Advisor: Dr. Sakthivel Murugan)\n\nAwards: Smart India Hackathon Winner, Semester Silver Medalist\n\nLeadership: Newsletter Chief Editor, ACM Chapter Secretary, TA for C Programming"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "🧰 Skills",
+    "text": "🧰 Skills\n\nLanguages & Backend: Python, C++, Java, SQL, JavaScript, Scala, Bash, Unix\nML & Data: PyTorch, TensorFlow Lite, scikit-learn, Spark, Kafka, Databricks, MLFlow, LlamaIndex, DVC, Alibi\nCloud & Infra: AWS, GCP, Azure, Docker, Kubernetes, Terraform, Helm, Jenkins, CI/CD, PM2, Git\nMonitoring & Observability: Prometheus, Grafana, ElasticSearch\nDatabases: PostgreSQL, MySQL, MongoDB, Firestore, OracleDB"
+  },
+  {
+    "objectID": "about.html#research-technical-interests",
+    "href": "about.html#research-technical-interests",
+    "title": "About",
+    "section": "🔬 Research & Technical Interests",
+    "text": "🔬 Research & Technical Interests\n\nML Systems & Observability — Building scalable pipelines, model monitoring, and resource-efficient inference\n\nLLM Agents & NLP — Instruction-tuned prompting, legal NLP, contextualized reasoning with RAG\n\nEdge & On-Device AI — Real-time inference, wearable systems, TinyML for constrained devices\n\nBackend Infrastructure — High-throughput ETL, service orchestration, data reliability\n\nHuman-AI Interaction — Interpretable ML systems, UI/UX for data-driven decision-making"
+  },
+  {
+    "objectID": "about.html#notable-projects",
+    "href": "about.html#notable-projects",
+    "title": "About",
+    "section": "🛠 Notable Projects",
+    "text": "🛠 Notable Projects\nAutomated Regulatory Compliance (ARC) – CMU R3LIT + Norstella\nLLM-based legal pipeline for GDPR and HIPAA alignment with policy extraction, violation detection, and mitigation. Under review at ACL 2025.\nLLM Sensemaking Co-Pilot – Capstone\nBuilt an LLM-powered web app for learning path generation and expert-level knowledge synthesis with A/B-tested usability improvements.\nCloud-Deployed Twitter Recommender System\n&lt;50ms latency, &lt;$0.7/hr cost pipeline on 1TB data using Java, MySQL, PySpark, Docker, Kubernetes, Azure, and AWS.\nGesture-Based Gaming Controller\n99% accuracy TinyML-based real-time classifier deployed on Arduino for dual-hand gesture input in gaming.\nBrailleVoice (Patent Filed)\nMobile + Web service for Braille-to-Text translation with real-time OCR, cloud-based speech synthesis, and multilingual support."
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "About",
+    "section": "📄 Publications",
+    "text": "📄 Publications\n\nFrom Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance — ACL 2025 (under review)\n\nGraphEHR: Heterogeneous GNN for Electronic Health Records — IJCAI 2024\n\nTemporal Artery Histopathology Analysis for GCA — ARVO 2023\n\nUnderwater Robot Navigation & Localization Survey — IEEE OCEANS 2022"
+  },
+  {
+    "objectID": "about.html#experience-selected",
+    "href": "about.html#experience-selected",
+    "title": "About",
+    "section": "💼 Experience (Selected)",
+    "text": "💼 Experience (Selected)\nMachine Learning Research Intern — CMU R3LIT Lab + Norstella\nMay 2024 – Present\n- Designed ARC system with LLMs for regulation parsing and policy violation detection\n- Collaborated on a submission to ACL 2025 with real-world deployment plans in insurance domain\nSoftware Engineer — Citi (Singapore/Hong Kong Markets)\nJul 2022 – Jun 2023\n- Improved REST API response times and backend UX for Angular-based tools\n- Built and deployed full-stack investment portfolio optimizer with Flask, MySQL, CAPM models\n- Automated CI/CD and observability using Jenkins, AWS, and PM2\nFull Stack Intern — Fidelity Investments\nJun 2021 – Jul 2021\n- Automated electronic compliance processing with custom ETL and Angular interface\n- Migrated legacy data pipelines to secure cloud stack and improved SQL retrieval times\nData Science Intern — CMU S3D (Remote)\nJan – Jul 2022\n- Published deep learning system for diagnosing GCA from histopathology slides (91.65% accuracy)\n- Created CDC-funded toxicity profiling pipeline for carbon nanotube validation"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "📫 Contact",
+    "text": "📫 Contact\n\n📧 Email: ndhanase@alumni.cmu.edu\n\n🔗 Portfolio: nive927.github.io\n\n📄 Resume: View Here"
+  },
+  {
+    "objectID": "about.html#research-applied-ml-work",
+    "href": "about.html#research-applied-ml-work",
+    "title": "About",
+    "section": "🔬 Research & Applied ML Work",
+    "text": "🔬 Research & Applied ML Work\n\nLLMs & Compliance: ARC system for regulation parsing, violation detection\n\nUnder review at ACL 2025, deployed for insurance policy audit use cases\n\n\nHealthcare AI: GraphEHR (IJCAI 2024), GCA diagnosis (ARVO 2023), CNT profiling (NIH/CDC)\n\nOn-device ML: Arduino-based real-time gesture controller using TinyML\n\nLLM UX Co-pilots: RAG + prompt-tuned learning assistant with A/B testing\n\nLLM Agents: Gmail-based promo extraction agent, Spotify influence explorer\n\nPatent: BrailleVoice — accessible OCR+TTS pipeline for Braille users"
+  },
+  {
+    "objectID": "about.html#personal-interests",
+    "href": "about.html#personal-interests",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "💡 Personal Interests",
+    "text": "💡 Personal Interests\nOutside of work, I enjoy rapid prototyping under constraints—whether it’s during hackathons (see Awards) or solo weekend builds.\nI’m a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, KYOGRE and ORCA, for inspection-class autonomous marine vehicles.\nWhether it’s through competitive projects, emerging tech, or deep system dives, I’m driven by curiosity, craft, and the satisfaction of building things that work well at scale."
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "🧠 How I Work",
+    "text": "🧠 How I Work\nI’m an engineer who thrives at the intersection of Machine Learning Systems, High-performance Data & Computing Infrastructure, and Product-Focused Thinking. As an INTJ-A, I approach problems with a systems mindset-breaking down complexity into clear abstractions and scalable workflows.\nI operate with urgency and intention. I’m most engaged when iterating quickly, building reliable solutions that scale quietly behind the scenes, and turning ambiguous problems into actionable plans. Whether it’s an LLM agent, a real-time ETL pipeline, or an edge-deployed model, I enjoy driving ideas from prototype to production."
+  },
+  {
+    "objectID": "about.html#operating-principles",
+    "href": "about.html#operating-principles",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "🛠 Operating Principles",
+    "text": "🛠 Operating Principles\n\nOwn the Full Stack: From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.\nBuild for Scale and Clarity: I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.\nBias for Iteration: I move fast, deliver early, and treat experimentation as a core part of engineering—not a separate step.\nKeep the End-User in Mind: Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.\nLearn Fast, Dive Deep: I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.\nDocument and Share: I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can."
+  },
+  {
+    "objectID": "about.html#technical-focus-areas",
+    "href": "about.html#technical-focus-areas",
+    "title": "Nivedhitha Dhanasekaran",
+    "section": "🔬 Technical Focus Areas",
+    "text": "🔬 Technical Focus Areas\n\n🧠ML Systems: ML Pipelines · Model Serving · Edge Inference · TinyML · MLOps · Observability\n🤖LLM & Agents: RAG · Prompt Engineering · LangChain · LlamaIndex · Multi-step Agents · Semantic Search\n🔧Backend & Infra: Microservices · API Design · gRPC · Kubernetes · Docker · CI/CD · Terraform\n⚡Streaming & Real-Time Data: Kafka · Airflow · Spark Streaming · ETL · Databricks · Low-Latency Systems\n🧩Human-AI Interaction: Copilots · Explainability · UX for ML · Interpretable Interfaces"
   }
 ]

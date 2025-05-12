@@ -1,17 +1,31 @@
 ---
-title: "About"
+# title: "About"
+page-layout: full
 ---
 
 <div>
   <img alt="Banner GIF" src="./assets/banner.gif" style="text-align: justify" width=100%/>
 </div>
 
-<div style="text-align: justify">
-I'm Nivedhitha Dhanasekaran. I am a Master of Computational Data Science Student at Language Technologies Institute, School of Computer Science, Carnegie Mellon University.
+## 🧠 How I Work
 
-I completed my undergraduate studies at Sri Sivasubramaniya Nadar College of Engineering with a B.E. in Computer Science and Engineering from 2018-2022 in Chennai, India. While progressing through my undergraduate curriculum, I had the opportunity to work on projects in Full Stack Engineering, Data Science, and Deep Learning. In these projects, I participated in all the stages of the software development lifecycle, focusing on scalability, reliability, and user experience. I also have limited research experience in Computer Vision, Computational Biomedicine, and Robotics.
+I'm an engineer who thrives at the intersection of **Machine Learning Systems**, **High-performance Data & Computing Infrastructure**, and **Product-Focused Thinking**. As an INTJ-A, I approach problems with a systems mindset-breaking down complexity into clear abstractions and scalable workflows.
 
-Subsequently, I was a Technical Analyst at Citi, collaborating with the engineering and product teams to comprehend customer needs, implement technology solutions, and deliver exciting projects.
+I operate with urgency and intention. I’m most engaged when iterating quickly, building reliable solutions that scale quietly behind the scenes, and turning ambiguous problems into actionable plans. Whether it’s an LLM agent, a real-time ETL pipeline, or an edge-deployed model, I enjoy driving ideas from prototype to production.
 
-In my spare time, I enjoy exploring strategies, books, habits & tools that help me live a happier, healthier, and more productive life. A fun fact about me is that I'm a textbook INTJ-A personality type.
-</div>
+## 🛠 Operating Principles
+
+- **Own the Full Stack:** From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.
+- **Build for Scale and Clarity:** I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.
+- **Bias for Iteration:** I move fast, deliver early, and treat experimentation as a core part of engineering—not a separate step.
+- **Keep the End-User in Mind:** Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.
+- **Learn Fast, Dive Deep:** I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.
+- **Document and Share:** I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can.
+
+## 💡 Personal Interests
+
+Outside of work, I enjoy rapid prototyping under constraints—whether it’s during hackathons (see [Awards](https://nive927.github.io/awards.html)) or solo weekend builds.
+
+I'm a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, **KYOGRE** and **ORCA**, for inspection-class autonomous marine vehicles.
+
+Whether it’s through competitive projects, emerging tech, or deep system dives, I’m driven by curiosity, craft, and the satisfaction of building things that work well at scale.
