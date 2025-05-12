@@ -4,13 +4,13 @@
 
 ## TODO
 
-- [ ] Update CV
 - [ ] Update projects
 - [ ] Add research
+- [ ] Add blogs to publications
 - [X] Add leadership
 - [X] Add awards
 - [ ] Add Education with Skills & subjects
-- [ ] Add philosophy, inside my brain
-- [ ] Update profile pic
 - [ ] Update about
-- [ ] Update Home
+- [ ] Update Home: Add philosophy, inside my brain
+- [ ] Update CV
+- [ ] Update profile pic

@@ -1,15 +1,16 @@
 ---
+format:
+  html:
+    toc: false
+listing: false
 title: "Nivedhitha Dhanasekaran"
-image: ./assets/headshot.jpg
-toc: false
-# format: html
-link-external-newwindow: true
-about: 
+page-layout: full
+image: ./assets/nyc-profile.jpg
+about:
+  id: nivedhitha-header
   template: trestles
+  image-width: 16em
   image-shape: round
-  image-width: 22 em
-  # https://github.com/mcanouil/quarto-iconify - installed library
-  # https://icon-sets.iconify.design/fa6-brands/ - search icons here
   links:
     - icon: linkedin
       text: LinkedIn
@@ -21,39 +22,31 @@ about:
       text: GitHub
       href: https://github.com/nive927
     - icon: envelope-fill
-      text: Email
-      href: mailto:ndhanase@andrew.cmu.edu
-    - text: "{{< iconify fa6-brands google-scholar >}} Scholar"
-      href: "https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en"
+      text: ndhanase@alumni.cmu.edu
+      href: mailto:ndhanase@alumni.cmu.edu
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en
 ---
 
-<h1 align="left">Hey there! <img alt="Hand Wave Gif" src="./assets/hand-wave.gif" width='40'/></h1>
+::: {#nivedhitha-header}
 
-<div style="text-align: justify"> 
+### Hi, I'm Nive! <img alt="Hand Wave Gif" src="./assets/hand-wave.gif" width='38'/>
 
-  I am <strong>Nivedhitha Dhanasekaran</strong>. 
-  
-  I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University.
-  
+I'm a Software Engineer with a [Master’s in Computational Data Science](https://mcds.cs.cmu.edu/learn-us) from <span style="color:red">Carnegie Mellon University</span>. I specialize in building scalable ML systems at the intersection of **real-time data infrastructure**, **intelligent agents**, and **high-performance backend platforms**.
 
-</div>
+My experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I've contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like `Kafka`, `Kubernetes`, `PyTorch`, `TensorFlow Lite`, `PostgreSQL`, `AWS`, and `GCP`.
 
-:::{#hero-heading}
-
-## Education
-
-Carnegie Mellon University | Pittsburgh, PA
-<br>
-<strong>Master of Computational Data Science</strong> | Aug 2023 - May 2025
-
-Sri Sivasubramaniya Nadar College of Engineering |  Chennai, India
-<br>
-<strong>B.E. Computer Science & Engineering</strong> | Aug 2018 - Jul 2022
-
-## Experience
-
-Citicorp Services India Private Limited | <strong>Software Engineer</strong> | Jul 2022 - Jun 2023
-
-Fidelity Investments | <strong>Full Stack Engineer Intern</strong> | Jun 2021- Jun 2021
+At <span style="color:#1a3c89">Citi</span> and <span style="color:#006400">Fidelity</span>, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I'm currently seeking roles in **software engineering**, **ML platforms**, or **data infrastructure**, where I can build reliable and efficient systems at scale. <a href="https://nive927.github.io/resume.html" style="background-color:#6a0dad; color:white; padding:4px 10px; border-radius:6px; text-decoration:none; font-size:0.85em;">Latest Resume</a>!
 
 :::
+
+### 🚀 Actively Seeking Roles
+- **Target Roles:** `Software Engineering`, `Machine Learning Engineering`, `Data Engineering`, `Data Science`, `Applied Science`
+- **Core Focus Areas:** `Real-Time ETL & Observability`, `Distributed ML Systems`, `High-Performance Computing`, `Backend Infrastructure`, `LLM Agents & Tooling`, `On-Device AI`, `Cloud-Native Pipelines (AWS, GCP, Kubernetes)`
+
+### ✨ Highlights
+
+- **May 2025**: Graduated from the School of Computer Science, Carnegie Mellon University, completing my <span style="color:#6a0dad">Master's in Computational Data Science</span> with dual concentrations in <span style="color:#6a0dad">Analytics</span> and <span style="color:#6a0dad">Human-AI Interaction</span>.  
+- **April 2025**: Winner of the <span style="color:#6a0dad">AI Agents Weekend 2025</span> hackathon sponsored by <span style="color:blue">Google</span> & <span style="color:blue">DeepMind</span> for the <span style="color:#6a0dad">Most Effective Project</span>.  
+- **March 2025**: Filed Indian <span style="color:#6a0dad">Patent for BrailleVoice (UG Capstone Project)</span>, an accessible voice-assisted Braille reader for the visually impaired.  
