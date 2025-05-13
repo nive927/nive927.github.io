@@ -7,24 +7,24 @@ page-layout: full
   <img alt="Banner GIF" src="./assets/banner.gif" style="text-align: justify" width=100%/>
 </div>
 
-## 🧠 How I Work
+### 🧠 How I Work
 
 I'm an engineer who thrives at the intersection of **Machine Learning Systems**, **High-performance Data & Computing Infrastructure**, and **Product-Focused Thinking**. As an INTJ-A, I approach problems with a systems mindset-breaking down complexity into clear abstractions and scalable workflows.
 
 I operate with urgency and intention. I’m most engaged when iterating quickly, building reliable solutions that scale quietly behind the scenes, and turning ambiguous problems into actionable plans. Whether it’s an LLM agent, a real-time ETL pipeline, or an edge-deployed model, I enjoy driving ideas from prototype to production.
 
-## 🛠 Operating Principles
+### 🛠 Operating Principles
 
 - **Own the Full Stack:** From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.
 - **Build for Scale and Clarity:** I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.
-- **Bias for Iteration:** I move fast, deliver early, and treat experimentation as a core part of engineering—not a separate step.
+- **Bias for Iteration:** I move fast, deliver early, and treat experimentation as a core part of engineering, not a separate step.
 - **Keep the End-User in Mind:** Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.
 - **Learn Fast, Dive Deep:** I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.
 - **Document and Share:** I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can.
 
-## 💡 Personal Interests
+### 💡 Personal Interests
 
-Outside of work, I enjoy rapid prototyping under constraints—whether it’s during hackathons (see [Awards](https://nive927.github.io/awards.html)) or solo weekend builds.
+Outside of work, I enjoy rapid prototyping under constraints, whether it’s during hackathons (see [Awards](https://nive927.github.io/awards.html)) or solo weekend builds.
 
 I'm a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, **KYOGRE** and **ORCA**, for inspection-class autonomous marine vehicles.
 

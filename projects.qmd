@@ -1,6 +1,5 @@
 ---
 title: "Project Portfolio"
-subtitle: "Some the notable projects I've worked on so far..."
 listing:
   contents: projects
   feed: true

@@ -81,28 +81,28 @@
     "href": "leadership.html",
     "title": "Volunteering, Leadership & Teaching",
     "section": "",
-    "text": "🎓 Teaching Assistant (May 2022 - Sep 2022)\n\nTaught a C Programming certificate course for undergraduates at SSNCE under the guidance of Dr. T. T. Mirnalinee and Dr. B. Prabavathy.\n\nDeveloped a curated lesson plan with offline & online classes, weekly assignments, code demos, and a capstone project for issuing merit certificates.\n\nGitHub Repo\n\n📰 Chief Editor, Smriti Newsletter (Apr - Jun 2022)\n\nProofread, edited, and wrote articles to meet publication standards.\n\nOversaw photography, design, and artwork selection for the publication.\n\nAssisted staff in meeting deadlines and raised the profile of the publication.\n\nPublication"
+    "text": "Jan–Dec 2024 CMU HCII\nGraduate Teaching Assistant, 05-839 Interactive Data Science\nLed a team of TAs for a 100+ student graduate course on data science, visualization, and app development.\n➤ Supervised assignments, tutorials, and capstones across Spring and Fall semesters.\n➤ Mentored projects on interactive tools using Python, SQL, Streamlit, Vega-Altair, and JS.\n➤ Integrated interpretability, A/B testing, and fairness tools through HCI research with DIG.\n➤ Managed infrastructure on GitHub Classroom and Canvas to streamline CI/CD workflows.\nSupervisor: Dr. John Stamper\nApr 2024–Apr 2025 CMU LTI\nFLAME Seminar Committee Member\nCoordinated seminar logistics for the Foundation and Language Model (FLAME) series.\n➤ Managed backend operations including procurement, vendor communication, and faculty correspondence for faculty-hosted NLP seminars.\n➤ Ensured timely refreshments and room setup to support 50+ attendees and guest speakers."
   },
   {
     "objectID": "leadership.html#section",
     "href": "leadership.html#section",
     "title": "Volunteering, Leadership & Teaching",
     "section": "",
-    "text": "🎓 Teaching Assistant (May 2022 - Sep 2022)\n\nTaught a C Programming certificate course for undergraduates at SSNCE under the guidance of Dr. T. T. Mirnalinee and Dr. B. Prabavathy.\n\nDeveloped a curated lesson plan with offline & online classes, weekly assignments, code demos, and a capstone project for issuing merit certificates.\n\nGitHub Repo\n\n📰 Chief Editor, Smriti Newsletter (Apr - Jun 2022)\n\nProofread, edited, and wrote articles to meet publication standards.\n\nOversaw photography, design, and artwork selection for the publication.\n\nAssisted staff in meeting deadlines and raised the profile of the publication.\n\nPublication"
+    "text": "Jan–Dec 2024 CMU HCII\nGraduate Teaching Assistant, 05-839 Interactive Data Science\nLed a team of TAs for a 100+ student graduate course on data science, visualization, and app development.\n➤ Supervised assignments, tutorials, and capstones across Spring and Fall semesters.\n➤ Mentored projects on interactive tools using Python, SQL, Streamlit, Vega-Altair, and JS.\n➤ Integrated interpretability, A/B testing, and fairness tools through HCI research with DIG.\n➤ Managed infrastructure on GitHub Classroom and Canvas to streamline CI/CD workflows.\nSupervisor: Dr. John Stamper\nApr 2024–Apr 2025 CMU LTI\nFLAME Seminar Committee Member\nCoordinated seminar logistics for the Foundation and Language Model (FLAME) series.\n➤ Managed backend operations including procurement, vendor communication, and faculty correspondence for faculty-hosted NLP seminars.\n➤ Ensured timely refreshments and room setup to support 50+ attendees and guest speakers."
   },
   {
     "objectID": "leadership.html#section-1",
     "href": "leadership.html#section-1",
     "title": "Volunteering, Leadership & Teaching",
-    "section": "2021",
-    "text": "2021\n\n🎤 Secretary, Assoc. of Computer Engineers Student Chapter (Aug 2021 - Jun 2022)\n\nSecured ₹2.3 lakhs in sponsorship.\nLed execution of 8 CSE department events and planned a new flagship hackathon at Invente 6.0 with 2000+ participants.\n\nManaged sponsorship, marketing, editorial, brochure & poster design.\n\nCertificate\n\n📢 Secretary, ACM Student Chapter (Jul 2020 - Apr 2022)\n\nCoordinated chapter operations, handled correspondence, and led the Content & Editorial Team along with the PR, Marketing & Social Media Team for 9+ events.\n\nEvents\n\n🏅 Global Ambassador, WomenTech Network (May 2021 - Aug 2021)\n\nInspired 100,000 women in technology and helped drive change with purpose and impact.\n\nReceived an exclusive invite to the annual conference to learn about diversity & inclusion, leadership, and networking."
+    "section": "2023",
+    "text": "2023\n\nSep 2023 CMU SCS\nVolunteer, Pretty Good Race 2023\nSupported logistics for CMU’s community fun run hosted by the School of Computer Science.\n➤ Assisted in event setup, coordination, and finish-line result tracking, including timing runners and recording placements for over 120 participants."
   },
   {
     "objectID": "leadership.html#section-2",
     "href": "leadership.html#section-2",
     "title": "Volunteering, Leadership & Teaching",
-    "section": "2020",
-    "text": "2020\n\n🤝 Student Volunteer, National Service Scheme (Dec 2018 - Jul 2020)\n\nCompleted 85+ hours of community service, including campus cleanups, content writing, workshops, organic gardening & fireless cooking.\n\nManaged paperwork for three webinars."
+    "section": "2022",
+    "text": "2022\n\nMay–Sep 2022 SSNCE\nTeaching Assistant, C Programming Course\nDelivered a structured certificate course with weekly classes, assignments, and projects.\n➤ Created code walkthroughs and a project-based evaluation system for merit certification.\n GitHub Repo\nApr–Jun 2022 SSNCE\nChief Editor, Smriti Newsletter\nOversaw writing, editing, and design for institutional print & digital distribution.\n➤ Managed deadlines, proofing, and creative production workflows.\n Publication"
   },
   {
     "objectID": "cv.html",
@@ -114,37 +114,37 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Nivedhitha Dhanasekaran",
     "section": "",
-    "text": "Languages & Backend: Python, C++, Java, SQL, JavaScript, Scala, Bash, Unix\nML & Data: PyTorch, TensorFlow Lite, scikit-learn, Spark, Kafka, Databricks, MLFlow, LlamaIndex, DVC, Alibi\nCloud & Infra: AWS, GCP, Azure, Docker, Kubernetes, Terraform, Helm, Jenkins, CI/CD, PM2, Git, Airflow\nObservability & Monitoring: Prometheus, Grafana, Sentry, ElasticSearch, PostHog\nDatabases: PostgreSQL, MySQL, MongoDB, Firestore, OracleDB\nFAANG-Focused Keywords: LLM agents · Real-time ETL · Personalization systems · Low-latency APIs · Cloud-native microservices · Streaming + batch infra · Experimentation platforms · Distributed systems · Cost-optimized pipelines · Feature flags"
+    "text": "🧠 How I Work\nI’m an engineer who thrives at the intersection of Machine Learning Systems, High-performance Data & Computing Infrastructure, and Product-Focused Thinking. As an INTJ-A, I approach problems with a systems mindset-breaking down complexity into clear abstractions and scalable workflows.\nI operate with urgency and intention. I’m most engaged when iterating quickly, building reliable solutions that scale quietly behind the scenes, and turning ambiguous problems into actionable plans. Whether it’s an LLM agent, a real-time ETL pipeline, or an edge-deployed model, I enjoy driving ideas from prototype to production.\n\n\n🛠 Operating Principles\n\nOwn the Full Stack: From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.\nBuild for Scale and Clarity: I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.\nBias for Iteration: I move fast, deliver early, and treat experimentation as a core part of engineering, not a separate step.\nKeep the End-User in Mind: Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.\nLearn Fast, Dive Deep: I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.\nDocument and Share: I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can.\n\n\n\n💡 Personal Interests\nOutside of work, I enjoy rapid prototyping under constraints, whether it’s during hackathons (see Awards) or solo weekend builds.\nI’m a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, KYOGRE and ORCA, for inspection-class autonomous marine vehicles.\nWhether it’s through competitive projects, emerging tech, or deep system dives, I’m driven by curiosity, craft, and the satisfaction of building things that work well at scale."
   },
   {
     "objectID": "awards.html",
     "href": "awards.html",
     "title": "Honors & Awards",
     "section": "",
-    "text": "🏅 Smart India Hackathon Winner (Aug 2022)\n\nPrize: ₹1,00,000 (Ministry of Earth Sciences, Gov. of India)\n\n\n🚀 Internally Funded Student Project - IFSP (May 2022)\n\nGrant: ₹30,000 (SSN College of Engineering)\n\nFounder & Lead of the Intelligent Navigation Software Systems Sub-team\n\nDeveloped the underwater robots ORCA & KYOGRE under Dr. S. Sakthivel Murugan with the UWARL Lab."
+    "text": "AI Agents Hackathon: Most Effective Project Winner\nApr 2025 Google & DeepMind\nBuilt an LLM-based multi-agent system for contextual information synthesis and reasoning at Carnegie Mellon University."
   },
   {
     "objectID": "awards.html#section",
     "href": "awards.html#section",
     "title": "Honors & Awards",
     "section": "",
-    "text": "🏅 Smart India Hackathon Winner (Aug 2022)\n\nPrize: ₹1,00,000 (Ministry of Earth Sciences, Gov. of India)\n\n\n🚀 Internally Funded Student Project - IFSP (May 2022)\n\nGrant: ₹30,000 (SSN College of Engineering)\n\nFounder & Lead of the Intelligent Navigation Software Systems Sub-team\n\nDeveloped the underwater robots ORCA & KYOGRE under Dr. S. Sakthivel Murugan with the UWARL Lab."
+    "text": "AI Agents Hackathon: Most Effective Project Winner\nApr 2025 Google & DeepMind\nBuilt an LLM-based multi-agent system for contextual information synthesis and reasoning at Carnegie Mellon University."
   },
   {
     "objectID": "awards.html#section-1",
     "href": "awards.html#section-1",
     "title": "Honors & Awards",
-    "section": "2021",
-    "text": "2021\n\n🛰️ Winner of `AIRSA’ Hackathon (Nov 2021)\n\nProposed a novel deep learning model for Satellite Image Segmentation\n\nGitHub Repo\n\n🎓 Selected for Online Asian Machine Learning School & ACML (Oct 2021)\n\n🎬 IEEE R10 Undergraduate Student Project Video Contest Winner (Aug 2021)\n\nAsia-Pacific Region Champion (7 countries, 50+ councils)\n\nPrize: 300 USD\n\nWatch Video\n\n👩‍💻 vGHC2021 Scholarship Awardee (Jul 2021)\n\nSelected among 1,200 scholars worldwide\n\n💡 Runner-Up at Techstars Startup Weekend Chennai (Feb 2021)\n\nRanked 4th among 90 idea pitches"
+    "section": "2022",
+    "text": "2022\n\nSmart India Hackathon: Winner\nAug 2022 Ministry of Earth Sciences ₹1,00,000\nDeveloped a marine species threat detection system using real-time underwater vision.\nInternally Funded Student Project (IFSP)\nMay 2022 SSN College of Engineering ₹30,000\nLed the navigation software team to build ORCA and KYOGRE underwater robots under Dr. S. Sakthivel Murugan\n UWARL Lab"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nivedhitha Dhanasekaran",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     ndhanase@alumni.cmu.edu\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \n\nHi, I’m Nive! \nI’m a Software Engineer with a Master’s in Computational Data Science from Carnegie Mellon University. I specialize in building scalable ML systems at the intersection of Real-time Data Infrastructure, Intelligent Agents, and High-performance Computing Backend Platforms.\nMy experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I’ve contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like Kafka, Kubernetes, PyTorch, TensorFlow Lite, PostgreSQL, AWS, and GCP.\nAt Citi and Fidelity, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I’m currently seeking roles in Software Engineering, ML Platforms, or Data Infrastructure, where I can build reliable and efficient systems at scale. Latest Resume\n\n\n\n\n\n🚀 Actively Seeking Roles\n\nTarget Roles: Software Engineering, Machine Learning Engineering, Data Engineering, Data Science, Applied Science\nCore Focus Areas: Real-Time ETL & Observability, Distributed ML Systems, High-Performance Computing, Backend Infrastructure, LLM Agents & Tooling, On-Device AI (Wearables), Cloud-Native Pipelines (AWS, GCP, Kubernetes)\n\n\n\n✨ Highlights\n\nMay 2025: Graduated from the School of Computer Science, Carnegie Mellon University, completing my Master’s in Computational Data Science with dual concentrations in Analytics and Human-AI Interaction.\n\nApril 2025: Winner of the AI Agents Weekend 2025 hackathon sponsored by Google & DeepMind for the Most Effective Project.\n\nMarch 2025: Filed Indian Patent for BrailleVoice (UG Capstone Project), an accessible voice-assisted Braille reader for the visually impaired."
+    "text": "LinkedIn\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     ndhanase@alumni.cmu.edu\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \n\nHi, I’m Nive! \nI’m a Software Engineer with a Master’s in Computational Data Science from Carnegie Mellon University. I specialize in building scalable ML systems at the intersection of Real-time Data Infrastructure, Intelligent Agents, and High-performance Computing Backend Platforms.\nMy experience spans end-to-end ML workflows, edge inference optimization, and LLM-based agents with structured reasoning. I’ve contributed to distributed systems, observability pipelines, and database-driven ETL platforms using technologies like Kafka, Kubernetes, PyTorch, TensorFlow Lite, PostgreSQL, AWS, and GCP.\nAt Citi and Fidelity, I modernized infrastructure, boosted backend throughput, and automated secure, large-scale ETL pipelines powering critical analytics. I’m currently seeking roles in Software Engineering, ML Platforms, or Data Infrastructure, where I can build reliable and efficient systems at scale. Latest Resume\n\n\n\n\n\n🚀 Actively Seeking Roles\n\nTarget Roles: Software Engineer,Machine Learning Engineer,Data Engineer,Data Scientist,Applied Scientist\nCore Focus Areas: Real-Time ETL & Observability, Distributed ML Systems, High-Performance Computing, Backend Infrastructure, LLM Agents & Tooling, On-Device AI (Wearables), Cloud-Native Pipelines (AWS, GCP, Kubernetes)\n\n\n\n✨ Highlights\n\nMay 2025: Graduated from the School of Computer Science, Carnegie Mellon University, completing my Master’s in Computational Data Science with dual concentrations in Analytics and Human-AI Interaction.\n\nApril 2025: Winner of the AI Agents Weekend 2025 hackathon sponsored by Google & DeepMind for the Most Effective Project.\n\nMarch 2025: Filed Indian Patent for BrailleVoice (UG Capstone Project), an accessible voice-assisted Braille reader for the visually impaired."
   },
   {
     "objectID": "projects/2021-05-01-orca/index.html",
@@ -179,7 +179,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records\nAI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024\nJuho Jung, Minyoung Choe, Kushagra Agarwal, Nivedhitha Dhanasekaran\npaper website\n\nMachine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens\nThe Association for Research in Vision and Ophthalmology Conference 2023 & Investigative Ophthalmology & Visual Science Journal\nDavid Hinkle, Bradley Thuro, Karthik Desingu, Nivedhitha Dhanasekaran, Naveena Yanamala\npaper poster\n\nLocalization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey\nIEEE OCEANS 2022 Conference\nNivedhitha Dhanasekaran, Karthik Desingu, Sakthivel Murugan S\npaper video\n\nFrom Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance\nUnder Review @ ACL\nJivitesh Jain, Nivedhitha Dhanasekaran, Mona Diab\n\n\nAutomated Detection of Giant Cell Arteritis from Temporal Artery Biopsy Specimens using Deep Learning Approaches\nUnder Review @ NEJM\nKarthik Desingu, Bradley Thuro, Nivedhitha Dhanasekaran, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala"
+    "text": "📝 Blogs\n\nUsing Captum for Interpreting PyTorch Models in Production\nA technical guide on explainability and observability for ML pipelines in production.\n Medium\nThinkBot: Nudging Critical Thinking in Everyday AI Conversations\nExploring Socratic prompting and persuasive design in LLM-driven educational tools.\n Medium\n\n\n\n📖 Paper Publications\n\nGraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records\nAI4CI Workshop, IJCAI 2024\nJuho Jung, Minyoung Choe, Kushagra Agarwal, Nivedhitha Dhanasekaran\n Paper  Project Website\nMachine Learning Algorithm for Histopathologic Analysis of Temporal Artery Biopsies\nARVO 2023 & IOVS Journal\nDavid Hinkle, Bradley Thuro, Karthik Desingu, Nivedhitha Dhanasekaran, Naveena Yanamala\n Paper  Poster\nLocalization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey\nIEEE OCEANS 2022\nNivedhitha Dhanasekaran, Karthik Desingu, Sakthivel Murugan S\n Paper  Demo\nFrom Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance\nUnder Review @ ACL2025\nJivitesh Jain, Nivedhitha Dhanasekaran, Mona Diab\nAutomated Detection of Giant Cell Arteritis Using Deep Learning\nUnder Review @ NEJM\nKarthik Desingu, Bradley Thuro, Nivedhitha Dhanasekaran, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala"
   },
   {
     "objectID": "about.html#education",
@@ -242,7 +242,7 @@
     "href": "about.html#personal-interests",
     "title": "Nivedhitha Dhanasekaran",
     "section": "💡 Personal Interests",
-    "text": "💡 Personal Interests\nOutside of work, I enjoy rapid prototyping under constraints—whether it’s during hackathons (see Awards) or solo weekend builds.\nI’m a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, KYOGRE and ORCA, for inspection-class autonomous marine vehicles.\nWhether it’s through competitive projects, emerging tech, or deep system dives, I’m driven by curiosity, craft, and the satisfaction of building things that work well at scale."
+    "text": "💡 Personal Interests\nOutside of work, I enjoy rapid prototyping under constraints, whether it’s during hackathons (see Awards) or solo weekend builds.\nI’m a 108 WPM touch typist and a keyboard enthusiast who loves working close to the metal, especially when designing fast, usable command-line interfaces. In undergrad, I led a robotics team that developed two underwater navigation suites, KYOGRE and ORCA, for inspection-class autonomous marine vehicles.\nWhether it’s through competitive projects, emerging tech, or deep system dives, I’m driven by curiosity, craft, and the satisfaction of building things that work well at scale."
   },
   {
     "objectID": "about.html#how-i-work",
@@ -256,7 +256,7 @@
     "href": "about.html#operating-principles",
     "title": "Nivedhitha Dhanasekaran",
     "section": "🛠 Operating Principles",
-    "text": "🛠 Operating Principles\n\nOwn the Full Stack: From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.\nBuild for Scale and Clarity: I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.\nBias for Iteration: I move fast, deliver early, and treat experimentation as a core part of engineering—not a separate step.\nKeep the End-User in Mind: Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.\nLearn Fast, Dive Deep: I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.\nDocument and Share: I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can."
+    "text": "🛠 Operating Principles\n\nOwn the Full Stack: From backend services to ML deployment, I take responsibility for system performance, reliability, and user experience.\nBuild for Scale and Clarity: I reduce operational overhead by designing interfaces and pipelines that are modular, observable, and easy to extend.\nBias for Iteration: I move fast, deliver early, and treat experimentation as a core part of engineering, not a separate step.\nKeep the End-User in Mind: Whether I’m building an ML co-pilot or internal tooling, I optimize for clarity, trust, and usefulness.\nLearn Fast, Dive Deep: I ramp quickly into unfamiliar domains, ask good questions, and continuously sharpen my technical judgment.\nDocument and Share: I make my thinking visible early, unblock teammates through clear async communication, and open-source when I can."
   },
   {
     "objectID": "about.html#technical-focus-areas",
@@ -264,5 +264,47 @@
     "title": "Nivedhitha Dhanasekaran",
     "section": "🔬 Technical Focus Areas",
     "text": "🔬 Technical Focus Areas\n\n🧠ML Systems: ML Pipelines · Model Serving · Edge Inference · TinyML · MLOps · Observability\n🤖LLM & Agents: RAG · Prompt Engineering · LangChain · LlamaIndex · Multi-step Agents · Semantic Search\n🔧Backend & Infra: Microservices · API Design · gRPC · Kubernetes · Docker · CI/CD · Terraform\n⚡Streaming & Real-Time Data: Kafka · Airflow · Spark Streaming · ETL · Databricks · Low-Latency Systems\n🧩Human-AI Interaction: Copilots · Explainability · UX for ML · Interpretable Interfaces"
+  },
+  {
+    "objectID": "publications.html#paper-publications",
+    "href": "publications.html#paper-publications",
+    "title": "Publications",
+    "section": "📖 Paper Publications",
+    "text": "📖 Paper Publications\n\n\n\n\n\n\nGraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records\n\n\n\nAI4CI Workshop, IJCAI 2024\nJuho Jung, Minyoung Choe, Kushagra Agarwal, Nivedhitha Dhanasekaran\n Paper  Project Website\n\n\n\n\n\n\n\n\nMachine Learning Algorithm for Histopathologic Analysis of Temporal Artery Biopsies\n\n\n\nARVO 2023 & IOVS Journal\nDavid Hinkle, Bradley Thuro, Karthik Desingu, Nivedhitha Dhanasekaran, Naveena Yanamala\n Paper  Poster\n\n\n\n\n\n\n\n\nLocalization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey\n\n\n\nIEEE OCEANS 2022\nNivedhitha Dhanasekaran, Karthik Desingu, Sakthivel Murugan S\n Paper  Demo\n\n\n\n\n\n\n\n\nFrom Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance\n\n\n\nUnder Review @ ACL\nJivitesh Jain, Nivedhitha Dhanasekaran, Mona Diab\n\n\n\n\n\n\n\n\nAutomated Detection of Giant Cell Arteritis Using Deep Learning\n\n\n\nUnder Review @ NEJM\nKarthik Desingu, Bradley Thuro, Nivedhitha Dhanasekaran, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala"
+  },
+  {
+    "objectID": "publications.html#blogs",
+    "href": "publications.html#blogs",
+    "title": "Publications",
+    "section": "",
+    "text": "Using Captum for Interpreting PyTorch Models in Production\n\n\n\nA technical guide on explainability and observability for ML pipelines in production.\n Medium\n\n\n\n\n\n\n\n\nThinkBot: Nudging Critical Thinking in Everyday AI Conversations\n\n\n\nExploring Socratic prompting and persuasive design in LLM-driven educational tools.\n Medium"
+  },
+  {
+    "objectID": "awards.html#section-2",
+    "href": "awards.html#section-2",
+    "title": "Honors & Awards",
+    "section": "2021",
+    "text": "2021\n\nAIRSA Hackathon: Winner\nNov 2021\nProposed a deep learning model for satellite image segmentation.\n GitHub Repo\nAsian Machine Learning School + ACML: Selected Participant\nOct 2021\nInvited to join a high-impact ML education and research community across Asia-Pacific.\nIEEE R10 Student Project Video Contest: Asia-Pacific Champion\nAug 2021 $300\nWinner across 7 countries and 50+ student councils.\n Watch Video\nGrace Hopper Celebration (vGHC): Scholarship Awardee\nJul 2021\nSelected among 1,200 scholars globally for academic and community leadership.\nTechstars Startup Weekend Chennai: Runner-Up\nFeb 2021\nRanked 4th among 90+ idea pitches during a national startup sprint."
+  },
+  {
+    "objectID": "leadership.html#section-3",
+    "href": "leadership.html#section-3",
+    "title": "Volunteering, Leadership & Teaching",
+    "section": "2021",
+    "text": "2021\n\nAug 2021–Jun 2022 SSNCE\nSecretary, Assoc. of Computer Engineers (ACE)\nLed a team that organized 8+ events and launched a flagship hackathon at Invente 6.0.\n➤ Raised ₹2.3 lakhs in sponsorship, handled marketing, editorial, and design.\n Certificate\nJul 2020–Apr 2022 SSN ACM Chapter\nSecretary, ACM Student Chapter\nCoordinated chapter operations across 9+ events and led content, PR, and media teams.\n Events\nMay–Aug 2021 WomenTech Network\nGlobal Ambassador\nRepresented the global women-in-tech movement and promoted diversity and inclusion.\n➤ Participated in the annual leadership summit and community-driven campaigns."
+  },
+  {
+    "objectID": "leadership.html#section-4",
+    "href": "leadership.html#section-4",
+    "title": "Volunteering, Leadership & Teaching",
+    "section": "2020",
+    "text": "2020\n\nDec 2018–Jul 2020 National Service Scheme\nStudent Volunteer\nCompleted 85+ hours of service in sustainability, documentation, and outreach events.\n➤ Led initiatives on campus cleanups, gardening, and community workshops."
+  },
+  {
+    "objectID": "leadership.html#section-5",
+    "href": "leadership.html#section-5",
+    "title": "Volunteering, Leadership & Teaching",
+    "section": "2020",
+    "text": "2020\n\nDec 2018–Jul 2020 National Service Scheme\nStudent Volunteer\nCompleted 85+ hours of service in sustainability, documentation, and outreach events.\n➤ Led initiatives on campus cleanups, gardening, and community workshops."
   }
 ]

@@ -303,6 +303,27 @@ div.quarto-about-trestles .about-entity .about-link:nth-child(5) {
   }
 }
 
+/* Override green tip callout header to light purple */
+.callout-tip.callout > .callout-header {
+  background-color: #d8b4f8 !important;  /* light lavender purple */
+  color: #3b0764 !important;             /* dark plum text for contrast */
+  border-left-color: #c084fc !important; /* medium purple */
+}
+
+/* Force icon color to match text */
+.callout-tip.callout > .callout-header .callout-icon::before {
+  color: #3b0764 !important;
+}
+
+/* Optional: round corners and unify border styling */
+.callout-tip.callout {
+  border-left: 4px solid #c084fc !important;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+
+
 
 
 

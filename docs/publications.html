@@ -63,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.scss">
+<link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body class="nav-fixed">
@@ -117,11 +118,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#blogs" id="toc-blogs" class="nav-link active" data-scroll-target="#blogs">📝 Blogs</a></li>
+  <li><a href="#paper-publications" id="toc-paper-publications" class="nav-link" data-scroll-target="#paper-publications">📖 Paper Publications</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -140,66 +148,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<style>
-  .citation {
-    display: none;
-  }
-  .show-citation {
-    display: block;
-  }
-</style>
-<script>
-  function toggleCitation(id) {
-    var citationDiv = document.getElementById("citation-" + id);
-    citationDiv.classList.toggle("show-citation");
-  }
-</script>
-<!-- \ -->
-<!-- Check out my [ Google Scholar](https://scholar.google.com/citations?user=JLoXav8AAAAJ&hl=en) for more details about my research & publications. \ -->
-<!-- \ -->
-<!-- Add a bibtex button that opens a code block -->
-<!-- Modify and reuse the code below -->
-<!-- 
-<button onclick="toggleCitation('graphEHR')" class="btn btn-outline-primary btn-sm">bib</button>
-<div id="citation-script" class="citation">
-  ```bib
-  @inproceedings{veerendranath2023scriptones,
-    title={ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts},
-    author={Veerendranath, Vishruth and Masti, Vibha and Gupta, Utkarsh and Chaudhuri, Hrishit and Srinivasa, Gowri},
-    booktitle={Proceedings of the Third International Conference on AI-ML Systems},
-    pages={1--6},
-    year={2023}
-  }
-  ```
-</div>
-
--->
-<p><strong>GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records</strong><br>
-<em>AI for Critical Infrastructure Workshop @ the International Joint Conference on Arificial Intelligence 2024</em><br>
+<section id="blogs" class="level3">
+<h3 class="anchored" data-anchor-id="blogs">📝 Blogs</h3>
+<ul>
+<li><p><span style="background-color:#f3e8ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">Using Captum for Interpreting PyTorch Models in Production</span><br>
+A technical guide on explainability and observability for ML pipelines in production.<br>
+<a href="https://medium.com/@nivedhithadm/using-captum-for-interpreting-pytorch-models-in-production-ddf91fbbd3fd" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="simple-icons:medium" aria-label="Icon medium from simple-icons Iconify.design set." title="Icon medium from simple-icons Iconify.design set."></iconify-icon> Medium</a></p></li>
+<li><p><span style="background-color:#f3e8ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">ThinkBot: Nudging Critical Thinking in Everyday AI Conversations</span><br>
+Exploring Socratic prompting and persuasive design in LLM-driven educational tools.<br>
+<a href="https://medium.com/@vanessachang.ux/thinkbot-nudging-critical-thinking-in-everyday-ai-conversations-75d58aa5e724" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="simple-icons:medium" aria-label="Icon medium from simple-icons Iconify.design set." title="Icon medium from simple-icons Iconify.design set."></iconify-icon> Medium</a></p></li>
+</ul>
+</section>
+<section id="paper-publications" class="level3">
+<h3 class="anchored" data-anchor-id="paper-publications">📖 Paper Publications</h3>
+<ul>
+<li><p><span style="background-color:#d0e2ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">GraphEHR: Heterogeneous Graph Neural Network for Electronic Health Records</span><br>
+<em>AI4CI Workshop, IJCAI 2024</em><br>
 Juho Jung, Minyoung Choe, Kushagra Agarwal, <strong>Nivedhitha Dhanasekaran</strong><br>
-<a href="https://openreview.net/forum?id=hL6hTftu4n" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://github.com/nive927/GraphEHR" type="button" class="btn btn-outline-primary btn-sm">website</a></p>
-<!-- Add a bibtex button that opens a code block -->
-<p><strong>Machine Learning Algorithm to Analyze Histopathologic Sections of Temporal Artery Biopsy Specimens</strong><br>
-<em>The Association for Research in Vision and Ophthalmology Conference 2023 &amp; Investigative Ophthalmology &amp; Visual Science Journal</em><br>
+<a href="https://openreview.net/forum?id=hL6hTftu4n" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:file-document-outline" aria-label="Icon file-document-outline from mdi Iconify.design set." title="Icon file-document-outline from mdi Iconify.design set."></iconify-icon> Paper</a> <a href="https://github.com/nive927/GraphEHR" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Project Website</a></p></li>
+<li><p><span style="background-color:#d0e2ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">Machine Learning Algorithm for Histopathologic Analysis of Temporal Artery Biopsies</span><br>
+<em>ARVO 2023 &amp; IOVS Journal</em><br>
 David Hinkle, Bradley Thuro, Karthik Desingu, <strong>Nivedhitha Dhanasekaran</strong>, Naveena Yanamala<br>
-<a href="https://iovs.arvojournals.org/article.aspx?articleid=2787145" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://drive.google.com/file/d/1lov_SfFLqqXTvfUXcuaP1nfpaCbhX1Rw/view" type="button" class="btn btn-outline-primary btn-sm">poster</a></p>
-<!-- Add a bibtex button that opens a code block -->
-<p><strong>Localization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey</strong><br>
-<em>IEEE OCEANS 2022 Conference</em><br>
+<a href="https://iovs.arvojournals.org/article.aspx?articleid=2787145" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:file-document-outline" aria-label="Icon file-document-outline from mdi Iconify.design set." title="Icon file-document-outline from mdi Iconify.design set."></iconify-icon> Paper</a> <a href="https://drive.google.com/file/d/1lov_SfFLqqXTvfUXcuaP1nfpaCbhX1Rw/view" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:file-pdf-box" aria-label="Icon file-pdf-box from mdi Iconify.design set." title="Icon file-pdf-box from mdi Iconify.design set."></iconify-icon> Poster</a></p></li>
+<li><p><span style="background-color:#d0e2ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">Localization Systems for Autonomous Operation of Underwater Robotic Vehicles: A Survey</span><br>
+<em>IEEE OCEANS 2022</em><br>
 <strong>Nivedhitha Dhanasekaran</strong>, Karthik Desingu, Sakthivel Murugan S<br>
-<a href="https://ieeexplore.ieee.org/document/9775325" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://www.youtube.com/watch?v=OBnoacUi01A" type="button" class="btn btn-outline-primary btn-sm">video</a></p>
-<!-- Add a bibtex button that opens a code block -->
-<p><strong>From Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance</strong><br>
-<em>Under Review @ ACL</em><br>
-Jivitesh Jain, <strong>Nivedhitha Dhanasekaran</strong>, Mona Diab<br>
-</p>
-<!-- Add a bibtex button that opens a code block -->
-<p><strong>Automated Detection of Giant Cell Arteritis from Temporal Artery Biopsy Specimens using Deep Learning Approaches</strong><br>
+<a href="https://ieeexplore.ieee.org/document/9775325" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:file-document-outline" aria-label="Icon file-document-outline from mdi Iconify.design set." title="Icon file-document-outline from mdi Iconify.design set."></iconify-icon> Paper</a> <a href="https://www.youtube.com/watch?v=OBnoacUi01A" class="btn btn-primary btn-sm"><iconify-icon inline="" icon="mdi:youtube" aria-label="Icon youtube from mdi Iconify.design set." title="Icon youtube from mdi Iconify.design set."></iconify-icon> Demo</a></p></li>
+<li><p><span style="background-color:#d0e2ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">From Complexity to Clarity: AI/NLP’s Role in Regulatory Compliance</span><br>
+<em>Under Review @ ACL2025</em><br>
+Jivitesh Jain, <strong>Nivedhitha Dhanasekaran</strong>, Mona Diab</p></li>
+<li><p><span style="background-color:#d0e2ff; color:#000; padding:4px 8px; border-radius:6px; font-size:0.95em;">Automated Detection of Giant Cell Arteritis Using Deep Learning</span><br>
 <em>Under Review @ NEJM</em><br>
-Karthik Desingu, Bradley Thuro, <strong>Nivedhitha Dhanasekaran</strong>, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala</p>
-<!-- Add a bibtex button that opens a code block -->
+Karthik Desingu, Bradley Thuro, <strong>Nivedhitha Dhanasekaran</strong>, Abhijit Bhattaru, Rohit Muralidhar, David M. Hinkle, Naveena Yanamala</p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

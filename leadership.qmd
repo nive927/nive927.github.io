@@ -2,36 +2,67 @@
 title: "Volunteering, Leadership & Teaching"
 format: html
 ---
+<!-- ## 2025 -->
+
+## 2024
+
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Jan–Dec 2024</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">CMU HCII</span>  
+  **Graduate Teaching Assistant, 05-839 Interactive Data Science**  
+  Led a team of TAs for a 100+ student graduate course on data science, visualization, and app development.  
+  ➤ Supervised assignments, tutorials, and capstones across Spring and Fall semesters.  
+  ➤ Mentored projects on interactive tools using Python, SQL, Streamlit, Vega-Altair, and JS.  
+  ➤ Integrated interpretability, A/B testing, and fairness tools through HCI research with DIG.  
+  ➤ Managed infrastructure on GitHub Classroom and Canvas to streamline CI/CD workflows.  
+  *Supervisor: Dr. John Stamper*
+  
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Apr 2024–Apr 2025</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">CMU LTI</span>  
+  **FLAME Seminar Committee Member**  
+  Coordinated seminar logistics for the Foundation and Language Model (FLAME) series.  
+  ➤ Managed backend operations including procurement, vendor communication, and faculty correspondence for faculty-hosted NLP seminars.  
+  ➤ Ensured timely refreshments and room setup to support 50+ attendees and guest speakers.
+
+## 2023
+
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Sep 2023</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">CMU SCS</span>  
+  **Volunteer, Pretty Good Race 2023**  
+  Supported logistics for CMU’s community fun run hosted by the School of Computer Science.  
+  ➤ Assisted in event setup, coordination, and finish-line result tracking, including timing runners and recording placements for over 120 participants.
 
 ## 2022
-- **🎓 Teaching Assistant (May 2022 - Sep 2022)**  
-  - Taught a C Programming certificate course for undergraduates at SSNCE under the guidance of [Dr. T. T. Mirnalinee](https://www.ssn.edu.in/staff-members/dr-t-t-mirnalinee/) and [Dr. B. Prabavathy](https://www.ssn.edu.in/staff-members/dr-b-prabavathy/).  
-  - Developed a curated lesson plan with offline & online classes, weekly assignments, code demos, and a capstone project for issuing merit certificates.  
-  - [GitHub Repo](https://github.com/nive927/Short-term-Hands-on-Supplementary-Course-on-C-Programming)
 
-- **📰 Chief Editor, Smriti Newsletter (Apr - Jun 2022)**  
-  - Proofread, edited, and wrote articles to meet publication standards.  
-  - Oversaw photography, design, and artwork selection for the publication.  
-  - Assisted staff in meeting deadlines and raised the profile of the publication.  
-  - [Publication](https://www.ssn.edu.in/wp-content/uploads/2022/09/Smriti-May-2022.pdf)
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">May–Sep 2022</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">SSNCE</span>  
+  **Teaching Assistant, C Programming Course**  
+  Delivered a structured certificate course with weekly classes, assignments, and projects.  
+  ➤ Created code walkthroughs and a project-based evaluation system for merit certification.  
+  [{{< iconify mdi:github >}} GitHub Repo](https://github.com/nive927/Short-term-Hands-on-Supplementary-Course-on-C-Programming){.btn .btn-primary .btn-sm}
+
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Apr–Jun 2022</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">SSNCE</span>  
+  **Chief Editor, Smriti Newsletter**  
+  Oversaw writing, editing, and design for institutional print & digital distribution.  
+  ➤ Managed deadlines, proofing, and creative production workflows.  
+  [{{< iconify mdi:file-document-outline >}} Publication](https://www.ssn.edu.in/wp-content/uploads/2022/09/Smriti-May-2022.pdf){.btn .btn-primary .btn-sm}
 
 ## 2021
-- **🎤 Secretary, Assoc. of Computer Engineers Student Chapter (Aug 2021 - Jun 2022)**  
-  - Secured ₹2.3 lakhs in [sponsorship](https://invente.vercel.app/sponsors).
-  - Led execution of 8 CSE department [events](https://invente.vercel.app/department/CSE/0) and planned a new flagship [hackathon](https://invente.vercel.app/hackathons) at Invente 6.0 with 2000+ participants.  
-  - Managed sponsorship, marketing, editorial, brochure & poster design.  
-  - [Certificate](https://drive.google.com/file/d/1nL8-tyQO9M5bNA6o7kc4w1LFGQhbq1jx/view?usp=sharing)
 
-- **📢 Secretary, ACM Student Chapter (Jul 2020 - Apr 2022)**  
-  - Coordinated chapter operations, handled correspondence, and led the Content & Editorial Team along with the PR, Marketing & Social Media Team for 9+ events.  
-  - [Events](https://ssn.acm.org/events.html)
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Aug 2021–Jun 2022</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">SSNCE</span>  
+  **Secretary, Assoc. of Computer Engineers (ACE)**  
+  Led a team that organized 8+ events and launched a flagship hackathon at Invente 6.0.  
+  ➤ Raised ₹2.3 lakhs in sponsorship, handled marketing, editorial, and design.  
+  [{{< iconify mdi:certificate-outline >}} Certificate](https://drive.google.com/file/d/1nL8-tyQO9M5bNA6o7kc4w1LFGQhbq1jx/view?usp=sharing){.btn .btn-primary .btn-sm}
 
-- **🏅 Global Ambassador, WomenTech Network (May 2021 - Aug 2021)**  
-  - Inspired 100,000 women in technology and helped drive change with purpose and impact.  
-  - Received an exclusive invite to the annual conference to learn about diversity & inclusion, leadership, and networking.  
-  <!-- - [Certificate](https://drive.google.com/file/d/1Epo5bbk0bLrSPyYqxLxIhqmaajpfF6nD/view?usp=sharing) -->
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Jul 2020–Apr 2022</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">SSN ACM Chapter</span>  
+  **Secretary, ACM Student Chapter**  
+  Coordinated chapter operations across 9+ events and led content, PR, and media teams.  
+  [{{< iconify mdi:web >}} Events](https://ssn.acm.org/events.html){.btn .btn-primary .btn-sm}
+
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">May–Aug 2021</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">WomenTech Network</span>  
+  **Global Ambassador**  
+  Represented the global women-in-tech movement and promoted diversity and inclusion.  
+  ➤ Participated in the annual leadership summit and community-driven campaigns.
 
 ## 2020
-- **🤝 Student Volunteer, National Service Scheme (Dec 2018 - Jul 2020)**  
-  - Completed 85+ hours of community service, including campus cleanups, content writing, workshops, organic gardening & fireless cooking.  
-  - Managed paperwork for three webinars.
+
+- <span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Dec 2018–Jul 2020</span> <span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">National Service Scheme</span>  
+  **Student Volunteer**  
+  Completed 85+ hours of service in sustainability, documentation, and outreach events.  
+  ➤ Led initiatives on campus cleanups, gardening, and community workshops.
