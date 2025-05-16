@@ -1,69 +1,85 @@
 ---
 title: "Automated Detection of Giant Cell Arteritis from Temporal Artery Biopsy Specimens Using Deep Learning"
-description: "ResNet-based classification of histopathological slides for vascular inflammation diagnosis"
+author: Nivedhitha Dhanasekaran
 date: 2022-07-15
-author: "Nivedhitha Dhanasekaran"
-categories: [Computer Vision, Computational Biomedicine, Deep Learning, Large Scale Data Systems, Digital Pathology, Research]
-image: ./images/gca-cover.jpg
+description: "ResNet-based classification of histopathological slides for vascular inflammation diagnosis"
+categories: [Computational Biomedicine, Data Science, Deep Learning, Funding, GPU Training, Machine Learning Systems, Model Explainability, Publication, Research]
+image: ./images/project-card-image.png
 format:
   html:
     toc: true
-    toc-location: left
     number-sections: false
     css: styles/custom.css
 ---
 
-In collaboration with 
-<span style="background-color:#d0e2ff; padding:4px 8px; border-radius:6px;">Rutgers RWJMS</span>, 
-<span style="background-color:#ffe6cc; padding:4px 8px; border-radius:6px;">Tulane School of Medicine</span>, 
-<span style="background-color:#d6f5e3; padding:4px 8px; border-radius:6px;">West Virginia University</span>, and 
-<span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Carnegie Mellon University</span>,  
-we developed an end-to-end deep learning pipeline for detecting Giant Cell Arteritis (GCA) from digitized histopathological slides.
+# Project Overview
 
-GCA is a serious vascular condition that can cause irreversible vision loss if not diagnosed and treated early. Temporal artery biopsy (TAB) is the gold standard for diagnosis, but the manual review process is time-consuming and susceptible to under-sampling. Our solution enables rapid triage by identifying diagnostically relevant Regions of Interest (ROIs) from whole-slide scans using a ResNet-based model trained on thousands of manually labeled patches.
+This project was developed at the intersection of medical imaging and applied deep learning, in collaboration with pathologists from Rutgers and Tulane. The work focused on building an end-to-end diagnostic system that brings explainable, high-performance ML models into digital pathology pipelines for vascular autoimmune disorders like Giant Cell Arteritis (GCA).
 
-<span style="background-color:#f3e8ff; padding:4px 8px; border-radius:6px;">Project Timeline: July 2022</span>
+<img src="./images/project-card-image.png" style="width:100%;" />
 
-### Key Outcomes
+# Highlights
 
-- Achieved **92.32% accuracy** and **0.93 AUC** on a held-out test set, using a ResNet-34 model.
-- Validated ROI-level accuracy of **96.32%** on the internal validation set.
-- Enabled **real-time inference** with processing speeds under 170 ms per batch (16 ROIs).
-- Used GradCAM to visualize attention over pathologist-confirmed lymphocytic and macrophage regions.
-- Presented the work at **ARVO 2023**, and the full manuscript is **under review at NEJM**.
+✨ Built a fully automated ML pipeline achieving **92.32% ROI-level accuracy** and **0.93 AUC** for inflammation detection in digitized biopsy slides.  
+✨ Trained and deployed a **ResNet-34 classifier** optimized for low-latency inference (**168 ms/16 ROIs**) using clinical-grade image preprocessing.  
+✨ Published and presented results at **ARVO 2022**, with GradCAM visual validation accepted by board-certified ophthalmic pathologists.  
 
-### My Contributions
+✨ Funded by <span style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>NIH U54 GM104942</span> <span style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;">Tulane Endowed Chair</span> <span style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;">Louisiana Board of Regents</span>
 
-- Built a complete image processing and tile extraction pipeline using `OpenSlide`, `PIL`, and `NumPy`.
-- Managed a multi-institutional dataset of 3,500+ ROIs from 472 biopsy cases across 20 years.
-- Evaluated and benchmarked model architectures including `ResNet-18`, `34`, and `50`.
-- Integrated `GradCAM` for explainability and collaborated with clinical pathologists for validation.
-- Handled IRB-compliant metadata processing and standardized naming across hospital systems.
-- Collaborated across institutions to align data formats, ground truth labels, and evaluation criteria.
+# Description
 
-### Technologies Used
+This project automated the detection of Giant Cell Arteritis (GCA) from digitized temporal artery biopsy (TAB) slides, spanning every stage from raw data handling to clinical deployment readiness and publication. I collaborated directly with clinicians, developed the ML pipeline, validated it with expert feedback, and co-authored the peer-reviewed publication.
 
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">PyTorch</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">OpenSlide</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">GradCAM</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">PIL</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">NumPy</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">scikit-learn</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">Matplotlib</span>  
-<span style="background-color:#f0f0f0; padding:4px 10px; border-radius:6px;">Torchvision</span>
+{{< pdf ./documents/GCA-ARVO-Poster.pdf width=100% height=725 >}}
 
-### Visual Results
+<span style="color:#593196;"><b>1. Data Collection & Expert Labeling</b></span>  
+- Curated a dataset of **472 high-resolution TAB slides** spanning 20 years (2000–2019).  
+- Participated in quality control and slide review, excluding 192 suboptimal samples.  
+- Collaborated with ophthalmic pathologists to annotate slides with **binary GCA labels**, forming the ground truth.  
 
-<!-- 📌 Insert flow diagram here for model architecture and preprocessing steps -->
-<!-- ![](./images/gca-pipeline-flow.png) -->
+<span style="color:#593196;"><b>2. Image Preprocessing</b></span>  
+- Developed a CV pipeline to **automatically detect artery regions** from stain intensity.  
+- Extracted and padded **3,558 ROIs** to standardized **512×512 px** RGB tiles.  
+- Applied **color jittering and rotation (0°, 90°, 180°, 270°)** for augmentation and rotational invariance.  
 
-<!-- 📌 GradCAM overlay comparisons between positive and negative biopsy samples -->
-<!-- ![](./images/gca-gradcam.jpg) -->
+<span style="color:#593196;"><b>3. Model Development</b></span>  
+- Trained a **ResNet-34 model** fine-tuned on ImageNet for binary GCA classification.  
+- Designed a dual-level prediction strategy: **ROI-level and slide-level classification**.  
+- Balanced model complexity and latency to enable **fast inference (~168 ms for 16 ROIs)** on an Apple M1 GPU.  
 
-### Related Links
+<span style="color:#593196;"><b>4. Validation & Explainability</b></span>  
+- Integrated **GradCAM** to generate region-wise visual explanations for clinical review.  
+- Validated that heatmaps aligned with features like **lymphocytic infiltrates and giant cells**.  
+- Worked with pathologists to verify that model attention **matched diagnostic hotspots** in expert-labeled slides.  
 
-[View Poster PDF](https://drive.google.com/file/d/1lov_SfFLqqXTvfUXcuaP1nfpaCbhX1Rw/view){.btn .btn-primary .btn-sm}  
-[GitHub Repository](https://github.com/karthik-d/gca-detection-tab-slides){.btn .btn-outline-primary .btn-sm}  
-[NEJM Manuscript (Under Review)](){.btn .btn-outline-secondary .btn-sm disabled}
+<span style="color:#593196;"><b>5. Model Optimization</b></span>  
+- Benchmarked performance across **ResNet-18, 34, and 50**, selecting ResNet-34 for its **92.32% accuracy and 0.93 AUC** on the held-out 2019 test set.  
+- Tuned augmentation, data balancing, and inference pipeline for **clinical deployment feasibility**.  
+- Demonstrated robust performance across time-split validation, reinforcing generalizability.  
 
-This project is a step toward democratizing access to high-quality, AI-assisted diagnostic tools in pathology labs. By surfacing diagnostically relevant areas instantly, it allows human pathologists to focus their review, saving hours per case and reducing false negatives. The pipeline generalizes well across patients and time, making it a potential blueprint for applications in **Takayasu arteritis**, **sarcoidosis**, and other vascular pathologies with patchy presentation.
+<span style="color:#593196;"><b>6. Publication & Reporting</b></span>  
+- Co-authored and published results in [Investigative Ophthalmology & Visual Science (ARVO 2022)](https://iovs.arvojournals.org/article.aspx?articleid=2787145)  
+- Designed all pipeline diagrams, GradCAM visualizations, and tables for the final report and poster.  
+- Created the project poster for dissemination at conferences and institutional reviews.  
+
+# Tools & Frameworks
+
+| Research Focus                 | Stack / Tools Used                                                                 |
+|-------------------------------|-------------------------------------------------------------------------------------|
+| Deep Learning Pipelines       | `PyTorch`, `Torchvision`, `ImageNet`, `Transfer Learning`, `scikit-learn`         |
+| Medical Image Preprocessing   | `OpenSlide`, `PIL`, `OpenCV`, `skimage`, `IBM H&E Normalization`, `ROI Extraction`, `optparse` |
+| Explainability & Debugging    | `GradCAM`, `pytorch-grad-cam`, `Matplotlib`, `Seaborn`                            |
+| High-Performance Inference    | `Batch Processing`, `Multi-threading`, `GPU Training`, `WSI Multiprocessing`      |
+| Deployment Readiness          | `Pipeline Automation (CMD)`, `PDF Reporting`, `Clinical Evaluation Integration`   |
+
+# Artifacts & Links
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+
+  <a href="https://github.com/karthik-d/gca-detection-tab-slides" target="_blank" style="background-color:#24292f; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-github" style="margin-right:6px;"></i>GitHub Repository</a>
+
+  <a href="./documents/GCA-ARVO-Poster.pdf" target="_blank" style="background-color:#fc3939; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-pdf-fill" style="margin-right:6px;"></i>Download Poster (PDF)</a>
+
+  <a href="https://iovs.arvojournals.org/article.aspx?articleid=2787145" target="_blank" style="background-color:#593196; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-journal-text" style="margin-right:6px;"></i>Published Paper @IOVS (ARVO 2022)</a>
+
+</div>
