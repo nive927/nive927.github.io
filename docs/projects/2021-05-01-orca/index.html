@@ -8,7 +8,7 @@
 
 <meta name="author" content="Nivedhitha Dhanasekaran">
 <meta name="dcterms.date" content="2021-05-01">
-<meta name="description" content="An Inspection Class Remotely Operated Underwater Vehicle">
+<meta name="description" content="An Inspection Class Remotely Operated Underwater Vehicle for Autonomous and Manual Navigation">
 
 <title>Nivedhitha Dhanasekaran - ORCA: Underwater Robot</title>
 <style>
@@ -42,8 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.scss">
+<link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body class="nav-fixed">
@@ -120,17 +119,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">ORCA: Underwater Robot</h1>
                   <div>
         <div class="description">
-          <p>An Inspection Class Remotely Operated Underwater Vehicle</p>
+          An Inspection Class Remotely Operated Underwater Vehicle for Autonomous and Manual Navigation
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Research</div>
+                <div class="quarto-category">Computer Vision</div>
+                <div class="quarto-category">Deep Learning</div>
+                <div class="quarto-category">Human-Computer Interaction</div>
+                <div class="quarto-category">Machine Learning Systems</div>
+                <div class="quarto-category">On-Device AI</div>
                 <div class="quarto-category">Robotics</div>
-                <div class="quarto-category">HCI</div>
+                <div class="quarto-category">Signal Processing</div>
               </div>
                   </div>
   </div>
@@ -159,28 +162,160 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#related-links-artifacts" id="toc-related-links-artifacts" class="nav-link active" data-scroll-target="#related-links-artifacts">Related Links &amp; Artifacts</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#timeline-of-contributions" id="toc-timeline-of-contributions" class="nav-link" data-scroll-target="#timeline-of-contributions">Timeline of Contributions</a></li>
+  <li><a href="#awards-recognition" id="toc-awards-recognition" class="nav-link" data-scroll-target="#awards-recognition">Awards &amp; Recognition</a></li>
+  <li><a href="#tools-frameworks" id="toc-tools-frameworks" class="nav-link" data-scroll-target="#tools-frameworks">Tools &amp; Frameworks</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<!-- [ shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [ source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
-<!-- <br> -->
-<!-- <div> -->
-<!-- </div> -->
-<section id="engineering-orca" class="level1">
-<h1>Engineering ORCA</h1>
+<section id="related-links-artifacts" class="level1">
+<h1>Related Links &amp; Artifacts</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+<p><a href="https://www.youtube.com/watch?v=OBnoacUi01A" target="_blank" style="background-color:#ff0000; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-youtube" style="margin-right:6px;"></i>Watch Demo</a></p>
+<p><a href="https://ieeexplore.ieee.org/document/9775325" target="_blank" style="background-color:#593196; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-journal-text" style="margin-right:6px;"></i>IEEE Publication</a></p>
+<p><a href="https://sites.google.com/prod/view/uwarlssn/rd?authuser=0" target="_blank" style="background-color:#0077b5; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-globe" style="margin-right:6px;"></i>Lab Website</a></p>
+<p><a href="https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0" target="_blank" style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>Funded: ₹9.5 Lakh INR</a></p>
+<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jun 2019 – Jun 2022</span></p>
+</div>
+</section>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-autonomous navigation. <strong>ORCA</strong> features a 6-thruster mobility suite, real-time telemetry, and multi-sensor feedback including pressure, temperature, leak, and IMU modules. This system integrates a joystick-driven manual mode and an autonomous navigation module built on <strong>MOOS-IvP</strong> (C++ mission planning suite from MIT).</p>
+<blockquote class="blockquote">
+<p>✨ Led a 7-member team to build and test ORCA’s software stack with kill-switch safety, homing, and GAN-enhanced visibility.<br>
+✨ Achieved &gt;90% mission success across test runs with real-time diagnostics and fail-safe handling.<br>
+✨ Integrated autonomous control, camera feedback, and tethered communication using custom C++ modules.</p>
+</blockquote>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OBnoacUi01A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>An underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.</p>
-<p>Our robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).</p>
-<p>ORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom.</p>
-<!-- TODO: Need to add these details -->
-<!-- https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0 -->
+<section id="timeline-of-contributions" class="level1">
+<h1>Timeline of Contributions</h1>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>1. ORCA Robot: Joystick Operation</b></span>
+</summary>
+<ul>
+<li>Developed an autonomous + manual navigation stack on MOOS-IvP.<br>
+</li>
+<li>Built joystick control, kill switch, IMU fusion, and thrust mapping systems.<br>
+</li>
+<li>Bench + pool tested with full sensor telemetry and thrust validation.<br>
+</li>
+<li>Published at IEEE and won the <strong>Asia-Pacific Region IEEE R10 UGPVC</strong>.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span>
+</summary>
+<ul>
+<li>Internally funded with ₹30,000 (SSN IFSP).<br>
+</li>
+<li>Developed deep RL-based waypoint control for UWVs.<br>
+</li>
+<li>Integrated into ORCA system as a future planning module.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span>
+</summary>
+<ul>
+<li>Built a YOLOv3 + MobileNetV2 pipeline to detect marine species threats.<br>
+</li>
+<li>Arduino-based IMU fusion + tethered alert system for swimmer safety.<br>
+</li>
+<li>Developed for <strong>National Institute of Ocean Technology</strong>, winning <strong>Smart India Hackathon 2022 (Prelims)</strong>.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span>
+</summary>
+<ul>
+<li>Developed a two-step segmentation and merging approach using satellite imagery.<br>
+</li>
+<li>Identified non-residential built-up clusters in dense Indian cities (e.g., Mumbai, Delhi).<br>
+</li>
+<li>🏅 <strong>Won Smart India Hackathon 2022 – Software Edition</strong>, awarded ₹1,00,000 by Ministry of Earth Sciences.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>5. C-GAN for Enhanced Localization</b></span>
+</summary>
+<ul>
+<li>Designed a Conditional GAN to refine robot localization sequences.<br>
+</li>
+<li>Corrected drift and improved tracking precision for mission-critical tasks.<br>
+</li>
+<li>Contributed to robustness of multi-agent localization under low-visibility conditions.</li>
+</ul>
+</details>
+</section>
+<section id="awards-recognition" class="level1">
+<h1>Awards &amp; Recognition</h1>
+<ul>
+<li><p>🏆 <strong>IEEE R10 Undergraduate Project Video Contest Winner (Aug 2021)</strong><br>
+– Winner from 7 countries and 50+ councils<br>
+– Project video featured on IEEE YouTube channel<br>
+– $300 cash prize</p></li>
+<li><p>🏅 <strong>Smart India Hackathon 2022 – Software Edition</strong><br>
+– Winner for PSID: GR823 (SatVision Project)<br>
+– ₹1,00,000 grant awarded by the Ministry of Earth Sciences, Government of India</p></li>
+<li><p>💰 <strong>Internally Funded Student Project (SSN College of Engineering)</strong><br>
+– ₹30,000 grant for KYOGRE (autonomous navigation sub-system for ORCA)</p></li>
+</ul>
+</section>
+<section id="tools-frameworks" class="level1">
+<h1>Tools &amp; Frameworks</h1>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>System Layer</th>
+<th>Tools / Frameworks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Navigation &amp; Control</td>
+<td><code>C++</code>, <code>MOOS-IvP</code>, <code>Arduino</code>, <code>Joystick</code></td>
+</tr>
+<tr class="even">
+<td>Computer Vision</td>
+<td><code>YOLOv3</code>, <code>MobileNetV2</code>, <code>OpenCV</code>, <code>GAN</code>, <code>Real-time Video Analytics</code></td>
+</tr>
+<tr class="odd">
+<td>Embedded Systems</td>
+<td><code>IMU Fusion</code>, <code>Leak Sensor</code>, <code>Pressure Sensor</code>, <code>Arduino Serial Comms</code></td>
+</tr>
+<tr class="even">
+<td>Robotics</td>
+<td><code>6-Thruster Dynamics</code>, <code>Manual-Autonomous Switch</code>, <code>Kill Switch Logic</code></td>
+</tr>
+<tr class="odd">
+<td>Deployment &amp; Monitoring</td>
+<td><code>Telemetry Monitoring</code>, <code>Underwater Testing</code>, <code>Sensor Drift Handling</code></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

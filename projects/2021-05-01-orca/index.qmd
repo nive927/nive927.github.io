@@ -1,37 +1,106 @@
 ---
 title: "ORCA: Underwater Robot"
-description: |
-  An Inspection Class Remotely Operated Underwater Vehicle
+author: Nivedhitha Dhanasekaran
+description: "An Inspection Class Remotely Operated Underwater Vehicle for Autonomous and Manual Navigation"
 date: 2021-05-01
-author: "Nivedhitha Dhanasekaran"
-categories: [Research, Robotics, HCI]
+categories: [Computer Vision, Deep Learning, Human-Computer Interaction, Machine Learning Systems, On-Device AI, Robotics, Signal Processing]
 image: ./images/project-card-image.png
-draft: false
+format:
+  html:
+    toc: true
+    number-sections: false
+    css: styles/custom.css
 ---
 
+# Related Links & Artifacts
 
-<!-- [{{< fa brands r-project >}} shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 
-<!-- <br> -->
+  <a href="https://www.youtube.com/watch?v=OBnoacUi01A" target="_blank" style="background-color:#ff0000; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-youtube" style="margin-right:6px;"></i>Watch Demo</a>
 
-<!-- <div> -->
+  <a href="https://ieeexplore.ieee.org/document/9775325" target="_blank" style="background-color:#593196; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-journal-text" style="margin-right:6px;"></i>IEEE Publication</a>
 
-<!-- </div> -->
+  <a href="https://sites.google.com/prod/view/uwarlssn/rd?authuser=0" target="_blank" style="background-color:#0077b5; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-globe" style="margin-right:6px;"></i>Lab Website</a>
 
-# Engineering ORCA
+  <a href="https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0" target="_blank" style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>Funded: ₹9.5 Lakh INR</a>
+
+  <span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jun 2019 – Jun 2022</span>
+
+</div>
+
+# Project Overview
+
+A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-autonomous navigation. **ORCA** features a 6-thruster mobility suite, real-time telemetry, and multi-sensor feedback including pressure, temperature, leak, and IMU modules. This system integrates a joystick-driven manual mode and an autonomous navigation module built on **MOOS-IvP** (C++ mission planning suite from MIT).
+
+> ✨ Led a 7-member team to build and test ORCA's software stack with kill-switch safety, homing, and GAN-enhanced visibility.  
+> ✨ Achieved >90% mission success across test runs with real-time diagnostics and fail-safe handling.  
+> ✨ Integrated autonomous control, camera feedback, and tethered communication using custom C++ modules.
 
 {{< video https://www.youtube.com/watch?v=OBnoacUi01A >}}
 
-# Project Description
+# Timeline of Contributions
 
-An underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>1. ORCA Robot: Joystick Operation</b></span></summary>
 
-Our robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).
+- Developed an autonomous + manual navigation stack on MOOS-IvP.  
+- Built joystick control, kill switch, IMU fusion, and thrust mapping systems.  
+- Bench + pool tested with full sensor telemetry and thrust validation.  
+- Published at IEEE and won the **Asia-Pacific Region IEEE R10 UGPVC**.  
 
-ORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom.
+</details>
 
-<!-- TODO: Need to add these details -->
-<!-- https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0 -->
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span></summary>
 
+- Internally funded with ₹30,000 (SSN IFSP).  
+- Developed deep RL-based waypoint control for UWVs.  
+- Integrated into ORCA system as a future planning module.  
 
+</details>
 
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span></summary>
+
+- Built a YOLOv3 + MobileNetV2 pipeline to detect marine species threats.  
+- Arduino-based IMU fusion + tethered alert system for swimmer safety.  
+- Developed for **National Institute of Ocean Technology**, winning **Smart India Hackathon 2022 (Prelims)**.  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span></summary>
+
+- Developed a two-step segmentation and merging approach using satellite imagery.  
+- Identified non-residential built-up clusters in dense Indian cities (e.g., Mumbai, Delhi).  
+- 🏅 **Won Smart India Hackathon 2022 – Software Edition**, awarded ₹1,00,000 by Ministry of Earth Sciences.  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>5. C-GAN for Enhanced Localization</b></span></summary>
+
+- Designed a Conditional GAN to refine robot localization sequences.  
+- Corrected drift and improved tracking precision for mission-critical tasks.  
+- Contributed to robustness of multi-agent localization under low-visibility conditions.  
+
+</details>
+
+# Awards & Recognition
+
+- 🏆 **IEEE R10 Undergraduate Project Video Contest Winner (Aug 2021)**  
+  – Winner from 7 countries and 50+ councils  
+  – Project video featured on IEEE YouTube channel  
+  – $300 cash prize
+
+- 🏅 **Smart India Hackathon 2022 – Software Edition**  
+  – Winner for PSID: GR823 (SatVision Project)  
+  – ₹1,00,000 grant awarded by the Ministry of Earth Sciences, Government of India
+
+- 💰 **Internally Funded Student Project (SSN College of Engineering)**  
+  – ₹30,000 grant for KYOGRE (autonomous navigation sub-system for ORCA)
+
+# Tools & Frameworks
+
+| System Layer            | Tools / Frameworks                                                                 |
+|-------------------------|------------------------------------------------------------------------------------|
+| Navigation & Control    | `C++`, `MOOS-IvP`, `Arduino`, `Joystick`                                          |
+| Computer Vision         | `YOLOv3`, `MobileNetV2`, `OpenCV`, `GAN`, `Real-time Video Analytics`             |
+| Embedded Systems        | `IMU Fusion`, `Leak Sensor`, `Pressure Sensor`, `Arduino Serial Comms`            |
+| Robotics                | `6-Thruster Dynamics`, `Manual-Autonomous Switch`, `Kill Switch Logic`            |
+| Deployment & Monitoring | `Telemetry Monitoring`, `Underwater Testing`, `Sensor Drift Handling`            |

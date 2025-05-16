@@ -4,8 +4,6 @@
 
 ## TODO
 
-- [ ] Update projects
-- [ ] Add research
-- [ ] Add blogs to publications
-- [ ] Add Education with Skills & subjects
+- [ ] Add links to landing for projects
 - [ ] Update CV
+- [ ] Publications (abbreviations to long form)

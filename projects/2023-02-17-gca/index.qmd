@@ -32,9 +32,9 @@ format:
 
 This project was developed at the intersection of medical imaging and applied deep learning, in collaboration with pathologists from **Carnegie Mellon University, Rutgers and Tulane**. The work focused on building an end-to-end diagnostic system that brings explainable, high-performance ML models into digital pathology pipelines for vascular autoimmune disorders like **Giant Cell Arteritis (GCA)**.
 
-✨ Built a fully automated ML pipeline achieving **92.32% ROI-level accuracy** and **0.93 AUC** for inflammation detection in digitized biopsy slides.  
-✨ Trained and deployed a **ResNet-34 classifier** optimized for low-latency inference (**168 ms/16 ROIs**) using clinical-grade image preprocessing.  
-✨ Published and presented results at **ARVO 2022**, with GradCAM visual validation accepted by board-certified ophthalmic pathologists.  
+> ✨ Built a fully automated ML pipeline achieving **92.32% ROI-level accuracy** and **0.93 AUC** for inflammation detection in digitized biopsy slides.  
+> ✨ Trained and deployed a **ResNet-34 classifier** optimized for low-latency inference (**168 ms/16 ROIs**) using clinical-grade image preprocessing.  
+> ✨ Published and presented results at **ARVO 2022**, with GradCAM visual validation accepted by board-certified ophthalmic pathologists.  
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 **FUNDED BY: **
