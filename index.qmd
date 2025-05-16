@@ -47,6 +47,7 @@ At <span style="color:#1a3c89">Citi</span> and <span style="color:#006400">Fidel
 
 ### ✨ Highlights
 
-- **May 2025**: Graduated from the School of Computer Science, Carnegie Mellon University, completing my <span style="color:#6a0dad">Master's in Computational Data Science</span> with dual concentrations in <span style="color:#6a0dad">Analytics</span> and <span style="color:#6a0dad">Human-AI Interaction</span>.  
-- **April 2025**: Winner of the <span style="color:#6a0dad">AI Agents Weekend 2025</span> hackathon sponsored by <span style="color:blue">Google</span> & <span style="color:blue">DeepMind</span> for the <span style="color:#6a0dad">Most Effective Project</span>.  
-- **March 2025**: Filed Indian <span style="color:#6a0dad">Patent for BrailleVoice (UG Capstone Project)</span>, an accessible voice-assisted Braille reader for the visually impaired.  
+- **15 May 2025**: My summer research was ACCEPTED at the Findings of the Association for Computational Linguistics 2025.
+- **11 May 2025**: Graduated from the School of Computer Science, Carnegie Mellon University, completing my <span style="color:#6a0dad">Master's in Computational Data Science</span> with dual concentrations in <span style="color:#6a0dad">Analytics</span> and <span style="color:#6a0dad">Human-AI Interaction</span>.  
+- **13 April 2025**: Winner of the <span style="color:#6a0dad">AI Agents Weekend 2025</span> hackathon sponsored by <span style="color:blue">Google</span> & <span style="color:blue">DeepMind</span> for the <span style="color:#6a0dad">Most Effective Project</span>.  
+- **13 March 2025**: Filed Indian <span style="color:#6a0dad">Patent for BrailleVoice (UG Capstone Project)</span>, an accessible voice-assisted Braille reader for the visually impaired.  
