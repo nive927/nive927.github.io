@@ -2,7 +2,7 @@
 title: "Promo Miner: AI Shopping Agent"
 description: |
   An Autonomous Gmail-Based Deal Discovery and Comparison Agent
-date: 2025-04-13
+date: 2024-12-07
 author: "Nivedhitha Dhanasekaran"
 categories: [AI Agents, LLMs, Web Automation]
 image: ./images/project-card-image.png
