@@ -1,0 +1,35 @@
+---
+title: "Promo Miner: AI Shopping Agent"
+description: |
+  An Autonomous Gmail-Based Deal Discovery and Comparison Agent
+date: 2025-04-13
+author: "Nivedhitha Dhanasekaran"
+categories: [AI Agents, LLMs, Web Automation]
+image: ./images/project-card-image.png
+draft: false
+---
+
+# Most Effective Project - Winner at AI Agents Weekend 2025 by Google & DeepMind 
+
+{{< pdf ./documents/promo_miner_pitch_deck_nive_2025.pdf width=100% height=850 >}}
+
+
+# Project Description
+
+Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail's Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.
+
+The system begins by securely accessing only the user's Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.
+
+Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.
+
+Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.
+
+Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.
+
+# Features
+
+- **Privacy-Preserving OAuth Login** – Only accesses Gmail Promotions tab, maintaining user privacy.
+- **Deal Filtering & Storage** – Automatically detects valid promos and saves them securely in Firebase.
+- **Gemini-Based Ranking** – Contextually scores deals by urgency, discount value, and coupon presence.
+- **Real-Time Comparison** – Searches the web for better deals using Exa and notifies users when found.
+- **Browser Extension Interface** – Presents top deals and alternatives in a simple, ranked view.
