@@ -54,48 +54,6 @@
   <media:content url="https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
-  <title>Promo Miner: AI Shopping Agent</title>
-  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
-  <link>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="most-effective-project---winner-at-ai-agents-weekend-2025-by-google-deepmind" class="level1">
-<h1>Most Effective Project - Winner at AI Agents Weekend 2025 by Google &amp; DeepMind</h1>
-<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
-</section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail’s Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.</p>
-<p>The system begins by securely accessing only the user’s Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.</p>
-<p>Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.</p>
-<p>Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.</p>
-<p>Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.</p>
-</section>
-<section id="features" class="level1">
-<h1>Features</h1>
-<ul>
-<li><strong>Privacy-Preserving OAuth Login</strong> – Only accesses Gmail Promotions tab, maintaining user privacy.</li>
-<li><strong>Deal Filtering &amp; Storage</strong> – Automatically detects valid promos and saves them securely in Firebase.</li>
-<li><strong>Gemini-Based Ranking</strong> – Contextually scores deals by urgency, discount value, and coupon presence.</li>
-<li><strong>Real-Time Comparison</strong> – Searches the web for better deals using Exa and notifies users when found.</li>
-<li><strong>Browser Extension Interface</strong> – Presents top deals and alternatives in a simple, ranked view.</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>AI Agents</category>
-  <category>LLMs</category>
-  <category>Web Automation</category>
-  <guid>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</guid>
-  <pubDate>Sun, 13 Apr 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://nive927.github.io/projects/2025-04-13-promo-miner/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
-</item>
-<item>
   <title>Arduino Gesture-based Game Controller Joystick Design</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</link>
@@ -851,9 +809,9 @@
 </section>
 <section id="timeline-of-contributions" class="level1">
 <h1>Timeline of Contributions</h1>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#005b96;"><b>1. ORCA Robot: Joystick Operation</b></span>
+<span style="color:#593196;"><b>1. ORCA Robot: Joystick Operation</b></span>
 </summary>
 <ul>
 <li>Developed an autonomous + manual navigation stack on MOOS-IvP.<br>
@@ -865,9 +823,9 @@
 <li>Published at IEEE and won the <strong>Asia-Pacific Region IEEE R10 UGPVC</strong>.</li>
 </ul>
 </details>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#005b96;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span>
+<span style="color:#593196;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span>
 </summary>
 <ul>
 <li>Internally funded with ₹30,000 (SSN IFSP).<br>
@@ -877,9 +835,9 @@
 <li>Integrated into ORCA system as a future planning module.</li>
 </ul>
 </details>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#005b96;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span>
+<span style="color:#593196;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span>
 </summary>
 <ul>
 <li>Built a YOLOv3 + MobileNetV2 pipeline to detect marine species threats.<br>
@@ -889,9 +847,9 @@
 <li>Developed for <strong>National Institute of Ocean Technology</strong>, winning <strong>Smart India Hackathon 2022 (Prelims)</strong>.</li>
 </ul>
 </details>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#005b96;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span>
+<span style="color:#593196;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span>
 </summary>
 <ul>
 <li>Developed a two-step segmentation and merging approach using satellite imagery.<br>
@@ -901,9 +859,9 @@
 <li>🏅 <strong>Won Smart India Hackathon 2022 – Software Edition</strong>, awarded ₹1,00,000 by Ministry of Earth Sciences.</li>
 </ul>
 </details>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#005b96;"><b>5. C-GAN for Enhanced Localization</b></span>
+<span style="color:#593196;"><b>5. C-GAN for Enhanced Localization</b></span>
 </summary>
 <ul>
 <li>Designed a Conditional GAN to refine robot localization sequences.<br>
@@ -1009,6 +967,43 @@
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>Promo Miner: AI Shopping Agent</title>
+  <link>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="most-effective-project---winner-at-ai-agents-weekend-2025-by-google-deepmind" class="level1">
+<h1>Most Effective Project - Winner at AI Agents Weekend 2025 by Google &amp; DeepMind</h1>
+<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail’s Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.</p>
+<p>The system begins by securely accessing only the user’s Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.</p>
+<p>Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.</p>
+<p>Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.</p>
+<p>Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.</p>
+</section>
+<section id="features" class="level1">
+<h1>Features</h1>
+<ul>
+<li><strong>Privacy-Preserving OAuth Login</strong> – Only accesses Gmail Promotions tab, maintaining user privacy.</li>
+<li><strong>Deal Filtering &amp; Storage</strong> – Automatically detects valid promos and saves them securely in Firebase.</li>
+<li><strong>Gemini-Based Ranking</strong> – Contextually scores deals by urgency, discount value, and coupon presence.</li>
+<li><strong>Real-Time Comparison</strong> – Searches the web for better deals using Exa and notifies users when found.</li>
+<li><strong>Browser Extension Interface</strong> – Presents top deals and alternatives in a simple, ranked view.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</guid>
+  <pubDate>Sat, 17 May 2025 00:39:43 GMT</pubDate>
 </item>
 </channel>
 </rss>
