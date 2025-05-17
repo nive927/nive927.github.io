@@ -1,5 +1,5 @@
 ---
-title: "Promo Miner: Shopping AIAgent"
+title: "Promo Miner: Shopping AI Agent"
 author: Nivedhitha Dhanasekaran
 description: "An Autonomous Gmail-Based Deal Discovery and Comparison Agent"
 date: 2025-04-13

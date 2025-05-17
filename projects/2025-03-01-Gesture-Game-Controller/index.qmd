@@ -17,11 +17,6 @@ draft: false
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 
-<!-- TODO: Change LINKS later -->
-  <!-- <a href="https://docs.google.com/presentation/d/1TfJ77IAXKsWr_72yX_Gy3CM7c8GRqdyjcQc_PHpHO0M/edit?usp=sharing" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-slides" style="margin-right:6px;"></i>60s Pitch Deck</a> -->
-
-  <!-- <a href="https://drive.google.com/drive/folders/1lYVCIa6JRh4rkgkOQeiAazqBx5hhv1lU?usp=sharing" target="_blank" style="background-color:#34a853; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-folder-symlink-fill" style="margin-right:6px;"></i>Artifacts Drive</a> -->
-
   <a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a>
 
   <a href="https://hcii.cmu.edu/people/alexandra-ion" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Alexandra Ion</a>
@@ -32,76 +27,64 @@ draft: false
 
 # Project Overview
 
-This project introduces a mid-air gesture-based interaction system for 3D gaming using a dual-IMU Arduino Nano 33 BLE controller. Designed for ergonomic, untethered play, it leverages TinyML for on-device classification and Bluetooth for wireless interaction. Three controller form factors were tested, with the final version delivering reliable gesture recognition and low-latency UI control.
+This project presents a mid-air gesture recognition system using a dual-IMU Arduino controller, developed for hands-free 3D box manipulation tasks. Built on a two-handed ergonomic design and a neural model trained on 10 DOF IMU signals, the system supports 9 gestures for intuitive real-time control. It uses BLE for streaming predictions wirelessly and runs fully on-device via TinyML.
 
-> ✨ Achieved **99% on-device classification accuracy** using an optimized neural network trained on 10 DOF time-series IMU signals  
-> ✨ Reduced average user task time from **~170s to ~33s** through iterative interaction design and model refinement  
-> ✨ Deployed a real-time streaming pipeline using **TensorFlow Lite Micro** and **BLE** on the Arduino Nano 33 BLE Rev2  
+> ✨ Built and deployed a **two-handed Arduino Nano 33 BLE gesture controller** with custom neural classifier  
+> ✨ Achieved **99% on-device classification accuracy** using stability filtering and confidence thresholds  
+> ✨ Reduced average task time from **~170s to ~33s** across 5 users by optimizing gesture mappings and prototype comfort  
+> ✨ Integrated real-time BLE gesture streaming with Python client and custom UI for live square control  
 
 # Description
 
-The project spanned interaction prototyping, embedded model deployment, user testing, and performance tuning. Gesture-to-command mappings were incrementally refined using user feedback, statistical evaluation, and post-processing filters. The final system supports 9 unique gestures including movement, rotation, and resizing.
+The final system used two Arduinos mounted on a cardboard cutout for ergonomic handling. Extensive prototyping was done with glove and wand variants before finalizing this version based on user feedback, comfort, and accuracy. Gestures like up/down/left/right, clockwise/counterclockwise, and resizing (+/-) were supported. A trained dense neural network was deployed using TensorFlow Lite Micro for real-time on-device inference.
 
 {{< pdf ./documents/ndhanase_P2_Gesture_Recognition.pdf width=100% height=850 >}}
 
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>1. Interaction Prototyping & User Testing</b></span></summary>
 
-- Explored glove-based, wand, and two-hand cardboard-mounted designs  
-- Conducted pilot studies and structured testing with 5 users (200+ total gesture interactions)  
-- Final prototype optimized for comfort and stability with clear gesture isolation  
-- Introduced dynamic gestures (flicks and rotations) for resizing and rotation commands  
-- Logged average task completion times across design variants  
+- Compared 3 form factors: wand, glove, and dual-hand controller  
+- Final prototype mounted on cardboard for comfort and stability  
+- Gesture sets included static poses, flicks, and rotation gestures  
+- Tested across 5 users for timing, fatigue, and prediction stability  
+- Final task averaged ~33s vs ~170s for initial glove/wand variants  
 
 </details>
 
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>2. Model Architecture & Training</b></span></summary>
 
-- Trained a feed-forward neural network using 50-frame input windows with 12-channel IMU data  
-- Implemented ReLU-activated dense layers for feature extraction  
-- Achieved balanced class distribution with 1-minute capped recording per gesture  
-- Evaluated model performance using training curves, confusion matrices, and signal overlap analysis  
-- Future work: Evaluate LSTM-based temporal models for sequential gesture disambiguation  
+- Trained a feed-forward dense neural network (ReLU activations) on 50×12 time-series windows  
+- Collected balanced gesture data with capped 1-minute recordings per class  
+- Evaluated confusion matrices, training/validation curves, and misclassification overlap  
+- Accuracy peaked at 99% on-device due to clean data, axis separation, and class balancing  
+- Model exported to `.tflite` for microcontroller deployment  
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>3. On-Device Deployment with TinyML</b></span></summary>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>3. On-Device Deployment & BLE Integration</b></span></summary>
 
-- Converted trained Keras model to `.tflite` with post-training quantization  
-- Deployed model using TensorFlow Lite Micro with C-array headers on Arduino Nano 33 BLE  
-- Used sliding window and normalization logic for real-time inference loop  
-- Output predictions streamed via BLE to Python client using `bleak`  
-- Power bank setup enabled untethered, mobile interaction  
-
-</details>
-
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>4. Post-Processing & Stability Filters</b></span></summary>
-
-- Implemented prediction confidence filtering (threshold ≥ 0.95)  
-- Added temporal stability check: command triggered only after 10–20 consistent predictions  
-- Filtered flick gestures to prevent misclassification with `up/down` motions  
-- UI responsiveness improved through tuning command sensitivity and gesture transitions  
+- Deployed the `.tflite` model on Arduino Nano 33 BLE Rev2 using TFLite Micro  
+- Used `xxd` to convert model into a C byte array  
+- Real-time inference pipeline: IMU → buffer → model → BLE transmission  
+- Bluetooth client built in Python using `bleak` library  
+- Enabled mobile, power bank–driven untethered usage  
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>5. Results & Quantitative Evaluation</b></span></summary>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>4. Post-Processing & Stability Enhancements</b></span></summary>
 
-- Completion times across versions:  
-  - Wand: ~174s  
-  - Glove: ~146s  
-  - Final 2-hand config: ~33s (avg. across users)  
-- On-device accuracy: **99%**  
-- Error rate: near-zero due to stability + confidence filters  
-- Best performance demo captured in video and testing logs (see Drive)  
+- Confidence thresholding (≥ 0.95) filtered noisy predictions  
+- Added a 20-frame stability window to trigger sensitive gestures like `+`, `-`, CW, CCW  
+- Remapped axes for rotation to reduce overlap with movement controls  
+- Dynamic gestures (flicks) improved intuitiveness over static poses  
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>6. User Feedback & Observations</b></span></summary>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>5. Results Summary</b></span></summary>
 
-- Users preferred holding cardboard-mounted prototypes over glove-based wearables  
-- Flick gestures were perceived as natural and intuitive  
-- Static poses for movement felt predictable and easy to learn  
-- Fatigue reduced in final version due to ergonomic form factor and gesture separation  
-- Common confusion between `+/-` and `up/down` was addressed via axis remapping  
+- **Task time** reduced from ~170s (glove) and ~146s (wand) to **~33s** in final version  
+- **Accuracy:** 99% on-device with filtered predictions  
+- **Error rate:** Near-zero for all users after filtering  
+- **User feedback:** Positive on cardboard comfort, flick gesture intuitiveness, and UI responsiveness  
 
 </details>
 
@@ -109,9 +92,9 @@ The project spanned interaction prototyping, embedded model deployment, user tes
 
 | Area                          | Tools / Stack Used                                                                 |
 |-------------------------------|-------------------------------------------------------------------------------------|
-| Microcontroller + Sensors     | `Arduino Nano 33 BLE Rev2`, `BMI270`, `MPU6050`, `10 DOF IMU`                      |
-| ML Model & Training           | `Keras`, `TensorFlow`, `NumPy`, `scikit-learn`, `Matplotlib`, `Pandas`             |
-| On-Device ML Deployment       | `TensorFlow Lite Micro`, `xxd`, `ArduinoBLE`, `tflite::MicroInterpreter`           |
-| Gesture Streaming & UI        | `BLE (Arduino + bleak)`, `PyQt5`, `Matplotlib`, `Custom UI Loop`                   |
-| Prototyping & Analysis        | `User Testing Logs`, `Training Curves`, `Confusion Matrices`, `PDF Reporting`      |
-
+| Microcontroller + Sensors     | `Arduino Nano 33 BLE Rev2`, `BMI270 IMU`, `Two-Board Sync`                         |
+| ML Model Training             | `Keras`, `TensorFlow`, `NumPy`, `scikit-learn`, `Matplotlib`, `Pandas`             |
+| On-Device Inference           | `TensorFlow Lite Micro`, `xxd`, `ArduinoBLE`, `C++`, `tflite::MicroInterpreter`    |
+| Real-Time BLE Streaming       | `bleak (Python)`, `Serial`, `UUID`       |
+| UI + Post-Processing          | `PyQt5`, `Matplotlib`, `Python UI Thread`, `Stability Filter`, `Confidence Filter` |
+| Prototyping & Analysis        | `Training Curves`, `User Logs`, `Confusion Matrix`, `Cardboard Mounting`, `GIFs`  |

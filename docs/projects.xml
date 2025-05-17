@@ -54,6 +54,153 @@
   <media:content url="https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
+  <title>Promo Miner: Shopping AIAgent</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="related-links-artifacts" class="level1">
+<h1>Related Links &amp; Artifacts</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+<p><a href="https://cmudsc.com/agents/" target="_blank" style="background-color:#0033cc; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-link-45deg" style="margin-right:6px;"></i>Hackathon Website</a></p>
+<p><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" target="_blank" style="background-color:#fc3939; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-pdf-fill" style="margin-right:6px;"></i>Download Pitch Deck (PDF)</a></p>
+<p><span style="background-color:#13b955; color:#111; padding:8px 16px; border-radius:6px;">💰 Sponsored by Google &amp; DeepMind ($500 Prize)</span></p>
+</div>
+</section>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>Promo Miner is an autonomous AI-powered shopping assistant that uncovers hidden savings in users’ Gmail inboxes. It identifies promotional offers from the Gmail Promotions tab, uses LLMs to rank deal quality, and performs real-time web comparisons to ensure users always get the best available deal.</p>
+<blockquote class="blockquote">
+<p>✨ Built a <strong>fully integrated shopping agent</strong> that autonomously performs Gmail parsing, promo reasoning, cross-site comparison, and Chrome-based alerting in real time.<br>
+✨ Combines <strong>Gemini LLM reasoning</strong> with <strong>Exa-based search</strong> and <strong>push notifications</strong> to deliver ranked savings with minimal user effort.</p>
+</blockquote>
+</section>
+<section id="description" class="level1">
+<h1>Description</h1>
+<p>The Promo Miner system <strong>securely accesses only the Gmail Promotions tab</strong> using <code>OAuth</code> and filters out irrelevant emails like welcome messages. Valid promotional content is <strong>parsed and structured</strong>, extracting metadata such as discounts, brand names, expiration dates, and coupon codes. These are stored in <code>Firestore</code> for persistent deal tracking.</p>
+<p>A <strong>Gemini-based LLM agent</strong> then reasons over this data to <strong>classify and rank deals</strong> based on urgency, value, and usefulness. Deals that are likely to <strong>expire soon or offer significant savings</strong> are highlighted. The system also employs an <strong>Exa-powered agent</strong> to compare prices across platforms like <code>Amazon</code>. If a better offer is found, the user receives a <strong>real-time push notification</strong> through a <code>Chrome Extension</code> interface.</p>
+<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>1. Email Access &amp; Filtering</b></span>
+</summary>
+<ul>
+<li>Uses <code>Gmail API</code> with <code>OAuth 2.0</code> to securely access the Promotions tab<br>
+</li>
+<li>Filters out onboarding/welcome emails and identifies valid promotional content<br>
+</li>
+<li>Parses subject line, sender, body text, promo code, and expiration cues</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>2. Data Storage &amp; Processing</b></span>
+</summary>
+<ul>
+<li>Extracted metadata is stored in <code>Google Firestore</code> for persistent tracking<br>
+</li>
+<li>Supports longitudinal deal analysis and browser-based rendering<br>
+</li>
+<li>Integrates with <code>Chrome Extension</code> for lightweight front-end access</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>3. LLM-Based Promo Reasoning</b></span>
+</summary>
+<ul>
+<li><code>Gemini</code> LLM classifies each deal on urgency, product type, savings, and utility<br>
+</li>
+<li>Generates <strong>user-specific promo rankings</strong> using context-aware heuristics<br>
+</li>
+<li>Annotates whether a deal includes <strong>coupons</strong>, <strong>bundle offers</strong>, or <strong>price drops</strong></li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>4. Web Comparison Agent</b></span>
+</summary>
+<ul>
+<li><code>Exa</code> search agent compares extracted deals to live listings on platforms like <code>Amazon</code><br>
+</li>
+<li>Flags <strong>cheaper alternatives</strong> or <strong>higher-value bundles</strong><br>
+</li>
+<li>Triggers <code>push notifications</code> to users for better savings</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>5. Deployment &amp; Interface</b></span>
+</summary>
+<ul>
+<li><code>Chrome Extension</code> provides a <strong>ranked deal dashboard</strong><br>
+</li>
+<li>Users receive timely alerts on new or expiring promos<br>
+</li>
+<li>Entire pipeline runs in <strong>real time</strong>, with low-latency triggers from backend to browser</li>
+</ul>
+</details>
+</section>
+<section id="tools-frameworks" class="level1">
+<h1>Tools &amp; Frameworks</h1>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Stack / Tools Used</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Email Access</td>
+<td><code>Gmail API</code>, <code>OAuth 2.0</code></td>
+</tr>
+<tr class="even">
+<td>Parsing &amp; Storage</td>
+<td><code>Flask</code>, <code>Google Firestore</code>, <code>Regex</code>, <code>JSON Extractors</code></td>
+</tr>
+<tr class="odd">
+<td>Reasoning Agent</td>
+<td><code>Gemini</code>, <code>Python</code>, <code>Structured Query Prompting</code>, <code>LlamaIndex</code></td>
+</tr>
+<tr class="even">
+<td>Web Comparison Agent</td>
+<td><code>Exa</code>, <code>Semantic Search</code>, <code>Jina Reader API</code></td>
+</tr>
+<tr class="odd">
+<td>Frontend Interface</td>
+<td><code>Chrome Extension</code>, <code>JavaScript</code>, <code>HTML</code>, <code>CSS</code>, <code>Browser Notifications API</code></td>
+</tr>
+<tr class="even">
+<td>Back-end Infrastructure</td>
+<td><code>Flask REST API</code>, <code>Firestore Rules</code></td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+ ]]></description>
+  <category>AI Agents</category>
+  <category>Award Winner</category>
+  <category>Large Language Models</category>
+  <category>Monitoring</category>
+  <category>Natural Language Processing</category>
+  <category>UI/UX</category>
+  <category>Web Development</category>
+  <guid>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</guid>
+  <pubDate>Sun, 13 Apr 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2025-04-13-promo-miner/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
+</item>
+<item>
   <title>Arduino Gesture-based Game Controller Joystick Design</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</link>
@@ -967,43 +1114,6 @@
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>
-</item>
-<item>
-  <title>Promo Miner: AI Shopping Agent</title>
-  <link>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="most-effective-project---winner-at-ai-agents-weekend-2025-by-google-deepmind" class="level1">
-<h1>Most Effective Project - Winner at AI Agents Weekend 2025 by Google &amp; DeepMind</h1>
-<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
-</section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail’s Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.</p>
-<p>The system begins by securely accessing only the user’s Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.</p>
-<p>Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.</p>
-<p>Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.</p>
-<p>Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.</p>
-</section>
-<section id="features" class="level1">
-<h1>Features</h1>
-<ul>
-<li><strong>Privacy-Preserving OAuth Login</strong> – Only accesses Gmail Promotions tab, maintaining user privacy.</li>
-<li><strong>Deal Filtering &amp; Storage</strong> – Automatically detects valid promos and saves them securely in Firebase.</li>
-<li><strong>Gemini-Based Ranking</strong> – Contextually scores deals by urgency, discount value, and coupon presence.</li>
-<li><strong>Real-Time Comparison</strong> – Searches the web for better deals using Exa and notifies users when found.</li>
-<li><strong>Browser Extension Interface</strong> – Presents top deals and alternatives in a simple, ranked view.</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <guid>https://nive927.github.io/projects/2025-04-13-promo-miner/index.html</guid>
-  <pubDate>Sat, 17 May 2025 00:39:43 GMT</pubDate>
 </item>
 </channel>
 </rss>
