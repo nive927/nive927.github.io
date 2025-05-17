@@ -4,7 +4,7 @@ description: |
   User-centered Research and Evaluation for Responsible GenAI
 date: 2024-05-03
 author: "Nivedhitha Dhanasekaran"
-categories: [Human-Computer Interaction, Responsible AI, UI/UX, Research]
+categories: [A/B Testing, Data Science, Human-Computer Interaction, Responsible AI, UI/UX, Research]
 image: ./images/project-card-image.png
 draft: false
 ---

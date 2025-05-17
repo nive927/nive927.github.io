@@ -1,10 +1,10 @@
 ---
-title: "Music Magician"
+title: "Music Magician Interactive Dashboard"
 description: |
   Spotify Music Artist Influence Analytics Dashboard
 date: 2023-12-30
 author: "Nivedhitha Dhanasekaran"
-categories: [Data Science, Human-Computer Interaction, UI/UX, Web Development]
+categories: [Data Science, Deployment, Human-Computer Interaction, UI/UX, Web Development]
 image: ./images/project-card-image.png
 draft: false
 ---

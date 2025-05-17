@@ -4,7 +4,7 @@ description: |
   A Language Agnostic Assistive Technology for Braille-to-Text Translation
 date: 2022-07-15
 author: "Nivedhitha Dhanasekaran"
-categories: [Computer Vision, Natural Language Processing, Web Development, Mobile Development, Deep Learning, Human-Computer Interaction, Research]
+categories: [Computer Vision, Data Science, Deep Learning, Deployment, GPU Training, Human-Computer Interaction, Machine Learning System, Mobile Development, Natural Language Processing, Research, UI/UX, Web Development]
 image: ./images/project-card-image.png
 draft: false
 ---

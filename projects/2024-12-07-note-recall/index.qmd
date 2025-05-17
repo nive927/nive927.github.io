@@ -3,7 +3,7 @@ title: "NoteRecall: On-Device RAG for Privacy-preserving QA"
 author: Nivedhitha Dhanasekaran
 description: "Efficient and privacy-preserving on-device notes retrieval and question answering system"
 date: 2024-12-07
-categories: [On-Device AI, Large Language Models, Machine Learning System, Natural Language Processing, Responsible AI]
+categories: [Data Science, Deep Learning, Deployment, Large Language Models, Machine Learning System, Natural Language Processing, On-Device AI, Responsible AI]
 image: ./images/project-card-image.png
 format:
   html:

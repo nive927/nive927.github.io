@@ -178,10 +178,14 @@
 
  ]]></description>
   <category>A/B Testing</category>
+  <category>Data Science</category>
   <category>Deployment</category>
   <category>Machine Learning System</category>
+  <category>Model Explainability</category>
   <category>Monitoring</category>
   <category>Observability</category>
+  <category>Responsible AI</category>
+  <category>Web Development</category>
   <guid>https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/index.html</guid>
   <pubDate>Fri, 25 Apr 2025 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/images/project-card-image.jpg" medium="image" type="image/jpeg"/>
@@ -324,6 +328,7 @@
  ]]></description>
   <category>AI Agents</category>
   <category>Award Winner</category>
+  <category>Deployment</category>
   <category>Large Language Models</category>
   <category>Monitoring</category>
   <category>Natural Language Processing</category>
@@ -334,7 +339,7 @@
   <media:content url="https://nive927.github.io/projects/2025-04-13-promo-miner/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
-  <title>Arduino Gesture-based Game Controller Joystick Design</title>
+  <title>Arduino Gesture-based Game Controller Joystick</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</link>
   <description><![CDATA[ 
@@ -486,10 +491,12 @@
 </section>
 
  ]]></description>
-  <category>Computer Vision</category>
+  <category>Data Science</category>
   <category>Deep Learning</category>
+  <category>GPU Training</category>
   <category>Human-Computer Interaction</category>
   <category>Machine Learning System</category>
+  <category>Model Explainability</category>
   <category>On-Device AI</category>
   <category>Signal Processing</category>
   <category>UI/UX</category>
@@ -648,10 +655,13 @@
 </section>
 
  ]]></description>
-  <category>On-Device AI</category>
+  <category>Data Science</category>
+  <category>Deep Learning</category>
+  <category>Deployment</category>
   <category>Large Language Models</category>
   <category>Machine Learning System</category>
   <category>Natural Language Processing</category>
+  <category>On-Device AI</category>
   <category>Responsible AI</category>
   <guid>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</guid>
   <pubDate>Sat, 07 Dec 2024 05:00:00 GMT</pubDate>
@@ -916,6 +926,8 @@
 </section>
 
  ]]></description>
+  <category>A/B Testing</category>
+  <category>Data Science</category>
   <category>Human-Computer Interaction</category>
   <category>Responsible AI</category>
   <category>UI/UX</category>
@@ -925,7 +937,7 @@
   <media:content url="https://nive927.github.io/projects/2024-05-03-ucre-project-portfolio/images/project-card-image.png" medium="image" type="image/png" height="121" width="144"/>
 </item>
 <item>
-  <title>Music Magician</title>
+  <title>Music Magician Interactive Dashboard</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2023-12-31-music-magician-spotify-dashboard/index.html</link>
   <description><![CDATA[ 
@@ -948,6 +960,7 @@
 
  ]]></description>
   <category>Data Science</category>
+  <category>Deployment</category>
   <category>Human-Computer Interaction</category>
   <category>UI/UX</category>
   <category>Web Development</category>
@@ -1104,7 +1117,6 @@
 </section>
 
  ]]></description>
-  <category>Computational Biomedicine</category>
   <category>Data Science</category>
   <category>Deep Learning</category>
   <category>Funding</category>
@@ -1144,12 +1156,17 @@
 
  ]]></description>
   <category>Computer Vision</category>
-  <category>Natural Language Processing</category>
-  <category>Web Development</category>
-  <category>Mobile Development</category>
+  <category>Data Science</category>
   <category>Deep Learning</category>
+  <category>Deployment</category>
+  <category>GPU Training</category>
   <category>Human-Computer Interaction</category>
+  <category>Machine Learning System</category>
+  <category>Mobile Development</category>
+  <category>Natural Language Processing</category>
   <category>Research</category>
+  <category>UI/UX</category>
+  <category>Web Development</category>
   <guid>https://nive927.github.io/projects/2022-07-01-braillevoice/index.html</guid>
   <pubDate>Fri, 15 Jul 2022 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2022-07-01-braillevoice/images/project-card-image.png" medium="image" type="image/png" height="87" width="144"/>
@@ -1306,9 +1323,12 @@
   <category>Award Winner</category>
   <category>Computer Vision</category>
   <category>Deep Learning</category>
+  <category>Deployment</category>
   <category>Funding</category>
+  <category>GPU Training</category>
   <category>Human-Computer Interaction</category>
   <category>Machine Learning System</category>
+  <category>Monitoring</category>
   <category>On-Device AI</category>
   <category>Publication</category>
   <category>Research</category>
@@ -1337,7 +1357,9 @@
 </section>
 
  ]]></description>
+  <category>Data Science</category>
   <category>Machine Learning System</category>
+  <category>Model Explainability</category>
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>

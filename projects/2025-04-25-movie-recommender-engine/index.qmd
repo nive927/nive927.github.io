@@ -3,7 +3,7 @@ title: "Real-time Movie Recommender Engine"
 author: Nivedhitha Dhanasekaran
 description: "End-to-end movie recommendation system with CI/CD, monitoring, and real-time deployment"
 date: 2025-04-25
-categories: [A/B Testing, Deployment, Machine Learning System, Monitoring, Observability]
+categories: [A/B Testing, Data Science, Deployment, Machine Learning System, Model Explainability, Monitoring, Observability, Responsible AI, Web Development]
 image: ./images/project-card-image.jpg
 format:
   html:

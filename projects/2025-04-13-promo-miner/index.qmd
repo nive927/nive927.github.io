@@ -3,7 +3,7 @@ title: "Promo Miner: Shopping AI Agent"
 author: Nivedhitha Dhanasekaran
 description: "An Autonomous Gmail-Based Deal Discovery and Comparison Agent"
 date: 2025-04-13
-categories: [AI Agents, Award Winner, Large Language Models, Monitoring, Natural Language Processing, UI/UX, Web Development]
+categories: [AI Agents, Award Winner, Deployment, Large Language Models, Monitoring, Natural Language Processing, UI/UX, Web Development]
 image: ./images/project-card-image.png
 format:
   html:
