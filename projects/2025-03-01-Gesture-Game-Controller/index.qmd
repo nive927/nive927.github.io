@@ -3,7 +3,7 @@ title: "Arduino Gesture-based Game Controller Joystick Design"
 author: Nivedhitha Dhanasekaran
 description: "Mid-air, two-hand Arduino gesture controller with on-device neural inference and BLE-based wireless control for 3D interaction"
 date: 2025-03-18
-categories: [Computer Vision, Deep Learning, Human-computer Interaction, Interaction Design, Machine Learning Systems, On-Device AI, Signal Processing]
+categories: [Computer Vision, Deep Learning, Human-computer Interaction, Machine Learning Systems, On-Device AI, Signal Processing, UI/UX]
 image: ./images/project-card-image.png
 format:
   html:
