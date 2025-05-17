@@ -1,5 +1,5 @@
 ---
-title: "NoteRecall: On-Device RAG for Private QA"
+title: "NoteRecall: On-Device RAG for Privacy-preserving QA"
 author: Nivedhitha Dhanasekaran
 description: "Efficient and privacy-preserving on-device notes retrieval and question answering system"
 date: 2025-05-12
@@ -29,9 +29,11 @@ draft: false
 
 NoteRecall is a lightweight, privacy-preserving Retrieval-Augmented Generation (RAG) system that enables secure, on-device question answering over personal documents such as medical notes or offline records. Built with quantized embedding and reader models, the system performs end-to-end inference on devices like M2 MacBooks while ensuring user data never leaves the device.
 
-> ✨ Fully on-device QA over personal data using quantized LLMs  
-> ✨ 1.9s average latency with Gemini-level performance at a fraction of the compute  
-> ✨ Enables up to 5× more inferences under a 10Wh energy budget vs baseline  
+> ✨ Developed a privacy-preserving RAG pipeline for on-device question answering over medical documents  
+> ✨ Applied quantization, pruning, and model distillation to optimize inference efficiency on consumer hardware  
+> ✨ Achieved a BERTScore of 0.56 while preserving retrieval and generation quality  
+> ✨ Enabled 2.4× more inference cycles under a 10Wh energy budget compared to baseline models  
+
 
 # Description
 
