@@ -3,7 +3,7 @@ title: "ORCA: Underwater Robot"
 author: Nivedhitha Dhanasekaran
 description: "An Inspection Class Remotely Operated Underwater Vehicle for Autonomous and Manual Navigation"
 date: 2022-06-24
-categories: [Award Winner, Computer Vision, Deep Learning, Funding, Human-Computer Interaction, Machine Learning Systems, On-Device AI, Publication, Research, Robotics, Signal Processing]
+categories: [Award Winner, Computer Vision, Deep Learning, Funding, Human-computer Interaction, Machine Learning Systems, On-Device AI, Publication, Research, Robotics, Signal Processing]
 image: ./images/project-card-image.png
 format:
   html:
