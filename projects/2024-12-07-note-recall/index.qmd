@@ -15,6 +15,7 @@ draft: false
 
 # Related Links & Artifacts
 
+
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 
   <a href="./documents/noterecall_final_report.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a>

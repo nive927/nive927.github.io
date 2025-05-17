@@ -1,35 +1,116 @@
 ---
-title: "Movie Recommender"
-description: |
-  An Autonomous Gmail-Based Deal Discovery and Comparison Agent
+title: "Real-time Movie Recommender Engine"
+author: Nivedhitha Dhanasekaran
+description: "End-to-end movie recommendation system with CI/CD, monitoring, and real-time deployment"
 date: 2025-04-25
-author: "Nivedhitha Dhanasekaran"
-categories: [Web Development]
-image: ./images/project-card-image.png
+categories: [A/B Testing, Deployment, Machine Learning System, Monitoring, Observability]
+image: ./images/project-card-image.jpg
+format:
+  html:
+    toc: true
+    number-sections: false
+    css: styles/custom.css
 draft: false
 ---
 
-# Most Effective Project - Winner at AI Agents Weekend 2025 by Google & DeepMind 
+# Related Links & Artifacts
 
-{{< pdf ./documents/promo_miner_pitch_deck_nive_2025.pdf width=100% height=850 >}}
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 
+  <!-- <a href="./documents/movie_recommender_final_report.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> -->
+  <!--   <i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF) -->
+  <!-- </a> -->
+
+  <a href="https://austinhenley.com/" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;">
+    <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Austin Henley
+  </a>
+
+  <a href="https://clairelegoues.com/" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;">
+    <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Claire Le Goues
+  </a>
+
+  <span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">
+    📅 Project Duration: Feb - Apr 2025
+  </span>
+
+</div>
+
+# Project Overview
+
+A robust and production-ready movie recommendation engine integrating collaborative filtering with an MLOps pipeline. The system supports continuous deployment, online evaluation, real-time telemetry, and fairness monitoring using modern tooling.
+
+> ✨Achieved <0.4s average latency, 2.34 RMSE (online), and >90% request success rate  
+> ✨Enabled automated retraining via MLflow with schema validation, drift detection, and CI triggers  
+> ✨Integrated A/B testing with LaunchDarkly for user-level model experimentation  
+> ✨Monitored service uptime and accuracy via Prometheus + Grafana with alerting and version tagging  
+> ✨Built fault-tolerant Kafka pipelines with PostgreSQL for ingestion, tracking, and evaluation
 
 # Project Description
 
-Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail's Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.
+<img src="./images/project-card-image.jpg" style="width:100%; margin-top:1rem;" />
 
-The system begins by securely accessing only the user's Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.
 
-Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>1. Architecture & Inference Pipeline</b></span></summary>
 
-Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.
+- User-item collaborative filtering using cosine similarity  
+- Dockerized Flask API downloads model artifacts from MLflow at runtime  
+- Real-time Kafka consumers feed data into a PostgreSQL backend  
+- Jenkins pipelines auto-trigger ingestion, schema validation, retraining, and promotion  
+- Prometheus scrapes metrics for latency, availability, and fairness  
+- LaunchDarkly assigns users to A/B test variants (user-user vs. item-item models)  
 
-Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.
+</details>
 
-# Features
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>2. Evaluation & Impact</b></span></summary>
 
-- **Privacy-Preserving OAuth Login** – Only accesses Gmail Promotions tab, maintaining user privacy.
-- **Deal Filtering & Storage** – Automatically detects valid promos and saves them securely in Firebase.
-- **Gemini-Based Ranking** – Contextually scores deals by urgency, discount value, and coupon presence.
-- **Real-Time Comparison** – Searches the web for better deals using Exa and notifies users when found.
-- **Browser Extension Interface** – Presents top deals and alternatives in a simple, ranked view.
+- **Offline RMSE**: 2.09 (test set); **Online RMSE**: 2.34  
+- **Inference latency**: <0.4 seconds  
+- **Request success rate**: >90% (Prometheus-tracked)  
+- **Memory footprint**: ~87MB (user-user model)  
+- Monitored schema violations, drift, and real-time traffic distribution  
+- A/B testing showed statistically significant improvements in engagement (p < 0.0001)  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>3. Observability & Monitoring</b></span></summary>
+
+- Kafka logs pushed to PostgreSQL for watch/rating/recommendation logs  
+- Exposed metrics via `/metrics` endpoints for Prometheus  
+- Visualized service uptime, schema violations, latency trends via Grafana  
+- Tracked online engagement and fairness using watch completion and group disparity metrics  
+- Alerting integrated (Grafana → SMTP) to notify system failures  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>4. Fairness, Feedback Loops & Security</b></span></summary>
+
+- Evaluated engagement disparity across age and gender groups  
+- Implemented fairness alerting (disparity ratio < 0.8) and proposed balancing fallback models  
+- Detected and mitigated feedback loops (popularity/self-confirmation) using telemetry analysis  
+- Threat model included poisoning attacks and model extraction via APIs  
+- Data poisoning detection used chi-squared tests; mitigation via schema validators + manual audits  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>5. Continuous Integration & Retraining</b></span></summary>
+
+- Jenkins pipelines retrain and promote models using MLflow tracking  
+- Scheduled ingestion every 2 hours from Kafka to PostgreSQL  
+- Retraining evaluated RMSE improvements and used force-promote override flag  
+- Schema and data quality tests run via Pytest before retraining  
+- Canary deploys tested via LaunchDarkly flags for rollback safety  
+
+</details>
+
+# Tools & Frameworks
+
+| Area                      | Tools / Stack Used                                                                |
+|---------------------------|------------------------------------------------------------------------------------|
+| Model Training            | `scikit-learn`, `pandas`, `joblib`, `numpy`                                       |
+| Data Ingestion & Storage  | `Kafka`, `PostgreSQL`, `tmux`, `SQLAlchemy`                                       |
+| Inference & Serving       | `Flask`, `gunicorn`, `MLflow`, `Docker`, `NGINX`                                  |
+| CI/CD                     | `Jenkins`, `GitHub Actions`, `pytest`, `Docker Hub`, `cron`                       |
+| Monitoring & Telemetry    | `Prometheus`, `Grafana`                                                            |
+| Experimentation           | `LaunchDarkly`, `pandas`, `scipy.stats`, `Prometheus Python Client`               |
+| Security & Validation     | `Pytest`, `psycopg2`, `pydantic`                                                   |
+
