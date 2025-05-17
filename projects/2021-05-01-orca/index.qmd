@@ -2,8 +2,8 @@
 title: "ORCA: Underwater Robot"
 author: Nivedhitha Dhanasekaran
 description: "An Inspection Class Remotely Operated Underwater Vehicle for Autonomous and Manual Navigation"
-date: 2021-05-01
-categories: [Computer Vision, Deep Learning, Human-Computer Interaction, Machine Learning Systems, On-Device AI, Robotics, Signal Processing]
+date: 2022-06-24
+categories: [Award Winner, Computer Vision, Deep Learning, Funding, Human-Computer Interaction, Machine Learning Systems, On-Device AI, Publication, Research, Robotics, Signal Processing]
 image: ./images/project-card-image.png
 format:
   html:
@@ -24,7 +24,7 @@ format:
 
   <a href="https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0" target="_blank" style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>Funded: ₹9.5 Lakh INR</a>
 
-  <span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jun 2019 – Jun 2022</span>
+  <span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jun 2019 - Jun 2022</span>
 
 </div>
 
@@ -40,7 +40,7 @@ A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-au
 
 # Timeline of Contributions
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>1. ORCA Robot: Joystick Operation</b></span></summary>
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>1. ORCA Robot: Joystick Operation</b></span></summary>
 
 - Developed an autonomous + manual navigation stack on MOOS-IvP.  
 - Built joystick control, kill switch, IMU fusion, and thrust mapping systems.  
@@ -49,7 +49,7 @@ A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-au
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span></summary>
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span></summary>
 
 - Internally funded with ₹30,000 (SSN IFSP).  
 - Developed deep RL-based waypoint control for UWVs.  
@@ -57,7 +57,7 @@ A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-au
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span></summary>
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span></summary>
 
 - Built a YOLOv3 + MobileNetV2 pipeline to detect marine species threats.  
 - Arduino-based IMU fusion + tethered alert system for swimmer safety.  
@@ -65,7 +65,7 @@ A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-au
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span></summary>
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span></summary>
 
 - Developed a two-step segmentation and merging approach using satellite imagery.  
 - Identified non-residential built-up clusters in dense Indian cities (e.g., Mumbai, Delhi).  
@@ -73,7 +73,7 @@ A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-au
 
 </details>
 
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#005b96;"><b>5. C-GAN for Enhanced Localization</b></span></summary>
+<details style="background-color:#f5f4fa; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>5. C-GAN for Enhanced Localization</b></span></summary>
 
 - Designed a Conditional GAN to refine robot localization sequences.  
 - Corrected drift and improved tracking precision for mission-critical tasks.  

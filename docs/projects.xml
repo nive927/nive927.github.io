@@ -104,28 +104,178 @@
 
 
 
-<section id="project-report" class="level1">
-<h1>Project Report</h1>
-<!-- <br> -->
-<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
-<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
-<!-- </div> -->
-<!-- </br>\ -->
-<p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
+<section id="related-links-artifacts" class="level1">
+<h1>Related Links &amp; Artifacts</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+<!-- TODO: Change LINKS later -->
+<p><!-- <a href="https://docs.google.com/presentation/d/1TfJ77IAXKsWr_72yX_Gy3CM7c8GRqdyjcQc_PHpHO0M/edit?usp=sharing" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-slides" style="margin-right:6px;"></i>60s Pitch Deck</a> --></p>
+<p><!-- <a href="https://drive.google.com/drive/folders/1lYVCIa6JRh4rkgkOQeiAazqBx5hhv1lU?usp=sharing" target="_blank" style="background-color:#34a853; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-folder-symlink-fill" style="margin-right:6px;"></i>Artifacts Drive</a> --></p>
+<p><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a></p>
+<p><a href="https://hcii.cmu.edu/people/alexandra-ion" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Alexandra Ion</a></p>
+<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jan 2025 – Mar 2025</span></p>
+</div>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>This project explores mid-air UI manipulation using two IMU-equipped Arduino boards for gesture-based control. Various prototypes were evaluated, including two-handed, single-hand, and wand-based designs. The final prototype was re- fined through model enhancements, stability thresholds, confidence filtering, and UI optimizations. User testing measured task completion time, error rates, and prediction stability, demonstrating improved efficiency and usability. The final system achieved robust gesture recognition, highlighting its potential for intuitive human-computer interaction.</p>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>This project introduces a mid-air gesture-based interaction system for 3D gaming using a dual-IMU Arduino Nano 33 BLE controller. Designed for ergonomic, untethered play, it leverages TinyML for on-device classification and Bluetooth for wireless interaction. Three controller form factors were tested, with the final version delivering reliable gesture recognition and low-latency UI control.</p>
+<blockquote class="blockquote">
+<p>✨ Achieved <strong>99% on-device classification accuracy</strong> using an optimized neural network trained on 10 DOF time-series IMU signals<br>
+✨ Reduced average user task time from <strong>~170s to ~33s</strong> through iterative interaction design and model refinement<br>
+✨ Deployed a real-time streaming pipeline using <strong>TensorFlow Lite Micro</strong> and <strong>BLE</strong> on the Arduino Nano 33 BLE Rev2</p>
+</blockquote>
+</section>
+<section id="description" class="level1">
+<h1>Description</h1>
+<p>The project spanned interaction prototyping, embedded model deployment, user testing, and performance tuning. Gesture-to-command mappings were incrementally refined using user feedback, statistical evaluation, and post-processing filters. The final system supports 9 unique gestures including movement, rotation, and resizing.</p>
+<p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>1. Interaction Prototyping &amp; User Testing</b></span>
+</summary>
+<ul>
+<li>Explored glove-based, wand, and two-hand cardboard-mounted designs<br>
+</li>
+<li>Conducted pilot studies and structured testing with 5 users (200+ total gesture interactions)<br>
+</li>
+<li>Final prototype optimized for comfort and stability with clear gesture isolation<br>
+</li>
+<li>Introduced dynamic gestures (flicks and rotations) for resizing and rotation commands<br>
+</li>
+<li>Logged average task completion times across design variants</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>2. Model Architecture &amp; Training</b></span>
+</summary>
+<ul>
+<li>Trained a feed-forward neural network using 50-frame input windows with 12-channel IMU data<br>
+</li>
+<li>Implemented ReLU-activated dense layers for feature extraction<br>
+</li>
+<li>Achieved balanced class distribution with 1-minute capped recording per gesture<br>
+</li>
+<li>Evaluated model performance using training curves, confusion matrices, and signal overlap analysis<br>
+</li>
+<li>Future work: Evaluate LSTM-based temporal models for sequential gesture disambiguation</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>3. On-Device Deployment with TinyML</b></span>
+</summary>
+<ul>
+<li>Converted trained Keras model to <code>.tflite</code> with post-training quantization<br>
+</li>
+<li>Deployed model using TensorFlow Lite Micro with C-array headers on Arduino Nano 33 BLE<br>
+</li>
+<li>Used sliding window and normalization logic for real-time inference loop<br>
+</li>
+<li>Output predictions streamed via BLE to Python client using <code>bleak</code><br>
+</li>
+<li>Power bank setup enabled untethered, mobile interaction</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>4. Post-Processing &amp; Stability Filters</b></span>
+</summary>
+<ul>
+<li>Implemented prediction confidence filtering (threshold ≥ 0.95)<br>
+</li>
+<li>Added temporal stability check: command triggered only after 10–20 consistent predictions<br>
+</li>
+<li>Filtered flick gestures to prevent misclassification with <code>up/down</code> motions<br>
+</li>
+<li>UI responsiveness improved through tuning command sensitivity and gesture transitions</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>5. Results &amp; Quantitative Evaluation</b></span>
+</summary>
+<ul>
+<li>Completion times across versions:
+<ul>
+<li>Wand: ~174s<br>
+</li>
+<li>Glove: ~146s<br>
+</li>
+<li>Final 2-hand config: ~33s (avg. across users)<br>
+</li>
+</ul></li>
+<li>On-device accuracy: <strong>99%</strong><br>
+</li>
+<li>Error rate: near-zero due to stability + confidence filters<br>
+</li>
+<li>Best performance demo captured in video and testing logs (see Drive)</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>6. User Feedback &amp; Observations</b></span>
+</summary>
+<ul>
+<li>Users preferred holding cardboard-mounted prototypes over glove-based wearables<br>
+</li>
+<li>Flick gestures were perceived as natural and intuitive<br>
+</li>
+<li>Static poses for movement felt predictable and easy to learn<br>
+</li>
+<li>Fatigue reduced in final version due to ergonomic form factor and gesture separation<br>
+</li>
+<li>Common confusion between <code>+/-</code> and <code>up/down</code> was addressed via axis remapping</li>
+</ul>
+</details>
+</section>
+<section id="tools-frameworks" class="level1">
+<h1>Tools &amp; Frameworks</h1>
+<table class="table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Tools / Stack Used</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Microcontroller + Sensors</td>
+<td><code>Arduino Nano 33 BLE Rev2</code>, <code>BMI270</code>, <code>MPU6050</code>, <code>10 DOF IMU</code></td>
+</tr>
+<tr class="even">
+<td>ML Model &amp; Training</td>
+<td><code>Keras</code>, <code>TensorFlow</code>, <code>NumPy</code>, <code>scikit-learn</code>, <code>Matplotlib</code>, <code>Pandas</code></td>
+</tr>
+<tr class="odd">
+<td>On-Device ML Deployment</td>
+<td><code>TensorFlow Lite Micro</code>, <code>xxd</code>, <code>ArduinoBLE</code>, <code>tflite::MicroInterpreter</code></td>
+</tr>
+<tr class="even">
+<td>Gesture Streaming &amp; UI</td>
+<td><code>BLE (Arduino + bleak)</code>, <code>PyQt5</code>, <code>Matplotlib</code>, <code>Custom UI Loop</code></td>
+</tr>
+<tr class="odd">
+<td>Prototyping &amp; Analysis</td>
+<td><code>User Testing Logs</code>, <code>Training Curves</code>, <code>Confusion Matrices</code>, <code>PDF Reporting</code></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
 
  ]]></description>
-  <category>Signal Processing</category>
+  <category>Computer Vision</category>
   <category>Deep Learning</category>
+  <category>Human-computer Interaction</category>
   <category>Interaction Design</category>
-  <category>Statistical Analysis</category>
-  <category>User-Research</category>
+  <category>Machine Learning Systems</category>
+  <category>On-Device AI</category>
+  <category>Signal Processing</category>
   <guid>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</guid>
   <pubDate>Tue, 18 Mar 2025 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/images/project-card-image.png" medium="image" type="image/png" height="80" width="144"/>
@@ -493,9 +643,11 @@
 <section id="project-overview" class="level1">
 <h1>Project Overview</h1>
 <p>This project was developed at the intersection of medical imaging and applied deep learning, in collaboration with pathologists from <strong>Carnegie Mellon University, Rutgers and Tulane</strong>. The work focused on building an end-to-end diagnostic system that brings explainable, high-performance ML models into digital pathology pipelines for vascular autoimmune disorders like <strong>Giant Cell Arteritis (GCA)</strong>.</p>
+<blockquote class="blockquote">
 <p>✨ Built a fully automated ML pipeline achieving <strong>92.32% ROI-level accuracy</strong> and <strong>0.93 AUC</strong> for inflammation detection in digitized biopsy slides.<br>
 ✨ Trained and deployed a <strong>ResNet-34 classifier</strong> optimized for low-latency inference (<strong>168 ms/16 ROIs</strong>) using clinical-grade image preprocessing.<br>
 ✨ Published and presented results at <strong>ARVO 2022</strong>, with GradCAM visual validation accepted by board-certified ophthalmic pathologists.</p>
+</blockquote>
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 <p><strong>FUNDED BY: </strong> <span style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>NIH U54 GM104942</span> <span style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;">Oliver and Carroll Dabezies Tulane Endowed Chair</span></p>
 </div>
@@ -669,6 +821,170 @@
   <media:content url="https://nive927.github.io/projects/2022-07-01-braillevoice/images/project-card-image.png" medium="image" type="image/png" height="87" width="144"/>
 </item>
 <item>
+  <title>ORCA: Underwater Robot</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2021-05-01-orca/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="related-links-artifacts" class="level1">
+<h1>Related Links &amp; Artifacts</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+<p><a href="https://www.youtube.com/watch?v=OBnoacUi01A" target="_blank" style="background-color:#ff0000; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-youtube" style="margin-right:6px;"></i>Watch Demo</a></p>
+<p><a href="https://ieeexplore.ieee.org/document/9775325" target="_blank" style="background-color:#593196; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-journal-text" style="margin-right:6px;"></i>IEEE Publication</a></p>
+<p><a href="https://sites.google.com/prod/view/uwarlssn/rd?authuser=0" target="_blank" style="background-color:#0077b5; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-globe" style="margin-right:6px;"></i>Lab Website</a></p>
+<p><a href="https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0" target="_blank" style="background-color:#13b955; color:white; padding:8px 16px; border-radius:6px;"><i class="bi bi-cash-stack" style="margin-right:6px;"></i>Funded: ₹9.5 Lakh INR</a></p>
+<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jun 2019 - Jun 2022</span></p>
+</div>
+</section>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>A 500x350x210 mm inspection-class underwater robot equipped for hybrid manual-autonomous navigation. <strong>ORCA</strong> features a 6-thruster mobility suite, real-time telemetry, and multi-sensor feedback including pressure, temperature, leak, and IMU modules. This system integrates a joystick-driven manual mode and an autonomous navigation module built on <strong>MOOS-IvP</strong> (C++ mission planning suite from MIT).</p>
+<blockquote class="blockquote">
+<p>✨ Led a 7-member team to build and test ORCA’s software stack with kill-switch safety, homing, and GAN-enhanced visibility.<br>
+✨ Achieved &gt;90% mission success across test runs with real-time diagnostics and fail-safe handling.<br>
+✨ Integrated autonomous control, camera feedback, and tethered communication using custom C++ modules.</p>
+</blockquote>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OBnoacUi01A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="timeline-of-contributions" class="level1">
+<h1>Timeline of Contributions</h1>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>1. ORCA Robot: Joystick Operation</b></span>
+</summary>
+<ul>
+<li>Developed an autonomous + manual navigation stack on MOOS-IvP.<br>
+</li>
+<li>Built joystick control, kill switch, IMU fusion, and thrust mapping systems.<br>
+</li>
+<li>Bench + pool tested with full sensor telemetry and thrust validation.<br>
+</li>
+<li>Published at IEEE and won the <strong>Asia-Pacific Region IEEE R10 UGPVC</strong>.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>2. KYOGRE: Autonomous Navigation Suite with Perception Sub-systems</b></span>
+</summary>
+<ul>
+<li>Internally funded with ₹30,000 (SSN IFSP).<br>
+</li>
+<li>Developed deep RL-based waypoint control for UWVs.<br>
+</li>
+<li>Integrated into ORCA system as a future planning module.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>3. EyeSea: Real-Time Marine Threat Alerting Sub-system</b></span>
+</summary>
+<ul>
+<li>Built a YOLOv3 + MobileNetV2 pipeline to detect marine species threats.<br>
+</li>
+<li>Arduino-based IMU fusion + tethered alert system for swimmer safety.<br>
+</li>
+<li>Developed for <strong>National Institute of Ocean Technology</strong>, winning <strong>Smart India Hackathon 2022 (Prelims)</strong>.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>4. SatVision: Satellite-Based Built-Up Detection</b></span>
+</summary>
+<ul>
+<li>Developed a two-step segmentation and merging approach using satellite imagery.<br>
+</li>
+<li>Identified non-residential built-up clusters in dense Indian cities (e.g., Mumbai, Delhi).<br>
+</li>
+<li>🏅 <strong>Won Smart India Hackathon 2022 – Software Edition</strong>, awarded ₹1,00,000 by Ministry of Earth Sciences.</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#005b96;"><b>5. C-GAN for Enhanced Localization</b></span>
+</summary>
+<ul>
+<li>Designed a Conditional GAN to refine robot localization sequences.<br>
+</li>
+<li>Corrected drift and improved tracking precision for mission-critical tasks.<br>
+</li>
+<li>Contributed to robustness of multi-agent localization under low-visibility conditions.</li>
+</ul>
+</details>
+</section>
+<section id="awards-recognition" class="level1">
+<h1>Awards &amp; Recognition</h1>
+<ul>
+<li><p>🏆 <strong>IEEE R10 Undergraduate Project Video Contest Winner (Aug 2021)</strong><br>
+– Winner from 7 countries and 50+ councils<br>
+– Project video featured on IEEE YouTube channel<br>
+– $300 cash prize</p></li>
+<li><p>🏅 <strong>Smart India Hackathon 2022 – Software Edition</strong><br>
+– Winner for PSID: GR823 (SatVision Project)<br>
+– ₹1,00,000 grant awarded by the Ministry of Earth Sciences, Government of India</p></li>
+<li><p>💰 <strong>Internally Funded Student Project (SSN College of Engineering)</strong><br>
+– ₹30,000 grant for KYOGRE (autonomous navigation sub-system for ORCA)</p></li>
+</ul>
+</section>
+<section id="tools-frameworks" class="level1">
+<h1>Tools &amp; Frameworks</h1>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>System Layer</th>
+<th>Tools / Frameworks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Navigation &amp; Control</td>
+<td><code>C++</code>, <code>MOOS-IvP</code>, <code>Arduino</code>, <code>Joystick</code></td>
+</tr>
+<tr class="even">
+<td>Computer Vision</td>
+<td><code>YOLOv3</code>, <code>MobileNetV2</code>, <code>OpenCV</code>, <code>GAN</code>, <code>Real-time Video Analytics</code></td>
+</tr>
+<tr class="odd">
+<td>Embedded Systems</td>
+<td><code>IMU Fusion</code>, <code>Leak Sensor</code>, <code>Pressure Sensor</code>, <code>Arduino Serial Comms</code></td>
+</tr>
+<tr class="even">
+<td>Robotics</td>
+<td><code>6-Thruster Dynamics</code>, <code>Manual-Autonomous Switch</code>, <code>Kill Switch Logic</code></td>
+</tr>
+<tr class="odd">
+<td>Deployment &amp; Monitoring</td>
+<td><code>Telemetry Monitoring</code>, <code>Underwater Testing</code>, <code>Sensor Drift Handling</code></td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+ ]]></description>
+  <category>Award Winner</category>
+  <category>Computer Vision</category>
+  <category>Deep Learning</category>
+  <category>Funding</category>
+  <category>Human-Computer Interaction</category>
+  <category>Machine Learning Systems</category>
+  <category>On-Device AI</category>
+  <category>Publication</category>
+  <category>Research</category>
+  <category>Robotics</category>
+  <category>Signal Processing</category>
+  <guid>https://nive927.github.io/projects/2021-05-01-orca/index.html</guid>
+  <pubDate>Fri, 24 Jun 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2021-05-01-orca/images/project-card-image.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
   <title>Two Stage Flight Delay Prediction</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
   <link>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</link>
@@ -693,44 +1009,6 @@
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>
-</item>
-<item>
-  <title>ORCA: Underwater Robot</title>
-  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
-  <link>https://nive927.github.io/projects/2021-05-01-orca/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<!-- [ shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [ source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank} -->
-<!-- <br> -->
-<!-- <div> -->
-<!-- </div> -->
-<section id="engineering-orca" class="level1">
-<h1>Engineering ORCA</h1>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OBnoacUi01A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>An underwater vehicle (UWV) is an underwater robot that helps carry out certain tasks for which it can be customized and designed. A Remotely Operated Vehicle (ROV) is a highly manoeuvrable underwater robot that can be used to explore ocean depths and is controlled by a human operator. A group of cables, or tethers, connects the ROV to a manned controlling station, sending data and operational instructions in the form of electrical signals back and forth between the operator and the vehicle.</p>
-<p>Our robot, named ORCA, is a 500 x 350 x 210 mm inspection class ROV. It weighs 10.24Kgs and houses various sensors (temperature, pressure, leak sensor, Inertial Measurement Unit) and a camera to carry out underwater missions. This 6-thruster model is driven by a navigation suite that takes manual control instructions through a joystick, maps them to desired levels of thrust and rudder values and relays them to the actuators to achieve on-demand movement of the vehicle. The navigation suite is built on top of a set of open-source C++ modules namely, Mission Oriented Operating Suite - Interval Programming (MOOS-IvP).</p>
-<p>ORCA has been bench-tested and subsequently pool-tested in shallow water regions. It was able to carry out multiple 5-15 minute long straight line missions with consistent data collection through sensors and satisfactory manoeuvrability in all 6 degrees of freedom.</p>
-<!-- TODO: Need to add these details -->
-<!-- https://sites.google.com/prod/view/uwarlssn/rd/consortium?authuser=0 -->
-
-
-</section>
-
- ]]></description>
-  <category>Research</category>
-  <category>Robotics</category>
-  <category>HCI</category>
-  <category>Embedded Systems</category>
-  <category>Computer Vision</category>
-  <guid>https://nive927.github.io/projects/2021-05-01-orca/index.html</guid>
-  <pubDate>Sat, 01 May 2021 04:00:00 GMT</pubDate>
-  <media:content url="https://nive927.github.io/projects/2021-05-01-orca/images/project-card-image.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 </channel>
 </rss>

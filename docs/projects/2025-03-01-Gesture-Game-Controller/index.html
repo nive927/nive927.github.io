@@ -8,7 +8,7 @@
 
 <meta name="author" content="Nivedhitha Dhanasekaran">
 <meta name="dcterms.date" content="2025-03-18">
-<meta name="description" content="A two-hand arduino-based gaming joystick trained using neural networks for gesture-based control.">
+<meta name="description" content="Mid-air, two-hand Arduino gesture controller with on-device neural inference and BLE-based wireless control for 3D interaction">
 
 <title>Nivedhitha Dhanasekaran - Arduino Gesture-based Game Controller Joystick Design</title>
 <style>
@@ -65,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.scss">
+<link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body class="nav-fixed">
@@ -118,19 +119,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Arduino Gesture-based Game Controller Joystick Design</h1>
                   <div>
         <div class="description">
-          <p>A two-hand arduino-based gaming joystick trained using neural networks for gesture-based control.</p>
+          Mid-air, two-hand Arduino gesture controller with on-device neural inference and BLE-based wireless control for 3D interaction
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Signal Processing</div>
+                <div class="quarto-category">Computer Vision</div>
                 <div class="quarto-category">Deep Learning</div>
+                <div class="quarto-category">Human-computer Interaction</div>
                 <div class="quarto-category">Interaction Design</div>
-                <div class="quarto-category">Statistical Analysis</div>
-                <div class="quarto-category">User-Research</div>
+                <div class="quarto-category">Machine Learning Systems</div>
+                <div class="quarto-category">On-Device AI</div>
+                <div class="quarto-category">Signal Processing</div>
               </div>
                   </div>
   </div>
@@ -159,25 +162,184 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#related-links-artifacts" id="toc-related-links-artifacts" class="nav-link active" data-scroll-target="#related-links-artifacts">Related Links &amp; Artifacts</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#tools-frameworks" id="toc-tools-frameworks" class="nav-link" data-scroll-target="#tools-frameworks">Tools &amp; Frameworks</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<section id="project-report" class="level1">
-<h1>Project Report</h1>
-<!-- <br> -->
-<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;"> -->
-<!--   <img src="./images/project-card-image.png" alt="Broken image."> -->
-<!-- </div> -->
-<!-- </br>\ -->
-<p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
+<section id="related-links-artifacts" class="level1">
+<h1>Related Links &amp; Artifacts</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
+<!-- TODO: Change LINKS later -->
+<p><!-- <a href="https://docs.google.com/presentation/d/1TfJ77IAXKsWr_72yX_Gy3CM7c8GRqdyjcQc_PHpHO0M/edit?usp=sharing" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-slides" style="margin-right:6px;"></i>60s Pitch Deck</a> --></p>
+<p><!-- <a href="https://drive.google.com/drive/folders/1lYVCIa6JRh4rkgkOQeiAazqBx5hhv1lU?usp=sharing" target="_blank" style="background-color:#34a853; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-folder-symlink-fill" style="margin-right:6px;"></i>Artifacts Drive</a> --></p>
+<p><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a></p>
+<p><a href="https://hcii.cmu.edu/people/alexandra-ion" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Alexandra Ion</a></p>
+<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jan 2025 – Mar 2025</span></p>
+</div>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>This project explores mid-air UI manipulation using two IMU-equipped Arduino boards for gesture-based control. Various prototypes were evaluated, including two-handed, single-hand, and wand-based designs. The final prototype was re- fined through model enhancements, stability thresholds, confidence filtering, and UI optimizations. User testing measured task completion time, error rates, and prediction stability, demonstrating improved efficiency and usability. The final system achieved robust gesture recognition, highlighting its potential for intuitive human-computer interaction.</p>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>This project introduces a mid-air gesture-based interaction system for 3D gaming using a dual-IMU Arduino Nano 33 BLE controller. Designed for ergonomic, untethered play, it leverages TinyML for on-device classification and Bluetooth for wireless interaction. Three controller form factors were tested, with the final version delivering reliable gesture recognition and low-latency UI control.</p>
+<blockquote class="blockquote">
+<p>✨ Achieved <strong>99% on-device classification accuracy</strong> using an optimized neural network trained on 10 DOF time-series IMU signals<br>
+✨ Reduced average user task time from <strong>~170s to ~33s</strong> through iterative interaction design and model refinement<br>
+✨ Deployed a real-time streaming pipeline using <strong>TensorFlow Lite Micro</strong> and <strong>BLE</strong> on the Arduino Nano 33 BLE Rev2</p>
+</blockquote>
+</section>
+<section id="description" class="level1">
+<h1>Description</h1>
+<p>The project spanned interaction prototyping, embedded model deployment, user testing, and performance tuning. Gesture-to-command mappings were incrementally refined using user feedback, statistical evaluation, and post-processing filters. The final system supports 9 unique gestures including movement, rotation, and resizing.</p>
+<p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>1. Interaction Prototyping &amp; User Testing</b></span>
+</summary>
+<ul>
+<li>Explored glove-based, wand, and two-hand cardboard-mounted designs<br>
+</li>
+<li>Conducted pilot studies and structured testing with 5 users (200+ total gesture interactions)<br>
+</li>
+<li>Final prototype optimized for comfort and stability with clear gesture isolation<br>
+</li>
+<li>Introduced dynamic gestures (flicks and rotations) for resizing and rotation commands<br>
+</li>
+<li>Logged average task completion times across design variants</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>2. Model Architecture &amp; Training</b></span>
+</summary>
+<ul>
+<li>Trained a feed-forward neural network using 50-frame input windows with 12-channel IMU data<br>
+</li>
+<li>Implemented ReLU-activated dense layers for feature extraction<br>
+</li>
+<li>Achieved balanced class distribution with 1-minute capped recording per gesture<br>
+</li>
+<li>Evaluated model performance using training curves, confusion matrices, and signal overlap analysis<br>
+</li>
+<li>Future work: Evaluate LSTM-based temporal models for sequential gesture disambiguation</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>3. On-Device Deployment with TinyML</b></span>
+</summary>
+<ul>
+<li>Converted trained Keras model to <code>.tflite</code> with post-training quantization<br>
+</li>
+<li>Deployed model using TensorFlow Lite Micro with C-array headers on Arduino Nano 33 BLE<br>
+</li>
+<li>Used sliding window and normalization logic for real-time inference loop<br>
+</li>
+<li>Output predictions streamed via BLE to Python client using <code>bleak</code><br>
+</li>
+<li>Power bank setup enabled untethered, mobile interaction</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>4. Post-Processing &amp; Stability Filters</b></span>
+</summary>
+<ul>
+<li>Implemented prediction confidence filtering (threshold ≥ 0.95)<br>
+</li>
+<li>Added temporal stability check: command triggered only after 10–20 consistent predictions<br>
+</li>
+<li>Filtered flick gestures to prevent misclassification with <code>up/down</code> motions<br>
+</li>
+<li>UI responsiveness improved through tuning command sensitivity and gesture transitions</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>5. Results &amp; Quantitative Evaluation</b></span>
+</summary>
+<ul>
+<li>Completion times across versions:
+<ul>
+<li>Wand: ~174s<br>
+</li>
+<li>Glove: ~146s<br>
+</li>
+<li>Final 2-hand config: ~33s (avg. across users)<br>
+</li>
+</ul></li>
+<li>On-device accuracy: <strong>99%</strong><br>
+</li>
+<li>Error rate: near-zero due to stability + confidence filters<br>
+</li>
+<li>Best performance demo captured in video and testing logs (see Drive)</li>
+</ul>
+</details>
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
+<summary>
+<span style="color:#593196;"><b>6. User Feedback &amp; Observations</b></span>
+</summary>
+<ul>
+<li>Users preferred holding cardboard-mounted prototypes over glove-based wearables<br>
+</li>
+<li>Flick gestures were perceived as natural and intuitive<br>
+</li>
+<li>Static poses for movement felt predictable and easy to learn<br>
+</li>
+<li>Fatigue reduced in final version due to ergonomic form factor and gesture separation<br>
+</li>
+<li>Common confusion between <code>+/-</code> and <code>up/down</code> was addressed via axis remapping</li>
+</ul>
+</details>
+</section>
+<section id="tools-frameworks" class="level1">
+<h1>Tools &amp; Frameworks</h1>
+<table class="table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Tools / Stack Used</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Microcontroller + Sensors</td>
+<td><code>Arduino Nano 33 BLE Rev2</code>, <code>BMI270</code>, <code>MPU6050</code>, <code>10 DOF IMU</code></td>
+</tr>
+<tr class="even">
+<td>ML Model &amp; Training</td>
+<td><code>Keras</code>, <code>TensorFlow</code>, <code>NumPy</code>, <code>scikit-learn</code>, <code>Matplotlib</code>, <code>Pandas</code></td>
+</tr>
+<tr class="odd">
+<td>On-Device ML Deployment</td>
+<td><code>TensorFlow Lite Micro</code>, <code>xxd</code>, <code>ArduinoBLE</code>, <code>tflite::MicroInterpreter</code></td>
+</tr>
+<tr class="even">
+<td>Gesture Streaming &amp; UI</td>
+<td><code>BLE (Arduino + bleak)</code>, <code>PyQt5</code>, <code>Matplotlib</code>, <code>Custom UI Loop</code></td>
+</tr>
+<tr class="odd">
+<td>Prototyping &amp; Analysis</td>
+<td><code>User Testing Logs</code>, <code>Training Curves</code>, <code>Confusion Matrices</code>, <code>PDF Reporting</code></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
