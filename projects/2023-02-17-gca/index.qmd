@@ -3,7 +3,7 @@ title: "Automated Detection of Giant Cell Arteritis from Temporal Artery Biopsy 
 author: Nivedhitha Dhanasekaran
 description: "ResNet-based classification of histopathological slides for vascular inflammation diagnosis"
 date: 2022-07-15
-categories: [Computational Biomedicine, Data Science, Deep Learning, Funding, GPU Training, Machine Learning Systems, Model Explainability, Publication, Research]
+categories: [Computational Biomedicine, Data Science, Deep Learning, Funding, GPU Training, Machine Learning System, Model Explainability, Publication, Research]
 image: ./images/project-card-image.png
 format:
   html:

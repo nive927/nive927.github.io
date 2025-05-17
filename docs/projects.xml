@@ -23,26 +23,26 @@
 <section id="related-links-artifacts" class="level1">
 <h1>Related Links &amp; Artifacts</h1>
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
-<p><a href="./documents/movie_recommender_final_report.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> <i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF) </a></p>
-<p><a href="https://www.lti.cs.cmu.edu/people/faculty/stamper-john.html" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: John Stamper </a></p>
+<p><!-- <a href="./documents/movie_recommender_final_report.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> --> <!--   <i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF) --> <!-- </a> --></p>
 <p><a href="https://austinhenley.com/" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Austin Henley </a></p>
-<p><a href="https://clairelegoues.com/" target="_blank" style="background-color:#5f6368; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Claire Le Goues </a></p>
-<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;"> 📅 Project Duration: Mar 2025 – Apr 2025 </span></p>
+<p><a href="https://clairelegoues.com/" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"> <i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Claire Le Goues </a></p>
+<p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;"> 📅 Project Duration: Feb - Apr 2025 </span></p>
 </div>
 </section>
 <section id="project-overview" class="level1">
 <h1>Project Overview</h1>
 <p>A robust and production-ready movie recommendation engine integrating collaborative filtering with an MLOps pipeline. The system supports continuous deployment, online evaluation, real-time telemetry, and fairness monitoring using modern tooling.</p>
 <blockquote class="blockquote">
-<p>✅ Achieved &lt;0.4s average latency, 2.34 RMSE (online), and &gt;90% request success rate<br>
-✅ Enabled automated retraining via MLflow with schema validation, drift detection, and CI triggers<br>
-✅ Integrated A/B testing with LaunchDarkly for user-level model experimentation<br>
-✅ Monitored service uptime and accuracy via Prometheus + Grafana with alerting and version tagging<br>
-✅ Built fault-tolerant Kafka pipelines with PostgreSQL for ingestion, tracking, and evaluation</p>
+<p>✨Achieved &lt;0.4s average latency, 2.34 RMSE (online), and &gt;90% request success rate<br>
+✨Enabled automated retraining via MLflow with schema validation, drift detection, and CI triggers<br>
+✨Integrated A/B testing with LaunchDarkly for user-level model experimentation<br>
+✨Monitored service uptime and accuracy via Prometheus + Grafana with alerting and version tagging<br>
+✨Built fault-tolerant Kafka pipelines with PostgreSQL for ingestion, tracking, and evaluation</p>
 </blockquote>
 </section>
-<section id="system-architecture" class="level1">
-<h1>System Architecture</h1>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p><img src="https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/images/project-card-image.jpg" style="width:100%; margin-top:1rem;"></p>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
 <summary>
 <span style="color:#593196;"><b>1. Architecture &amp; Inference Pipeline</b></span>
@@ -488,8 +488,8 @@
  ]]></description>
   <category>Computer Vision</category>
   <category>Deep Learning</category>
-  <category>Human-computer Interaction</category>
-  <category>Machine Learning Systems</category>
+  <category>Human-Computer Interaction</category>
+  <category>Machine Learning System</category>
   <category>On-Device AI</category>
   <category>Signal Processing</category>
   <category>UI/UX</category>
@@ -650,8 +650,9 @@
  ]]></description>
   <category>On-Device AI</category>
   <category>Large Language Models</category>
-  <category>Machine Learning Systems</category>
+  <category>Machine Learning System</category>
   <category>Natural Language Processing</category>
+  <category>Responsible AI</category>
   <guid>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</guid>
   <pubDate>Sat, 07 Dec 2024 05:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2024-12-07-note-recall/images/project-card-image.png" medium="image" type="image/png" height="69" width="144"/>
@@ -915,7 +916,7 @@
 </section>
 
  ]]></description>
-  <category>HCI</category>
+  <category>Human-Computer Interaction</category>
   <category>Responsible AI</category>
   <category>UI/UX</category>
   <category>Research</category>
@@ -946,11 +947,10 @@
 </section>
 
  ]]></description>
-  <category>Interactive Intelligence</category>
-  <category>Data Visualization</category>
-  <category>Web Development</category>
+  <category>Data Science</category>
+  <category>Human-Computer Interaction</category>
   <category>UI/UX</category>
-  <category>HCI</category>
+  <category>Web Development</category>
   <guid>https://nive927.github.io/projects/2023-12-31-music-magician-spotify-dashboard/index.html</guid>
   <pubDate>Sat, 30 Dec 2023 05:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2023-12-31-music-magician-spotify-dashboard/images/project-card-image.png" medium="image" type="image/png" height="71" width="144"/>
@@ -1109,7 +1109,7 @@
   <category>Deep Learning</category>
   <category>Funding</category>
   <category>GPU Training</category>
-  <category>Machine Learning Systems</category>
+  <category>Machine Learning System</category>
   <category>Model Explainability</category>
   <category>Publication</category>
   <category>Research</category>
@@ -1307,8 +1307,8 @@
   <category>Computer Vision</category>
   <category>Deep Learning</category>
   <category>Funding</category>
-  <category>Human-computer Interaction</category>
-  <category>Machine Learning Systems</category>
+  <category>Human-Computer Interaction</category>
+  <category>Machine Learning System</category>
   <category>On-Device AI</category>
   <category>Publication</category>
   <category>Research</category>
@@ -1337,7 +1337,7 @@
 </section>
 
  ]]></description>
-  <category>Machine Learning Systems</category>
+  <category>Machine Learning System</category>
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>

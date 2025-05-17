@@ -4,7 +4,7 @@ description: |
   Spotify Music Artist Influence Analytics Dashboard
 date: 2023-12-30
 author: "Nivedhitha Dhanasekaran"
-categories: [Interactive Intelligence, Data Visualization, Web Development, UI/UX, HCI]
+categories: [Data Science, Human-Computer Interaction, UI/UX, Web Development]
 image: ./images/project-card-image.png
 draft: false
 ---

@@ -4,7 +4,7 @@ description: |
   Predicting the On-time Performance of Flights in the USA
 date: 2021-06-30
 author: "Nivedhitha Dhanasekaran"
-categories: [Machine Learning Systems]
+categories: [Machine Learning System]
 image: ./images/project-card-image.png
 draft: false
 ---
