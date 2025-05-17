@@ -10,7 +10,50 @@
 <atom:link href="https://nive927.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Nive&#39;s Portfolio Website.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Fri, 25 Apr 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 12 May 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Promo Miner: AI Shopping Agent</title>
+  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
+  <link>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="most-effective-project---winner-at-ai-agents-weekend-2025-by-google-deepmind" class="level1">
+<h1>Most Effective Project - Winner at AI Agents Weekend 2025 by Google &amp; DeepMind</h1>
+<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project Description</h1>
+<p>Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail’s Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.</p>
+<p>The system begins by securely accessing only the user’s Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.</p>
+<p>Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.</p>
+<p>Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.</p>
+<p>Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.</p>
+</section>
+<section id="features" class="level1">
+<h1>Features</h1>
+<ul>
+<li><strong>Privacy-Preserving OAuth Login</strong> – Only accesses Gmail Promotions tab, maintaining user privacy.</li>
+<li><strong>Deal Filtering &amp; Storage</strong> – Automatically detects valid promos and saves them securely in Firebase.</li>
+<li><strong>Gemini-Based Ranking</strong> – Contextually scores deals by urgency, discount value, and coupon presence.</li>
+<li><strong>Real-Time Comparison</strong> – Searches the web for better deals using Exa and notifies users when found.</li>
+<li><strong>Browser Extension Interface</strong> – Presents top deals and alternatives in a simple, ranked view.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>On-Device AI</category>
+  <category>Large Language Models</category>
+  <category>Machine Learning Systems</category>
+  <category>Natural Language Processing</category>
+  <guid>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</guid>
+  <pubDate>Mon, 12 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://nive927.github.io/projects/2024-12-07-note-recall/images/project-card-image.png" medium="image" type="image/png" height="69" width="144"/>
+</item>
 <item>
   <title>Movie Recommender</title>
   <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
@@ -46,9 +89,7 @@
 </section>
 
  ]]></description>
-  <category>AI Agents</category>
-  <category>LLMs</category>
-  <category>Web Automation</category>
+  <category>Web Development</category>
   <guid>https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/index.html</guid>
   <pubDate>Fri, 25 Apr 2025 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2025-04-25-movie-recommender-engine/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
@@ -212,9 +253,6 @@
 <section id="related-links-artifacts" class="level1">
 <h1>Related Links &amp; Artifacts</h1>
 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
-<!-- TODO: Change LINKS later -->
-<p><!-- <a href="https://docs.google.com/presentation/d/1TfJ77IAXKsWr_72yX_Gy3CM7c8GRqdyjcQc_PHpHO0M/edit?usp=sharing" target="_blank" style="background-color:#0b57d0; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-slides" style="margin-right:6px;"></i>60s Pitch Deck</a> --></p>
-<p><!-- <a href="https://drive.google.com/drive/folders/1lYVCIa6JRh4rkgkOQeiAazqBx5hhv1lU?usp=sharing" target="_blank" style="background-color:#34a853; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-folder-symlink-fill" style="margin-right:6px;"></i>Artifacts Drive</a> --></p>
 <p><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a></p>
 <p><a href="https://hcii.cmu.edu/people/alexandra-ion" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Alexandra Ion</a></p>
 <p><span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Jan 2025 – Mar 2025</span></p>
@@ -222,31 +260,32 @@
 </section>
 <section id="project-overview" class="level1">
 <h1>Project Overview</h1>
-<p>This project introduces a mid-air gesture-based interaction system for 3D gaming using a dual-IMU Arduino Nano 33 BLE controller. Designed for ergonomic, untethered play, it leverages TinyML for on-device classification and Bluetooth for wireless interaction. Three controller form factors were tested, with the final version delivering reliable gesture recognition and low-latency UI control.</p>
+<p>This project presents a mid-air gesture recognition system using a dual-IMU Arduino controller, developed for hands-free 3D box manipulation tasks. Built on a two-handed ergonomic design and a neural model trained on 10 DOF IMU signals, the system supports 9 gestures for intuitive real-time control. It uses BLE for streaming predictions wirelessly and runs fully on-device via TinyML.</p>
 <blockquote class="blockquote">
-<p>✨ Achieved <strong>99% on-device classification accuracy</strong> using an optimized neural network trained on 10 DOF time-series IMU signals<br>
-✨ Reduced average user task time from <strong>~170s to ~33s</strong> through iterative interaction design and model refinement<br>
-✨ Deployed a real-time streaming pipeline using <strong>TensorFlow Lite Micro</strong> and <strong>BLE</strong> on the Arduino Nano 33 BLE Rev2</p>
+<p>✨ Built and deployed a <strong>two-handed Arduino Nano 33 BLE gesture controller</strong> with custom neural classifier<br>
+✨ Achieved <strong>99% on-device classification accuracy</strong> using stability filtering and confidence thresholds<br>
+✨ Reduced average task time from <strong>~170s to ~33s</strong> across 5 users by optimizing gesture mappings and prototype comfort<br>
+✨ Integrated real-time BLE gesture streaming with Python client and custom UI for live square control</p>
 </blockquote>
 </section>
 <section id="description" class="level1">
 <h1>Description</h1>
-<p>The project spanned interaction prototyping, embedded model deployment, user testing, and performance tuning. Gesture-to-command mappings were incrementally refined using user feedback, statistical evaluation, and post-processing filters. The final system supports 9 unique gestures including movement, rotation, and resizing.</p>
+<p>The final system used two Arduinos mounted on a cardboard cutout for ergonomic handling. Extensive prototyping was done with glove and wand variants before finalizing this version based on user feedback, comfort, and accuracy. Gestures like up/down/left/right, clockwise/counterclockwise, and resizing (+/-) were supported. A trained dense neural network was deployed using TensorFlow Lite Micro for real-time on-device inference.</p>
 <p><object data="./documents/ndhanase_P2_Gesture_Recognition.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/ndhanase_P2_Gesture_Recognition.pdf" download="">Download PDF file.</a></object></p>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
 <summary>
 <span style="color:#593196;"><b>1. Interaction Prototyping &amp; User Testing</b></span>
 </summary>
 <ul>
-<li>Explored glove-based, wand, and two-hand cardboard-mounted designs<br>
+<li>Compared 3 form factors: wand, glove, and dual-hand controller<br>
 </li>
-<li>Conducted pilot studies and structured testing with 5 users (200+ total gesture interactions)<br>
+<li>Final prototype mounted on cardboard for comfort and stability<br>
 </li>
-<li>Final prototype optimized for comfort and stability with clear gesture isolation<br>
+<li>Gesture sets included static poses, flicks, and rotation gestures<br>
 </li>
-<li>Introduced dynamic gestures (flicks and rotations) for resizing and rotation commands<br>
+<li>Tested across 5 users for timing, fatigue, and prediction stability<br>
 </li>
-<li>Logged average task completion times across design variants</li>
+<li>Final task averaged ~33s vs ~170s for initial glove/wand variants</li>
 </ul>
 </details>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
@@ -254,82 +293,59 @@
 <span style="color:#593196;"><b>2. Model Architecture &amp; Training</b></span>
 </summary>
 <ul>
-<li>Trained a feed-forward neural network using 50-frame input windows with 12-channel IMU data<br>
+<li>Trained a feed-forward dense neural network (ReLU activations) on 50×12 time-series windows<br>
 </li>
-<li>Implemented ReLU-activated dense layers for feature extraction<br>
+<li>Collected balanced gesture data with capped 1-minute recordings per class<br>
 </li>
-<li>Achieved balanced class distribution with 1-minute capped recording per gesture<br>
+<li>Evaluated confusion matrices, training/validation curves, and misclassification overlap<br>
 </li>
-<li>Evaluated model performance using training curves, confusion matrices, and signal overlap analysis<br>
+<li>Accuracy peaked at 99% on-device due to clean data, axis separation, and class balancing<br>
 </li>
-<li>Future work: Evaluate LSTM-based temporal models for sequential gesture disambiguation</li>
+<li>Model exported to <code>.tflite</code> for microcontroller deployment</li>
 </ul>
 </details>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#593196;"><b>3. On-Device Deployment with TinyML</b></span>
+<span style="color:#593196;"><b>3. On-Device Deployment &amp; BLE Integration</b></span>
 </summary>
 <ul>
-<li>Converted trained Keras model to <code>.tflite</code> with post-training quantization<br>
+<li>Deployed the <code>.tflite</code> model on Arduino Nano 33 BLE Rev2 using TFLite Micro<br>
 </li>
-<li>Deployed model using TensorFlow Lite Micro with C-array headers on Arduino Nano 33 BLE<br>
+<li>Used <code>xxd</code> to convert model into a C byte array<br>
 </li>
-<li>Used sliding window and normalization logic for real-time inference loop<br>
+<li>Real-time inference pipeline: IMU → buffer → model → BLE transmission<br>
 </li>
-<li>Output predictions streamed via BLE to Python client using <code>bleak</code><br>
+<li>Bluetooth client built in Python using <code>bleak</code> library<br>
 </li>
-<li>Power bank setup enabled untethered, mobile interaction</li>
+<li>Enabled mobile, power bank–driven untethered usage</li>
 </ul>
 </details>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#593196;"><b>4. Post-Processing &amp; Stability Filters</b></span>
+<span style="color:#593196;"><b>4. Post-Processing &amp; Stability Enhancements</b></span>
 </summary>
 <ul>
-<li>Implemented prediction confidence filtering (threshold ≥ 0.95)<br>
+<li>Confidence thresholding (≥ 0.95) filtered noisy predictions<br>
 </li>
-<li>Added temporal stability check: command triggered only after 10–20 consistent predictions<br>
+<li>Added a 20-frame stability window to trigger sensitive gestures like <code>+</code>, <code>-</code>, CW, CCW<br>
 </li>
-<li>Filtered flick gestures to prevent misclassification with <code>up/down</code> motions<br>
+<li>Remapped axes for rotation to reduce overlap with movement controls<br>
 </li>
-<li>UI responsiveness improved through tuning command sensitivity and gesture transitions</li>
+<li>Dynamic gestures (flicks) improved intuitiveness over static poses</li>
 </ul>
 </details>
 <details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
 <summary>
-<span style="color:#593196;"><b>5. Results &amp; Quantitative Evaluation</b></span>
+<span style="color:#593196;"><b>5. Results Summary</b></span>
 </summary>
 <ul>
-<li>Completion times across versions:
-<ul>
-<li>Wand: ~174s<br>
+<li><strong>Task time</strong> reduced from ~170s (glove) and ~146s (wand) to <strong>~33s</strong> in final version<br>
 </li>
-<li>Glove: ~146s<br>
+<li><strong>Accuracy:</strong> 99% on-device with filtered predictions<br>
 </li>
-<li>Final 2-hand config: ~33s (avg. across users)<br>
+<li><strong>Error rate:</strong> Near-zero for all users after filtering<br>
 </li>
-</ul></li>
-<li>On-device accuracy: <strong>99%</strong><br>
-</li>
-<li>Error rate: near-zero due to stability + confidence filters<br>
-</li>
-<li>Best performance demo captured in video and testing logs (see Drive)</li>
-</ul>
-</details>
-<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;">
-<summary>
-<span style="color:#593196;"><b>6. User Feedback &amp; Observations</b></span>
-</summary>
-<ul>
-<li>Users preferred holding cardboard-mounted prototypes over glove-based wearables<br>
-</li>
-<li>Flick gestures were perceived as natural and intuitive<br>
-</li>
-<li>Static poses for movement felt predictable and easy to learn<br>
-</li>
-<li>Fatigue reduced in final version due to ergonomic form factor and gesture separation<br>
-</li>
-<li>Common confusion between <code>+/-</code> and <code>up/down</code> was addressed via axis remapping</li>
+<li><strong>User feedback:</strong> Positive on cardboard comfort, flick gesture intuitiveness, and UI responsiveness</li>
 </ul>
 </details>
 </section>
@@ -349,23 +365,27 @@
 <tbody>
 <tr class="odd">
 <td>Microcontroller + Sensors</td>
-<td><code>Arduino Nano 33 BLE Rev2</code>, <code>BMI270</code>, <code>MPU6050</code>, <code>10 DOF IMU</code></td>
+<td><code>Arduino Nano 33 BLE Rev2</code>, <code>BMI270 IMU</code>, <code>Two-Board Sync</code></td>
 </tr>
 <tr class="even">
-<td>ML Model &amp; Training</td>
+<td>ML Model Training</td>
 <td><code>Keras</code>, <code>TensorFlow</code>, <code>NumPy</code>, <code>scikit-learn</code>, <code>Matplotlib</code>, <code>Pandas</code></td>
 </tr>
 <tr class="odd">
-<td>On-Device ML Deployment</td>
-<td><code>TensorFlow Lite Micro</code>, <code>xxd</code>, <code>ArduinoBLE</code>, <code>tflite::MicroInterpreter</code></td>
+<td>On-Device Inference</td>
+<td><code>TensorFlow Lite Micro</code>, <code>xxd</code>, <code>ArduinoBLE</code>, <code>C++</code>, <code>tflite::MicroInterpreter</code></td>
 </tr>
 <tr class="even">
-<td>Gesture Streaming &amp; UI</td>
-<td><code>BLE (Arduino + bleak)</code>, <code>PyQt5</code>, <code>Matplotlib</code>, <code>Custom UI Loop</code></td>
+<td>Real-Time BLE Streaming</td>
+<td><code>bleak (Python)</code>, <code>Serial</code>, <code>UUID</code></td>
 </tr>
 <tr class="odd">
+<td>UI + Post-Processing</td>
+<td><code>PyQt5</code>, <code>Matplotlib</code>, <code>Python UI Thread</code>, <code>Stability Filter</code>, <code>Confidence Filter</code></td>
+</tr>
+<tr class="even">
 <td>Prototyping &amp; Analysis</td>
-<td><code>User Testing Logs</code>, <code>Training Curves</code>, <code>Confusion Matrices</code>, <code>PDF Reporting</code></td>
+<td><code>Training Curves</code>, <code>User Logs</code>, <code>Confusion Matrix</code>, <code>Cardboard Mounting</code>, <code>GIFs</code></td>
 </tr>
 </tbody>
 </table>
@@ -377,55 +397,13 @@
   <category>Computer Vision</category>
   <category>Deep Learning</category>
   <category>Human-computer Interaction</category>
-  <category>Interaction Design</category>
   <category>Machine Learning Systems</category>
   <category>On-Device AI</category>
   <category>Signal Processing</category>
+  <category>UI/UX</category>
   <guid>https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/index.html</guid>
   <pubDate>Tue, 18 Mar 2025 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2025-03-01-Gesture-Game-Controller/images/project-card-image.png" medium="image" type="image/png" height="80" width="144"/>
-</item>
-<item>
-  <title>Promo Miner: AI Shopping Agent</title>
-  <dc:creator>Nivedhitha Dhanasekaran</dc:creator>
-  <link>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="most-effective-project---winner-at-ai-agents-weekend-2025-by-google-deepmind" class="level1">
-<h1>Most Effective Project - Winner at AI Agents Weekend 2025 by Google &amp; DeepMind</h1>
-<p><object data="./documents/promo_miner_pitch_deck_nive_2025.pdf" type="application/pdf" width="100%" height="850"><a href="./documents/promo_miner_pitch_deck_nive_2025.pdf" download="">Download PDF file.</a></object></p>
-</section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail’s Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.</p>
-<p>The system begins by securely accessing only the user’s Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.</p>
-<p>Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.</p>
-<p>Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.</p>
-<p>Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.</p>
-</section>
-<section id="features" class="level1">
-<h1>Features</h1>
-<ul>
-<li><strong>Privacy-Preserving OAuth Login</strong> – Only accesses Gmail Promotions tab, maintaining user privacy.</li>
-<li><strong>Deal Filtering &amp; Storage</strong> – Automatically detects valid promos and saves them securely in Firebase.</li>
-<li><strong>Gemini-Based Ranking</strong> – Contextually scores deals by urgency, discount value, and coupon presence.</li>
-<li><strong>Real-Time Comparison</strong> – Searches the web for better deals using Exa and notifies users when found.</li>
-<li><strong>Browser Extension Interface</strong> – Presents top deals and alternatives in a simple, ranked view.</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>AI Agents</category>
-  <category>LLMs</category>
-  <category>Web Automation</category>
-  <guid>https://nive927.github.io/projects/2024-12-07-note-recall/index.html</guid>
-  <pubDate>Sat, 07 Dec 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://nive927.github.io/projects/2024-12-07-note-recall/images/project-card-image.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
   <title>Harnessing Everyday Users’ Power to Detect Harmful Behaviors in GenAI</title>
@@ -886,7 +864,7 @@
   <category>Research</category>
   <guid>https://nive927.github.io/projects/2023-02-17-gca/index.html</guid>
   <pubDate>Fri, 15 Jul 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://nive927.github.io/projects/2023-02-17-gca/images/project-card-image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://nive927.github.io/projects/2023-02-17-gca/images/project-card-image.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Braille Voice</title>
@@ -1108,9 +1086,7 @@
 </section>
 
  ]]></description>
-  <category>Machine Learning</category>
-  <category>Data Visualization</category>
-  <category>Statistical Analysis</category>
+  <category>Machine Learning Systems</category>
   <guid>https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/index.html</guid>
   <pubDate>Wed, 30 Jun 2021 04:00:00 GMT</pubDate>
   <media:content url="https://nive927.github.io/projects/2021-06-30-flight-delay-prediction/images/project-card-image.png" medium="image" type="image/png" height="76" width="144"/>

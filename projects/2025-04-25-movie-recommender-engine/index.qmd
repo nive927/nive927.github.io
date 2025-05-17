@@ -4,7 +4,7 @@ description: |
   An Autonomous Gmail-Based Deal Discovery and Comparison Agent
 date: 2025-04-25
 author: "Nivedhitha Dhanasekaran"
-categories: [AI Agents, LLMs, Web Automation]
+categories: [Web Development]
 image: ./images/project-card-image.png
 draft: false
 ---

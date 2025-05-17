@@ -4,7 +4,7 @@ author: Nivedhitha Dhanasekaran
 description: "ResNet-based classification of histopathological slides for vascular inflammation diagnosis"
 date: 2022-07-15
 categories: [Computational Biomedicine, Data Science, Deep Learning, Funding, GPU Training, Machine Learning Systems, Model Explainability, Publication, Research]
-image: ./images/project-card-image.jpg
+image: ./images/project-card-image.png
 format:
   html:
     toc: true

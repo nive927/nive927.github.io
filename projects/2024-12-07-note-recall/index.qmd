@@ -1,35 +1,98 @@
 ---
-title: "Promo Miner: AI Shopping Agent"
-description: |
-  An Autonomous Gmail-Based Deal Discovery and Comparison Agent
-date: 2024-12-07
-author: "Nivedhitha Dhanasekaran"
-categories: [AI Agents, LLMs, Web Automation]
+title: "NoteRecall: On-Device RAG for Private QA"
+author: Nivedhitha Dhanasekaran
+description: "Efficient and privacy-preserving on-device notes retrieval and question answering system"
+date: 2025-05-12
+categories: [On-Device AI, Large Language Models, Machine Learning Systems, Natural Language Processing]
 image: ./images/project-card-image.png
+format:
+  html:
+    toc: true
+    number-sections: false
+    css: styles/custom.css
 draft: false
 ---
 
-# Most Effective Project - Winner at AI Agents Weekend 2025 by Google & DeepMind 
+# Related Links & Artifacts
 
-{{< pdf ./documents/promo_miner_pitch_deck_nive_2025.pdf width=100% height=850 >}}
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; font-size: 0.85em;">
 
+  <a href="./documents/noterecall_final_report.pdf" target="_blank" style="background-color:#ea4335; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-file-earmark-text" style="margin-right:6px;"></i>Final Report (PDF)</a>
 
-# Project Description
+  <a href="https://www.lti.cs.cmu.edu/people/faculty/strubell-emma.html" target="_blank" style="background-color:#d93025; color:white; padding:8px 16px; border-radius:6px; text-decoration:none;"><i class="bi bi-person-lines-fill" style="margin-right:6px;"></i>Advisor: Emma Strubell</a>
 
-Promo Miner is an autonomous AI-powered shopping assistant designed to help users unlock hidden savings by surfacing the best promotional deals directly from their inbox. By integrating Gmail's Promotions tab, real-time web search, and intelligent agents, Promo Miner ensures users never miss a better deal.
+  <span style="background-color:#f3f4f6; color:#111; padding:8px 16px; border-radius:6px;">📅 Project Duration: Mar 2025 - May 2025</span>
 
-The system begins by securely accessing only the user's Gmail Promotions tab via OAuth, filtering out irrelevant messages such as welcome emails. Valid promotional emails are parsed and stored in Firebase, enabling persistent deal tracking.
+</div>
 
-Promo content is then analyzed by a Gemini Reasoning Agent that classifies each offer based on discount, urgency, product category, coupon codes, and other contextual cues. The agent scores each promo and generates a personalized ranking, triggering notifications for high-value or expiring deals.
+# Project Overview
 
-Promo Miner extends its reasoning capability by using an Exa Web Agent to perform real-time comparisons of the promoted product with listings on platforms like Amazon. When a better price or more valuable alternative is detected, the system alerts the user via a push notification.
+NoteRecall is a lightweight, privacy-preserving Retrieval-Augmented Generation (RAG) system that enables secure, on-device question answering over personal documents such as medical notes or offline records. Built with quantized embedding and reader models, the system performs end-to-end inference on devices like M2 MacBooks while ensuring user data never leaves the device.
 
-Deployed as a Chrome Extension, Promo Miner provides a real-time, personalized view of top-ranked deals and recommended alternatives. Built using Gemini LLMs, Flask, Firebase, Jina Reader, and Exa Search, the system demonstrates full-stack AI agent behavior—from perception and reasoning to real-time action.
+> ✨ Fully on-device QA over personal data using quantized LLMs  
+> ✨ 1.9s average latency with Gemini-level performance at a fraction of the compute  
+> ✨ Enables up to 5× more inferences under a 10Wh energy budget vs baseline  
 
-# Features
+# Description
 
-- **Privacy-Preserving OAuth Login** – Only accesses Gmail Promotions tab, maintaining user privacy.
-- **Deal Filtering & Storage** – Automatically detects valid promos and saves them securely in Firebase.
-- **Gemini-Based Ranking** – Contextually scores deals by urgency, discount value, and coupon presence.
-- **Real-Time Comparison** – Searches the web for better deals using Exa and notifies users when found.
-- **Browser Extension Interface** – Presents top deals and alternatives in a simple, ranked view.
+The NoteRecall pipeline embeds user documents and retrieves relevant chunks to answer questions locally using a distilled and quantized reader model.
+
+{{< pdf ./documents/ODML_Final_Report_ACL_Personal.pdf width=100% height=850 >}}
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>1. Motivation & Privacy-First Setup</b></span></summary>
+
+- Eliminates the need for cloud-based LLMs and reduces risk of data leakage  
+- Designed for privacy-critical use cases like medical records and personal notes  
+- Empowers users with offline, secure information retrieval  
+- Ensures all computation (embedding, search, generation) remains local  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>2. Task Setup & Data</b></span></summary>
+
+- Input: User documents (context) and natural language queries  
+- Output: Retrieved passages and generated answers  
+- Dataset: BioASQ Task B medical QA corpus (3,680 docs, 300 QA pairs)  
+- Metrics: BERTScore F1, end-to-end latency, energy efficiency (inferences per 10Wh)  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>3. Model Architecture & Pipeline</b></span></summary>
+
+- Dense retriever: GTE-Qwen-2 Instruct (1.5B)  
+- Reader model: LLaMA3.2-1B or distilled Flan-T5  
+- Vector store: FAISS with HNSW indexing  
+- Chunking strategy: 512-token overlapping spans  
+- Top-k retrieval (k=3) used as reader context  
+- End-to-end inference optimized with MLX and MPS  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>4. Efficiency Optimizations</b></span></summary>
+
+- Quantization (Q3_K_S, Q5_K_M via llama.cpp)  
+- Structured/unstructured pruning of FFNs & attention heads  
+- Model distillation from LLaMA3 to Flan-T5 for latency and energy gains  
+- Evaluated MoE-style readers for tradeoff exploration  
+
+</details>
+
+<details style="background-color:#f9f9fc; border-radius:10px; padding:0.75em;"><summary><span style="color:#593196;"><b>5. Results Summary</b></span></summary>
+
+- BERTScore F1: 0.5693 (full-precision), 0.5597 (distilled Flan-T5)  
+- Latency: Reduced from 8.5s to 1.45s (quantized models)  
+- Energy: ~2.4× more inferences under 10Wh using Flan-T5  
+- MoE models yielded higher accuracy but were memory inefficient on M2 hardware  
+
+</details>
+
+# Tools & Frameworks
+
+| Area                      | Tools / Stack Used                                                                  |
+|---------------------------|--------------------------------------------------------------------------------------|
+| Retriever                 | `GTE-Qwen-2 Instruct`, `FAISS`, `HNSW`                                               |
+| Reader Models             | `LLaMA3.2-1B-Instruct`, `Flan-T5-Base`, `Qwen1.5-MoE-A2.7B`                           |
+| Quantization & Pruning    | `llama.cpp`, `GGUF`, `L1-based head pruning`, `Optimum`, `torch.nn.utils.prune`     |
+| Distillation              | `Synthetic QA pairs`, `LLaMA 7B (teacher) → Flan-T5 (student)`                      |
+| On-Device Inference       | `MLX`, `MPS (Apple Silicon)`, `GGML`                                                 |
+| Evaluation                | `BioASQ`, `BERTScore`, `Latency profiler`, `CodeCarbon (for energy tracking)`          |
